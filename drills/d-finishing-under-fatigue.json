@@ -1,0 +1,150 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.36,
+  "length": 32
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    18.36,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.36,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.91,
+    7.45
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.18,
+    32
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.91,
+    26.55
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.18,
+    21.09
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.75,
+   26.24
+  ]
+ },
+ "events": [
+  {
+   "t": 0.95,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.91,
+    7.45
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 5.06,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.55,
+    25.18
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 9.41,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.4
+  },
+  {
+   "t": 11.43,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    10.18,
+    32
+   ]
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Striker starts beside the server, fresh legs at the top of the sequence.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Sprint 20 metres out to the cone — full effort, no cruising.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Sprint straight back to the serve without recovery.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.75,
+   "text": "Composure over the strike — the legs are tired, the technique stays the same.",
+   "hold": 2.5
+  }
+ ]
+}

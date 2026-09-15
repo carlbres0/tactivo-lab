@@ -1,0 +1,144 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.69,
+    8.35
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.5,
+    5.42
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    5.5,
+    10.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.83,
+   5.53
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "n1",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.17,
+      11.33
+     ]
+    },
+    {
+     "t": 2.66,
+     "at": [
+      5.17,
+      11.33
+     ]
+    },
+    {
+     "t": 4.56,
+     "at": [
+      8,
+      10.83
+     ]
+    },
+    {
+     "t": 6.84,
+     "at": [
+      11,
+      10.17
+     ]
+    },
+    {
+     "t": 9.5,
+     "at": [
+      12.83,
+      9.83
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.67,
+    8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    13,
+    9.33
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 9.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Player stands over their ball, the coach five metres away holding theirs.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "The signal changes every rep: a clap, a dropped ball, a nod, a word.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Race to the far cone — false starts hand the point to the coach.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Best of nine, dribbling the whole way there and back.",
+   "hold": 2.5
+  }
+ ]
+}

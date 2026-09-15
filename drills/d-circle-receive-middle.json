@@ -1,0 +1,248 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    6.13,
+    15.31
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.75,
+    9.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.13,
+    3.69
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.88,
+    3.69
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.25,
+    9.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.88,
+    15.31
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    15.31
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5,
+    12.41
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5,
+    6.59
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    9.5,
+    3.69
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    14,
+    6.59
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    14,
+    12.41
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    10.25,
+    8.09
+   ]
+  },
+  {
+   "id": "a8",
+   "team": "white",
+   "number": 8,
+   "start": [
+    8.56,
+    10.91
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.54,
+   14.96
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    9.97,
+    8.56
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a7",
+   "flight": 0.68
+  },
+  {
+   "t": 3.5,
+   "type": "pass",
+   "from": "a7",
+   "to": "a3",
+   "flight": 0.53
+  },
+  {
+   "t": 4.39,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    10.63,
+    8.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.64,
+   "type": "pass",
+   "from": "a3",
+   "to": "a8",
+   "flight": 0.56
+  },
+  {
+   "t": 7.82,
+   "type": "pass",
+   "from": "a8",
+   "to": "a6",
+   "flight": 0.56
+  },
+  {
+   "t": 10,
+   "type": "pass",
+   "from": "a6",
+   "to": "a7",
+   "flight": 0.5
+  },
+  {
+   "t": 12.11,
+   "type": "pass",
+   "from": "a7",
+   "to": "a4",
+   "flight": 0.52
+  },
+  {
+   "t": 12.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.38,
+    11.19
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.8,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    8.94,
+    15.5
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 16.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pass into the middle — receive, turn, and play out to a completely new angle.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "The first touch goes toward the next target, never back where the ball came from.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Keep it moving — the circle feeds whichever middle shows for the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.75,
+   "text": "Swap the middles every minute — everyone gets equal turns inside.",
+   "hold": 2.5
+  }
+ ]
+}

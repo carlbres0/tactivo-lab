@@ -1,0 +1,289 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 25.25,
+  "length": 37
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.25,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.25,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.38,
+    4.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.88,
+    4.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.37,
+    4.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.87,
+    4.5
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.63,
+    37
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    12.63,
+    35.75
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.62,
+    30.75
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 3,
+   "start": [
+    12.63,
+    30.75
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 4,
+   "start": [
+    17.63,
+    30.75
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 5,
+   "start": [
+    5.12,
+    20.75
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.63,
+    27.62
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.75,
+    24.5
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    14.5,
+    24.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.42,
+   30.47
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.12,
+    35.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7,
+    22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    13.87,
+    17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 1.04,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12,
+    30.12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.15,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.12,
+    25.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.58,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    6.38,
+    19.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.86,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    7.62,
+    4.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.48,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.63,
+    35.5
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Back three plus keeper build out; the winger stays high and wide.",
+   "hold": 2.5
+  },
+  {
+   "t": 1,
+   "text": "The press jumps the centre-back — through, round, or over is on.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Clip it over the top — the winger is already beyond the press.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Carry it through the wide gate to complete the release.",
+   "hold": 2.5
+  }
+ ]
+}

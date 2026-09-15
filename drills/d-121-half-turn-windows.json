@@ -1,0 +1,140 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16,
+  "length": 16
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    11.6,
+    4.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.6,
+    6.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.6,
+    9.2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.6,
+    11.6
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    3.2,
+    8
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8,
+    8
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   3.55,
+   8
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.48
+  },
+  {
+   "t": 3.3,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.13,
+    9.87
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.83,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.87,
+    10.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.68,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.07,
+    10.4
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Player waits between the two windows, back to the coach.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Coach serves firm and points to a window while the ball is still travelling.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "A glance over the shoulder, then the touch turns the ball on the half-turn.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Carry through the pointed window — eight serves, then swap the pointing hand.",
+   "hold": 2.5
+  }
+ ]
+}

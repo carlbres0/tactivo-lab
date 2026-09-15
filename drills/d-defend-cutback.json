@@ -1,0 +1,253 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 38.94
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    38.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    38.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    38.94
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    23.83,
+    35.58
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    28.87,
+    11.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.75,
+    23.83
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    33.9,
+    23.83
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    38.94,
+    5.36
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    20.47,
+    10.4
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12.08,
+    25.51
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    35.58,
+    25.51
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   38.96,
+   5.71
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    21.14,
+    15.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    40.62,
+    33.9
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.7,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    22.15,
+    18.79
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.63,
+   "type": "pass",
+   "from": "d1",
+   "to": "a1",
+   "flight": 2.39
+  },
+  {
+   "t": 11.48,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    39.95,
+    32.9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.02,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    3.68,
+    3.68
+   ],
+   "flight": 2.39,
+   "flightStyle": "ground",
+   "firstTime": true
+  },
+  {
+   "t": 13.19,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    21.48,
+    14.76
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 17.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22.15,
+     20.47
+    ],
+    "w": 40.3,
+    "h": 36.94,
+    "label": "zone",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Wide attacker heads for the byline; the zone in front of goal must be owned.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "One defender drops off their man to cover the cut-back — nobody follows the ball there.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Cut-back arrives — the covering defender SPRINTS across and gets there first.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Clear it first time, out of the box — the pass that costs the goals, gone.",
+   "hold": 2.5
+  }
+ ]
+}

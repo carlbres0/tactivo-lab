@@ -1,0 +1,155 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14.8,
+  "length": 14.8
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.4,
+    6.05
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.4,
+    8.75
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.4,
+    7.4
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.69,
+   7.21
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.43,
+    6.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.08,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.45,
+    4.7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.64,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.35,
+    4.7
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.67,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.38,
+    6.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.22,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.4,
+    7.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.1,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.45,
+    8.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.67,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.37,
+    10.1
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.25,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.4,
+    7.4
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Figure-eight around two cones, using the inside of both feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Now the outside of both feet — same pattern, different surface.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Alternate inside-outside through the loop, thirty seconds per pattern.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.5,
+   "text": "Count completed loops and try to beat it next round.",
+   "hold": 2.5
+  }
+ ]
+}

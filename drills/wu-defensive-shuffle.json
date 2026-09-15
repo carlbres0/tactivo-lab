@@ -1,0 +1,209 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    12
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6,
+    5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6,
+    7.8
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.4,
+   1.6
+  ],
+  "static": true
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.6,
+    5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.4,
+    7.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.67,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    3.6,
+    7.8
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 2.76,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.4,
+    5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8,
+    7.8
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.31,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.2,
+    5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.48,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.6,
+    11.7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.77,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.6,
+    10.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.4,
+    8.2
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.12,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6,
+    5.2
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs face each other; the attacker moves side to side without a ball; defender mirrors.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Defender stays low, side-on, front foot leading — never crossing the feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Attacker breaks for the line on a random count.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Defender turns and recovers goal-side at pace.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.25,
+   "text": "Jog back to the start line and reset for the next rep.",
+   "hold": 2.5
+  }
+ ]
+}

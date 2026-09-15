@@ -1,0 +1,190 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 25.54,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.54,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.54,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.77,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    12.77,
+    28.15
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.62,
+    15.85
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 3,
+   "start": [
+    18.92,
+    15.85
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.38,
+    3.23
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.08,
+    14.31
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.48,
+   3.57
+  ]
+ },
+ "events": [
+  {
+   "t": 1.92,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    13.23,
+    24.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.83,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 1.92,
+   "toFeet": true,
+   "flightStyle": "clipped",
+   "loft": 4
+  },
+  {
+   "t": 2.83,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.62,
+    21.69
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.36,
+   "type": "pass",
+   "from": "gk",
+   "to": "a1",
+   "flight": 1.12
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The line holds high and the ball is played in behind for the striker.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.25,
+   "text": "Decide as the pass is struck — then go, and not a stride before.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Won outside the area: this one is a defender's clearance, not a save.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "First-time with the boot, wide and away, then recover the line.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Ten repetitions, with the line pushing higher every time.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

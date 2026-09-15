@@ -1,0 +1,135 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    5.9,
+    3.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.9,
+    6.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.1,
+    3.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.1,
+    6.5
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    4.1
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5,
+    5.9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5,
+   4.45
+  ]
+ },
+ "events": [
+  {
+   "t": 3.36,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.3,
+    5.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.61,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.4,
+   "style": "throw",
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 6.91,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.4
+  },
+  {
+   "t": 7.76,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5,
+    5.9
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Server holds the ball out; header meets it from a standing position — no jump.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Forehead, eyes open, neck firm, arms out for balance.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Progress to a gentle underarm serve from three metres.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Same technique on the move — maximum five headers each, then swap.",
+   "hold": 2.5
+  }
+ ]
+}

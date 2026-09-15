@@ -1,0 +1,313 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29.05,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27.05,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.05,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    20,
+    10.25
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.55,
+    15.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.25,
+    7.25
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    23,
+    22.25
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    16.25,
+    15.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    18.5,
+    23.75
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    8,
+    23
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    14,
+    28.25
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.57,
+   7.39
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    22.25,
+    23
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.05,
+    24.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.75,
+    23.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    13.55,
+    28.7
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a3",
+   "to": "a1",
+   "flight": 0.74
+  },
+  {
+   "t": 2.99,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.75,
+    12.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.15,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.34,
+    11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.45,
+   "type": "tackle",
+   "player": "d1",
+   "from": "a1"
+  },
+  {
+   "t": 7.7,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    19.85,
+    11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.01,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.65,
+    15.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.01,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    15.35,
+    15.8
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.86,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.35,
+    15.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16.09,
+   "type": "tackle",
+   "player": "a1",
+   "from": "d1"
+  },
+  {
+   "t": 16.34,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.45,
+    16.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 19.66,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.65,
+    14.9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 20.66,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.88
+  },
+  {
+   "t": 21.51,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.75,
+    18.2
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 25,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two even teams keep the ball across the whole 30x25m area.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Lost it — the coach starts counting. Five seconds to win it back.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "Nearest player presses the ball; the next two cut the passing lanes.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.5,
+   "text": "Won back inside the window: a point, and the ball is kept.",
+   "hold": 2.5
+  }
+ ]
+}

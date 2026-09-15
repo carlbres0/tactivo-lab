@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "pitch": { "width": 14, "length": 14 },
+  "equipment": [
+    { "type": "cone", "at": [2, 2] }, { "type": "cone", "at": [12, 2] },
+    { "type": "cone", "at": [12, 12] }, { "type": "cone", "at": [2, 12] }
+  ],
+  "teams": {
+    "white": { "kit": { "primary": "#FFFFFF" } },
+    "blue":  { "kit": { "primary": "#7aa2ff" } }
+  },
+  "players": [
+    { "id": "a1", "team": "white", "number": 4,  "start": [1.7, 1.7] },
+    { "id": "a2", "team": "white", "number": 7,  "start": [12.3, 1.7] },
+    { "id": "a3", "team": "white", "number": 10, "start": [12.3, 12.3] },
+    { "id": "a4", "team": "white", "number": 11, "start": [1.7, 12.3] },
+    { "id": "d1", "team": "blue",  "number": 2,  "start": [6, 6.6] },
+    { "id": "d2", "team": "blue",  "number": 5,  "start": [8, 7.6] }
+  ],
+  "ball": { "start": [2.0, 1.75] },
+  "events": [
+    { "t": 1.2,  "type": "pass", "from": "a1", "to": "a2", "flight": 1.0 },
+    { "t": 1.3,  "type": "move", "player": "d1", "to": [8.6, 4.2], "gait": "jog" },
+    { "t": 1.6,  "type": "move", "player": "d2", "to": [6.6, 3.8], "gait": "jog" },
+    { "t": 4.4,  "type": "pass", "from": "a2", "to": "a3", "flight": 1.0 },
+    { "t": 4.6,  "type": "move", "player": "d1", "to": [9.4, 7.8], "gait": "jog" },
+    { "t": 4.9,  "type": "move", "player": "d2", "to": [8.4, 8.6], "gait": "jog" },
+    { "t": 6.9,  "type": "move", "player": "d1", "to": [7.2, 5.4], "gait": "jog" },
+    { "t": 7.6,  "type": "pass", "from": "a3", "to": "a1", "flight": 1.2 },
+    { "t": 8.0,  "type": "move", "player": "d2", "to": [5.8, 7.6], "gait": "jog" },
+    { "t": 9.2,  "type": "move", "player": "d1", "to": [5.0, 4.2], "gait": "jog" },
+    { "t": 10.0, "type": "move", "player": "d2", "to": [4.4, 8.8], "gait": "jog" },
+    { "t": 10.8, "type": "pass", "from": "a1", "to": "a4", "flight": 1.0 },
+    { "t": 11.4, "type": "move", "player": "d1", "to": [4.8, 6.8], "gait": "jog" },
+    { "t": 11.8, "type": "move", "player": "d2", "to": [6.2, 9.6], "gait": "jog" },
+    { "t": 13.2, "type": "tackle", "player": "d2", "from": "a4" }
+  ],
+  "duration": 15.5,
+  "overlays": {
+    "zones": [
+      { "at": [7, 7], "w": 10, "h": 10, "color": "technical", "label": "rondo" }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18,
+  "length": 18
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2.62,
+    2.62
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    11.33,
+    8.22
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.09,
+    3.56
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.5,
+   8.53
+  ]
+ },
+ "events": [
+  {
+   "t": 1.1,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.71,
+    4.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    12.11,
+    9.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.29,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.18,
+    10.4
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 5.73,
+   "type": "tackle",
+   "player": "a1",
+   "from": "n1"
+  },
+  {
+   "t": 10.3,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.6,
+    8.84
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach dribbles casually in the box; the player watches from a cone.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Pressing on a good touch loses the point — the trigger is everything.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "A heavy touch, and the head drops. GO — sprint from the cone.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Poke it off his toe and go. Six presses, then the bad touches get better disguised.",
+   "hold": 2.5
+  }
+ ]
+}

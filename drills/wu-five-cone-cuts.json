@@ -1,0 +1,225 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 9.99,
+  "length": 10
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    6.21,
+    5.43
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.12,
+    7.01
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.02,
+    5.43
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.12,
+    3.84
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.12,
+    5.43
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.02,
+    5.43
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    3.9,
+    2.87
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    3.7,
+    2.55
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.68,
+   2.4
+  ],
+  "static": true
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.09,
+    5.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.96,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.12,
+    5.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.52,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.12,
+    6.01
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.98,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.12,
+    4.84
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.47,
+    4.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.4,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.14,
+    5.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.97,
+    5.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4,
+    3.23
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.97,
+    5.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 18.03,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.09,
+    5.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 19.34,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.12,
+    5.43
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 22,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Sprint to the top cone, plant the outside foot, cut back to the centre.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Side-shuffle to each wide cone and back — stay low in the plant.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Backpedal to the bottom cone; cut home to finish the diamond.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.5,
+   "text": "Clear the middle before the next player starts — one in the diamond at a time.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.44,
+    5
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6.11,
+    5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.67,
+   5.26
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.56,
+    6.28
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.97,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.78,
+    6.22
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.41,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.33,
+    4.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.04,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.28,
+    3.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.72,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.06,
+    3.72
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.17,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.28,
+    4.89
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Climb the pyramid: ten toe-taps, then twenty, then thirty, the coach counting.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Between floors, a lap of the coach dribbling with the weak foot only.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Fumble a floor? Finish it anyway — the pyramid forgives, the clock doesn't.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "Top floor reached: king of the pyramid, photo pose optional.",
+   "hold": 2.5
+  }
+ ]
+}

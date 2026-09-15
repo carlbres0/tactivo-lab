@@ -1,0 +1,297 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.75,
+  "length": 25
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10.75,
+    13.75
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    11.38,
+    0
+   ],
+   "width": 1.8,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    11.38,
+    25
+   ],
+   "width": 1.8,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    11.38,
+    12.5
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.63,
+    8.13
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.25,
+    17.29
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.13,
+    11.46
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.48,
+   12.16
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      10.33,
+      13.13
+     ]
+    },
+    {
+     "t": 2.07,
+     "at": [
+      10.33,
+      13.13
+     ]
+    },
+    {
+     "t": 3.91,
+     "at": [
+      9.5,
+      19.79
+     ]
+    },
+    {
+     "t": 5.98,
+     "at": [
+      10.13,
+      20.21
+     ]
+    },
+    {
+     "t": 8.28,
+     "at": [
+      11.17,
+      24.38
+     ]
+    },
+    {
+     "t": 11.5,
+     "at": [
+      11.38,
+      24.58
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      9.29,
+      13.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.88,
+      14.58
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.88,
+      12.92
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.25,
+      13.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.04,
+      15
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.96,
+    22.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.92,
+    12.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.82,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.29,
+    7.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.72,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.58
+  },
+  {
+   "t": 4.25,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    11.31,
+    12.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.92,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    11.38,
+    0
+   ]
+  },
+  {
+   "t": 5.86,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    11.38,
+    12.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.67,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.79,
+    4.79
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach stands by a bucket between two goals and pops balls out, any direction.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Players hunt the popping balls and finish into either goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "First time or two touches — the popping never pauses.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Every finisher fetches their ball back to the bucket and hunts the next.",
+   "hold": 2.5
+  }
+ ]
+}

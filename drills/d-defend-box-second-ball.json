@@ -1,0 +1,294 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 40.64,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    38.64,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    38.64,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    38.64,
+    23.98
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    23.98
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.32,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22.15,
+    29.48
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    27.65,
+    12.99
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    12.99,
+    12.99
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    34.97,
+    2
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    23.98,
+    31.31
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12.99,
+    33.14
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   34.85,
+   2.33
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    23.25,
+    30.58
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.65,
+    14.82
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.82,
+    16.65
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.92,
+    18.49
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 2.3,
+   "flightStyle": "lofted",
+   "loft": 6.5
+  },
+  {
+   "t": 3.67,
+   "type": "shoot",
+   "player": "d2",
+   "at": [
+    16.65,
+    14.82
+   ],
+   "flight": 1.8,
+   "flightStyle": "ground",
+   "header": true
+  },
+  {
+   "t": 3.67,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    22.15,
+    29.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.67,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    34.24,
+    2.73
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.82,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    22.15,
+    30.58
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.92,
+   "type": "collect",
+   "player": "a2"
+  },
+  {
+   "t": 7.12,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    33.14,
+    2.73
+   ],
+   "flight": 2.04,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 7.97,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    25.81,
+    7.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.12,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    16.65,
+    20.32
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.12,
+   "type": "collect",
+   "player": "d1"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Crosses are cleared by the unit; two defenders hold the zone outside the box for this.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Cross comes in — the header clears it, but only into the second-ball zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "That zone cannot be empty — the outside defender reacts first.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Win it and clear it well beyond the zone — attackers only score off the second ball.",
+   "hold": 2.5
+  }
+ ]
+}

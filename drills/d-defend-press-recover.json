@@ -1,0 +1,187 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18.58,
+  "length": 27
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    16.58,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.58,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.98,
+    27
+   ],
+   "width": 2.08,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    4.6,
+    27
+   ],
+   "width": 2.08,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.29,
+    4.08
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.29,
+    23.88
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.28,
+   4.43
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.08,
+    13.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.88,
+    16.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.79,
+    16.58
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.92,
+    17.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.73,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.17,
+    17.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.09,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.35,
+    17.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.02,
+   "type": "tackle",
+   "player": "d1",
+   "from": "a1"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Defender holds his ground — three attacks are coming, one after another, no rest.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "The attacker drives at him: same approach, same body shape, every time.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "He tries to beat him — the defender turns and recovers GOAL-SIDE.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "Back in front of the ball: poke it away and get set for the next one.",
+   "hold": 2.5
+  }
+ ]
+}

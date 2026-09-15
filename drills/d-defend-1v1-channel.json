@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 9.99,
+  "length": 17
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.04,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.04,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.95,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.95,
+    17
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    5,
+    17
+   ],
+   "width": 1.8,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    3.91
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5,
+    14.27
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5,
+   13.92
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    5,
+    4.05
+   ],
+   "flight": 1.02,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5,
+    10.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.05,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 4.04,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.86,
+    11.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.71,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.59,
+    12.77
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.24,
+   "type": "tackle",
+   "player": "d1",
+   "from": "a1"
+  },
+  {
+   "t": 8.49,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.72,
+    12.09
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     5,
+     9.5
+    ],
+    "w": 4.09,
+    "h": 15,
+    "label": "channel",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Defender plays the ball to the attacker and steps up as it travels.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Arrival: low and side-on, front foot showing the attacker one way.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Jockey BACKWARDS and delay — eyes on the ball, never turn your back.",
+   "hold": 2.5
+  },
+  {
+   "t": 11,
+   "text": "At the channel end the touch is loose: poke it away, clean.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,358 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.84,
+  "length": 30
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    20.84,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.84,
+    30
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.38,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.38,
+    30
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    11.61,
+    0
+   ],
+   "width": 3.46,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    11.61,
+    30
+   ],
+   "width": 3.46,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    11.61,
+    11.54
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.23,
+    9.23
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7,
+    9.23
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.92,
+    21.92
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    9.3,
+    21.92
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    1,
+    15
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.64,
+   11.89
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.84,
+    18.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.76,
+    20.19
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.3,
+    23.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.23,
+    23.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.19,
+    19.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.3,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.5,
+    21.35
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.53
+  },
+  {
+   "t": 7.35,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.23,
+    23.65
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.35,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.19,
+    25.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.7,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.92,
+    22.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.85,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.61,
+    19.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.15,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    11.61,
+    30
+   ]
+  },
+  {
+   "t": 9.95,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.53,
+    25.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.38,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.23,
+    9.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.38,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.61,
+    4.62
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.38,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    4,
+    16.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.9,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.38,
+    11.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.02,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.76,
+    5.77
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.6,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    6.3,
+    12.69
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.23,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.15,
+    6.92
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 20,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three break against two — the ball carrier attacks the defender directly.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Commit the nearest defender before the pass goes wide.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Third player is free on the overlap — the extra man arrives.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "The moment the attack ends, the two defenders break the other way…",
+   "hold": 2.5
+  },
+  {
+   "t": 15.5,
+   "text": "…and the next wave joins them — the counter is live immediately.",
+   "hold": 2.5
+  }
+ ]
+}

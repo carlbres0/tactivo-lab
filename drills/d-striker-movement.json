@@ -1,0 +1,209 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 44.66
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    7.72
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    44.66
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    7.72
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    44.66
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    44.66
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    23.83,
+    19.47
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.08,
+    1
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22.15,
+    21.15
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.24,
+   1.31
+  ]
+ },
+ "events": [
+  {
+   "t": 1.76,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    20.13,
+    15.11
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.76,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.79,
+    16.12
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.53,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    22.15,
+    23.92
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.93,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    25.51,
+    23.84
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.18,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2.21,
+   "flightStyle": "clipped",
+   "loft": 4
+  },
+  {
+   "t": 8.18,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    23.83,
+    19.47
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.03,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.75,
+    2.35
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.01,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    27.19,
+    26.19
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.14,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    22.15,
+    44.66
+   ]
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Striker starts tight to the marker on the penalty spot.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Movement first — drop short to drag the defender out; the serve starts now.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Spin back in behind on the blind side — the defender is beaten.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.75,
+   "text": "Meet it first time and score inside two touches.",
+   "hold": 2.5
+  }
+ ]
+}

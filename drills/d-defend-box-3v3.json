@@ -1,0 +1,389 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 64.81
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    64.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27.87
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    64.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    27.87
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.36,
+    25.18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    13.42,
+    25.18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.88,
+    25.18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    38.94,
+    25.18
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    64.81
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    61.45
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.75,
+    42.98
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    32.22,
+    42.98
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    22.15,
+    51.38
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.72,
+    41.3
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    35.58,
+    41.3
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    22.15,
+    34.59
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    2,
+    1
+   ]
+  },
+  {
+   "id": "d5",
+   "team": "blue",
+   "number": 5,
+   "start": [
+    40.96,
+    7.72
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   2.09,
+   1.34
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    21.48,
+    44.66
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.39,
+    41.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    20.81,
+    37.27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.4,
+    45.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.5,
+   "type": "pass",
+   "from": "d4",
+   "to": "a1",
+   "flight": 2.3,
+   "flightStyle": "lofted",
+   "loft": 6.5
+  },
+  {
+   "t": 2.35,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    3.34,
+    3.02
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.49,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.38,
+    42.31
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.98,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    22.15,
+    60.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.98,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    31.55,
+    42.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.98,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    34.91,
+    40.63
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.98,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    40.28,
+    8.39
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.44,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    18.79,
+    38.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.97,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.39,
+    42.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.98,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    20.81,
+    43.99
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.98,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    9.39,
+    16.12
+   ],
+   "flight": 2.93,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 6.31,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.72,
+    40.3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.31,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    20.13,
+    37.27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.83,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.09,
+    43.32
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three defenders and the keeper set: front-post, far-post, and a spare.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Server shapes to cross — everyone finds their runner before it arrives.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Front-post runner is tracked in tight, never lost for a second.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Attack the ball — every clearance must find the marked gate, not just distance.",
+   "hold": 2.5
+  }
+ ]
+}

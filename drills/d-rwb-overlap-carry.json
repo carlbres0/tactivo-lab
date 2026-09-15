@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.85,
+  "length": 39
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.35,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.79,
+    37.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.75,
+    37.67
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.44,
+    14.12
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    11.42,
+    4.69
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    18.83,
+    10.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.44,
+   5.04
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.77,
+    17.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.1,
+    18.15
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.22,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.42,
+    19.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.79,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.65
+  },
+  {
+   "t": 10.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.79,
+    27.58
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 12.45,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.89
+  },
+  {
+   "t": 13.3,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.15,
+    20.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.96,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    16.13,
+    34.98
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 20,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Full-back carries forward with the winger ahead and one defender to beat.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Defender shows across the passing lane — the ball goes inside to the winger.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.5,
+   "text": "The carry itself was the invitation — the full-back overlaps into the space.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.5,
+   "text": "Winger slides it into the overlap — finish near the end gate.",
+   "hold": 2.5
+  }
+ ]
+}

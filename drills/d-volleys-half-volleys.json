@@ -1,0 +1,135 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 28,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    26,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    26,
+    24
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    24
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16,
+    24
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10,
+    10
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.4,
+    10
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.35,
+   10
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.53,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.2,
+    10.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.35,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    16,
+    24
+   ]
+  }
+ ],
+ "duration": 7,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Server waits at the striker's side, ball in hands, on the arc.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Underarm toss across the body, dropping to knee height.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Side-foot volley — clean contact matters more than power.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Progress to the half-volley: toe down, ankle locked, body over the ball.",
+   "hold": 2.5
+  }
+ ]
+}

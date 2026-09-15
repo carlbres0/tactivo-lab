@@ -1,0 +1,324 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.33,
+  "length": 39
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.67,
+    7.83
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.42,
+    11.92
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    18.92,
+    11.33
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    12.5,
+    4.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    14.83,
+    19.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.75,
+    23
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    18.33,
+    25.33
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    9,
+    28.83
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.65,
+   8.18
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    10.75,
+    14.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    16.7,
+    23.58
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    10.63,
+    31.17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.32,
+    13.78
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.65,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.2,
+    15.42
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.65,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    6.2,
+    21.37
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.65,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.67,
+    18.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.67,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.52
+  },
+  {
+   "t": 5.35,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.63,
+    19.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.35,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.3,
+    30
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.52,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.43,
+    13.9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.17,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.33,
+    16
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.8,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    7.6,
+    18.92
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.58,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    5.5,
+    26.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.88,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.61
+  },
+  {
+   "t": 11.38,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.75,
+    17.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.38,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.17,
+    31.17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.11,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    12.97,
+    34.78
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.59,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    10.87,
+    33.03
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 22,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.67,
+     35.25
+    ],
+    "w": 23.33,
+    "h": 3.5,
+    "color": "technical",
+    "label": "score line"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four v four down the channel — score by stopping the ball on the far end line.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Every pass goes sideways or backwards, so the support has to get behind the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Only the ball carrier moves the team up the pitch, by dribbling.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.5,
+   "text": "Head up and drive: the far line is the goal.",
+   "hold": 2.5
+  }
+ ]
+}

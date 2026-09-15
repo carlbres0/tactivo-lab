@@ -1,0 +1,476 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29.71,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22.36,
+    6.29
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    23.43,
+    25.57
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.29,
+    26.64
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    7.36,
+    7.36
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    14.86,
+    1.36
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    14.86,
+    17
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    14.86,
+    32.64
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.07,
+    12.71
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    17,
+    21.29
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    10.57,
+    14.86
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    9.5,
+    22.36
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   22.07,
+   6.1
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.36,
+    8.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.07,
+    14.86
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.71,
+    10.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    11.64,
+    17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a5",
+   "flight": 0.9
+  },
+  {
+   "t": 2.27,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    19.79,
+    9.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.72,
+   "type": "pass",
+   "from": "a5",
+   "to": "a4",
+   "flight": 0.96
+  },
+  {
+   "t": 3.72,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.64,
+    10.57
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.72,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.79,
+    12.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.88,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.07,
+    11.64
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.13,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    10.57,
+    13.79
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.57,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    13.36,
+    1.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.2,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    14.21,
+    1.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.29,
+   "type": "pass",
+   "from": "a4",
+   "to": "a6",
+   "flight": 1.22
+  },
+  {
+   "t": 7.13,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    20.21,
+    10.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.13,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.93,
+    18.07
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.13,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    19.14,
+    22.36
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.13,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.71,
+    17
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.13,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    11.64,
+    20.21
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.14,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9.07,
+    8.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.68,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    22.79,
+    25.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.13,
+   "type": "pass",
+   "from": "a6",
+   "to": "a2",
+   "flight": 1.17
+  },
+  {
+   "t": 9.4,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    8.64,
+    8.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.67,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.21,
+    23.86
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.67,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.43,
+    22.36
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.67,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    9.5,
+    25.57
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.76,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.79,
+    27.71
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.92,
+   "type": "pass",
+   "from": "a2",
+   "to": "a7",
+   "flight": 1.06
+  },
+  {
+   "t": 14.59,
+   "type": "pass",
+   "from": "a7",
+   "to": "a3",
+   "flight": 1.05
+  },
+  {
+   "t": 15.08,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.93,
+    27.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15.08,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.21,
+    23
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "4v4 for the ball — three bibbed neutrals always join the team in possession.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Seven v four with it: the neutrals make losing the ball a decision error.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "Defenders hunt in a pack — the spare pass is always there, find it early.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.5,
+   "text": "Ten passes is a point — a neutral can't play the tenth.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    27,
+    14.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    20.75,
+    27
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    8.25,
+    27
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    2,
+    14.5
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    8.25,
+    2
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    20.75,
+    2
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.07,
+    12.71
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.71,
+    16.29
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    16.29,
+    19.86
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   26.84,
+   14.81
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    18.96,
+    15.39
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.39,
+    18.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    18.07,
+    21.64
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.4
+  },
+  {
+   "t": 2.85,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.5,
+    19.86
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.02,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.93,
+    22.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.12,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.71,
+    24.32
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.22,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.25
+  },
+  {
+   "t": 5.63,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    14.5,
+    14.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 8.29,
+   "type": "pass",
+   "from": "a3",
+   "to": "a6",
+   "flight": 1.4
+  },
+  {
+   "t": 8.29,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.93,
+    10.93
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.29,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.71,
+    12.71
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 8.29,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.39,
+    17.18
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 11.3,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    14.5,
+    12.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.73,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.02,
+    10.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.73,
+   "type": "pass",
+   "from": "a6",
+   "to": "a5",
+   "flight": 1.4
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     14.5,
+     14.5
+    ],
+    "w": 25,
+    "h": 25,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Six keep the ball around the box; three defenders press together as a pack.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Passes swing round the outside while the press slides across as a unit.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "One outside player steps inside — the diamond needs a middle option.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "Find the middle player between the press and possession continues.",
+   "hold": 2.5
+  }
+ ]
+}

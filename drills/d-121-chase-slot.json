@@ -1,0 +1,140 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.33,
+  "length": 52
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    15.33,
+    52
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    11.33,
+    8.67
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    13
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.04,
+   8.87
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    15.49,
+    31.47
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.86,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 2.32
+  },
+  {
+   "t": 4.71,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8,
+    29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.8,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    16.33,
+    34
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.73,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    15.33,
+    52
+   ]
+  },
+  {
+   "t": 11.5,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17.33,
+    40.33
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 20.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The coach rolls a through-ball towards goal from the halfway line.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Chase it down — reach the ball before its second bounce.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "One touch to set, then slot it low and sidefooted. No thrashing.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.5,
+   "text": "Eight chases, alternating the shoulder he releases you past.",
+   "hold": 2.5
+  }
+ ]
+}

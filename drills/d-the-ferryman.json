@@ -1,0 +1,364 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19.63,
+  "length": 54
+ },
+ "equipment": [],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    9.82,
+    27
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.48,
+    7.33
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.15,
+    12.67
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    11.82,
+    17.67
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.15,
+    9.33
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    12.48,
+    42
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.82,
+    14.67
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    9.82,
+    10.33
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    6.82,
+    16.67
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    8.82,
+    6.33
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.36,
+   12.95
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.82,
+    36
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    4.48,
+    10.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.15,
+    16.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.15,
+    11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    5.48,
+    17.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    6.82,
+    9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    10.15,
+    38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.62
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.15,
+    13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.06,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    5.48,
+    13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.33,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.48,
+    37.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.49,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    9.15,
+    26.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.74,
+   "type": "pass",
+   "from": "a3",
+   "to": "n1",
+   "flight": 0.91
+  },
+  {
+   "t": 3.74,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    3.82,
+    34.67
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.74,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    4.48,
+    19
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.41,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.82,
+    20.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.59,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.48,
+    38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.26,
+   "type": "pass",
+   "from": "n1",
+   "to": "a5",
+   "flight": 1.17
+  },
+  {
+   "t": 7.11,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    9.82,
+    27.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.05,
+   "type": "dribble",
+   "player": "a5",
+   "to": [
+    6.48,
+    44
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     9.82,
+     12.42
+    ],
+    "w": 15.63,
+    "h": 20.83,
+    "color": "technical",
+    "label": "flooding"
+   },
+   {
+    "at": [
+     9.82,
+     41.59
+    ],
+    "w": 15.63,
+    "h": 20.83,
+    "color": "tactical",
+    "label": "the empty side"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two big side zones with a river between; one neutral ferryman lives in the river.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Teams play 4v4, but five passes in one zone means the zone is flooding.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Escape the flood by playing through the ferryman into the far zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "A switch that beats the flood is a goal — then the whole team crosses and plays on.",
+   "hold": 2.5
+  }
+ ]
+}

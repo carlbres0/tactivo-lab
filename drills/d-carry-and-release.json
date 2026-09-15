@@ -1,0 +1,171 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.15,
+  "length": 39
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    18.15,
+    16.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    16.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.15,
+    24.88
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    24.88
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.08,
+    6.04
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.12,
+    28.92
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.08,
+    26.23
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.06,
+   6.39
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.4,
+    21.52
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.02,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.81,
+    23.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.03,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.38,
+    32.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.25,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.25
+  },
+  {
+   "t": 11.12,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    14.79,
+    36.33
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     10.07,
+     20.85
+    ],
+    "w": 16.15,
+    "h": 8.07,
+    "label": "zone",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Carry the ball from the first zone into the middle at speed.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "The defender is passive — read whether they close or hold.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "They close — so release the pass early rather than force the carry.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Support arrives and carries the ball on into the final zone.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 28,
+  "length": 26
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    26,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    26,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    14,
+    26
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    14,
+    20.93
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14,
+    6.27
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14,
+   6.62
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "gk",
+   "flight": 1.22,
+   "flightStyle": "clipped",
+   "loft": 1.83
+  },
+  {
+   "t": 6.39,
+   "type": "pass",
+   "from": "gk",
+   "to": "a1",
+   "flight": 1.47
+  },
+  {
+   "t": 10.81,
+   "type": "pass",
+   "from": "a1",
+   "to": "gk",
+   "flight": 1.22,
+   "flightStyle": "clipped",
+   "loft": 1.83
+  },
+  {
+   "t": 15.99,
+   "type": "pass",
+   "from": "gk",
+   "to": "a1",
+   "flight": 1.47
+  }
+ ],
+ "duration": 21,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Ten soft catches at chest height — keeper and server both stand still.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Gentle lob in, secure catch, smooth return to the server.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Shoulder rolls and wrist stretches, then the full lower-body circuit.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.75,
+   "text": "Which save are you happiest with tonight?",
+   "hold": 2.5
+  }
+ ]
+}

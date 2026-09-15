@@ -1,0 +1,115 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.22,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.22,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.78,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.78,
+    12
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    3.67
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5,
+    10.33
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5,
+   4.02
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.56,
+   "style": "throw",
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 4.66,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.67
+  }
+ ],
+ "duration": 7.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Server and receiver stand twelve metres apart — a high serve is coming.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Thigh height, then chest, then over the shoulder — cushion the flight dead.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "The receiving surface gives on contact; meeting it firmly bounces it away.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Return it along the floor and reset. Ten serves each, then swap.",
+   "hold": 2.5
+  }
+ ]
+}

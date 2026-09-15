@@ -1,0 +1,266 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.5,
+  "length": 25
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    25
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    25
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.75,
+    0
+   ],
+   "width": 2.75,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.75,
+    25
+   ],
+   "width": 2.75,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    6.25
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.75,
+    11.25
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    11.38,
+    12.5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.13,
+    10
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12,
+    17.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.6,
+   6.59
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.65
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.63,
+    15.63
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.25,
+    18.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.88,
+    19.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8,
+    11.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.81,
+   "type": "pass",
+   "from": "a3",
+   "to": "a2",
+   "flight": 0.73
+  },
+  {
+   "t": 5.66,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.25,
+    16.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.7,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.75,
+    24.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.15,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    12,
+    21.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.15,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.38,
+    17.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.39,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    10.75,
+    25
+   ]
+  },
+  {
+   "t": 10.64,
+   "type": "collect",
+   "player": "d2"
+  },
+  {
+   "t": 16.46,
+   "type": "dribble",
+   "player": "d2",
+   "to": [
+    9.5,
+    21.5
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 20.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "2v2 to mini-goals — the spare player always joins the team on the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "The spare makes it 3v2: use the extra man before the defence resets.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "Score in the mini-goal from anywhere in the attacking half.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.5,
+   "text": "Restart instantly from the back of your own goal — no waiting.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32.85,
+  "length": 54
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    30.85,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.85,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    52
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    27.96,
+    5.85
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    25.08,
+    5.85
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.77,
+    5.85
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    4.88,
+    5.85
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    27.96,
+    28.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    25.08,
+    28.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.77,
+    28.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    4.88,
+    28.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.01,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    22.19,
+    27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.01,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    20.65,
+    29.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.01,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10.65,
+    27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.01,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9.12,
+    29.88
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 23,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "This brings the session down and gets the review done in one go.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 11.5,
+   "text": "Players walk a lap in pairs while the heart rate comes down.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 12.5,
+   "text": "Each pair agrees one thing that went well and one to work on.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 18.5,
+   "text": "Back in the circle, every pair shares their two points. Quick, no lectures.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 19.5,
+   "text": "Then stretches to finish.",
+   "hold": 1.67,
+   "beat": "take"
+  },
+  {
+   "t": 23,
+   "text": "If the chat drifts, name the pairs yourself and it stays on track.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ]
+}

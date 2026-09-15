@@ -1,0 +1,210 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    6.15,
+    4.31
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.84,
+    7.38
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.15,
+    10.46
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.84,
+    13.54
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5,
+    16.62
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    2.77
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5,
+    19.31
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.11,
+   3.1
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.33,
+    4.89
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.9,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.84,
+    7.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.01,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.15,
+    10.46
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.08,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.84,
+    13.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.15,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    18.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.75,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.38,
+    18.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.92,
+    18.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.38,
+    19.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.37,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.07,
+    19.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.13,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    21.62
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Slalom the cones at speed, both feet, weaving through each gap.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Arrive at the defender, who applies only passive, walking pressure.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.25,
+   "text": "Feint one way, then take the touch beside the body to beat them.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.75,
+   "text": "Stop the ball dead on the end line to score.",
+   "hold": 2.5
+  }
+ ]
+}

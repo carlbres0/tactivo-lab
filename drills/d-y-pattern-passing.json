@@ -1,0 +1,226 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.9,
+  "length": 25.6
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    11.45,
+    4.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.45,
+    12.13
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.52,
+    21.58
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.38,
+    21.58
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.53,
+    3.62
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    11.73,
+    11.17
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    17.52,
+    19.9
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.21,
+    19.91
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    14.15,
+    3.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.49,
+   3.97
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.76
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.99,
+    7.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.02,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.4
+  },
+  {
+   "t": 4.87,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.68,
+    20.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.64,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.65,
+    20.36
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.04,
+   "type": "pass",
+   "from": "a1",
+   "to": "a4",
+   "flight": 1.44
+  },
+  {
+   "t": 6.89,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.08,
+    11.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.09,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    3.62,
+    14.15
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.99,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    4.97,
+    7.67
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 14.29,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    12.8,
+    3.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.91,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    6.59,
+    4.97
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 19,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Base plays into the middle — the middle sets it back first time.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Feel the set-back's weight, then first time up a branch of the Y.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "The branch player takes it on the half-turn and carries back to the base line.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.25,
+   "text": "Follow your pass — everyone rotates one position around the Y.",
+   "hold": 2.5
+  }
+ ]
+}

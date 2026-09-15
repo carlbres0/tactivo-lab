@@ -1,0 +1,158 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 25.95,
+  "length": 39
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    23.95,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.98,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.95,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.16,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.14,
+    37
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    12.98,
+    3.27
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.98,
+    9.32
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.43,
+    5.18
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.98,
+   3.62
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.61
+  },
+  {
+   "t": 3.43,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    18.55,
+    37.32
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.14,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.8,
+    32.55
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two gates on the far line; the coach serves the runner in.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "First touch out of the feet, then drive at the gate you choose.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "The chaser leaves a second after that first touch — keep the gap.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "Break through the gate at full speed to win the run.",
+   "hold": 2.5
+  }
+ ]
+}

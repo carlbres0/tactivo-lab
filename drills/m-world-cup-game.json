@@ -1,0 +1,250 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.5,
+  "length": 32
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    18.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.5,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.25,
+    32
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.25,
+    8
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.25,
+    14
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.25,
+    14
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.25,
+    12.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    11.75,
+    18.5
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    11.75,
+    30.5
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   10.38,
+   8.32
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.75,
+    18.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.25,
+    13.7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.05,
+    20
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.5,
+    29.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.5,
+    23
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.94,
+    12.13
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.57,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11,
+    15.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.66,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.5,
+    14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.65,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.76
+  },
+  {
+   "t": 9.02,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    10.25,
+    32
+   ]
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs or threes as teams, everyone attacking one goal in a free-for-all.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Score and you're through to the next round — miss and the clock keeps running.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Quick combination cuts straight through the scramble.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "First goal wins it — the beaten team steps out.",
+   "hold": 2.5
+  }
+ ]
+}

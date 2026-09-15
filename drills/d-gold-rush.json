@@ -1,0 +1,270 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 30,
+  "length": 30
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    30,
+    15
+   ],
+   "width": 3.02,
+   "facing": "w"
+  },
+  {
+   "type": "goal",
+   "at": [
+    15,
+    0
+   ],
+   "width": 3.02,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    15,
+    30
+   ],
+   "width": 3.02,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    0,
+    15
+   ],
+   "width": 3.02,
+   "facing": "e"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22.8,
+    7.2
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    21.6,
+    21.6
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.2,
+    8.4
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.88,
+   14.63
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      15.83,
+      15.37
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      14.77,
+      15.97
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      14.17,
+      13.43
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      21.12,
+      20.63
+     ]
+    },
+    {
+     "t": 5.44,
+     "at": [
+      22.8,
+      18.97
+     ]
+    },
+    {
+     "t": 11.52,
+     "at": [
+      24.97,
+      17.52
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      25.68,
+      17.03
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.68,
+      7.57
+     ]
+    },
+    {
+     "t": 5.44,
+     "at": [
+      10.08,
+      5.63
+     ]
+    },
+    {
+     "t": 11.52,
+     "at": [
+      13.2,
+      3.23
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      14.4,
+      2.28
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    26.17,
+    18
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.92,
+    3.12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.3,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    15.37,
+    13.92
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.14,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 7.16,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    25.92,
+    15.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.78,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    30,
+    15
+   ]
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every ball is gold, piled on the halfway line; four mini-goals face outwards.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Sprint, take one gold, and it is yours to finish.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Dribble and finish into any goal you choose.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.5,
+   "text": "A goal closes for you after you score in it twice — find another.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 35.58
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    35.58
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35.58
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    35.58
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    27.86,
+    17.11
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    17.78,
+    18.79
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 3,
+   "start": [
+    22.82,
+    29.87
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    39.61,
+    18.79
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    27.19,
+    18.79
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    17.11,
+    20.47
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   39.26,
+   18.79
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    26.85,
+    18.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    17.78,
+    19.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.05,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 1.61,
+   "flightStyle": "lofted",
+   "loft": 3.17
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    25.51,
+    22.15
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.9,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    38.94,
+    19.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.36,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    26.52,
+    19.46
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two attackers and two defenders contest every cross with the keeper live.",
+   "hold": 2.5
+  },
+  {
+   "t": 1,
+   "text": "Deliveries mix near post, far post and the six-yard line.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "The keeper's call is binding — everyone reacts to 'keeper's' or 'away'.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Keeper comes and claims it clean, ahead of both attackers.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

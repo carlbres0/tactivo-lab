@@ -1,0 +1,261 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.55,
+  "length": 24.25
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.55,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.55,
+    22.25
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22.25
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.99,
+    11.45
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.4,
+    17.8
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.84,
+    15.37
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    4.84,
+    7.54
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    12.4,
+    5.11
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.34,
+   11.45
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    18.61,
+    11.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.73,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    16.99,
+    11.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.31,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.65,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 6.58,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    14.02,
+    17.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.11,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    12.4,
+    17.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.68,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.66,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 11.96,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    6.46,
+    15.37
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.49,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    4.84,
+    15.37
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.07,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.65,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 17.34,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    6.46,
+    7.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 18.87,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    4.84,
+    7.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 20.45,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 0.66,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 22.72,
+   "type": "dribble",
+   "player": "a5",
+   "to": [
+    14.02,
+    5.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 24.25,
+   "type": "dribble",
+   "player": "a5",
+   "to": [
+    12.4,
+    5.11
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 27.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Circle of five keeps one ball off the floor between them, feet only.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "First touch to a neighbour keeps it alive — call it and move it on.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.5,
+   "text": "Ball works its way around the circle — count the team record as it goes.",
+   "hold": 2.5
+  },
+  {
+   "t": 23.5,
+   "text": "Finish with a walking lap and calf stretches.",
+   "hold": 2.5
+  }
+ ]
+}

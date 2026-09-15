@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "pitch": {
+    "width": 22.9,
+    "length": 29
+  },
+  "equipment": [
+    {
+      "type": "cone",
+      "at": [
+        2,
+        29
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        2,
+        2
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        20.9,
+        29
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        20.9,
+        2
+      ]
+    },
+    {
+      "type": "goal",
+      "at": [
+        11.45,
+        29
+      ]
+    }
+  ],
+  "teams": {
+    "white": {
+      "kit": {
+        "primary": "#FFFFFF"
+      }
+    },
+    "blue": {
+      "kit": {
+        "primary": "#7aa2ff"
+      }
+    }
+  },
+  "players": [
+    {
+      "id": "a1",
+      "team": "white",
+      "number": 1,
+      "start": [
+        11.45,
+        24.28
+      ]
+    },
+    {
+      "id": "d1",
+      "team": "blue",
+      "number": 1,
+      "start": [
+        6.73,
+        18.2
+      ]
+    },
+    {
+      "id": "d2",
+      "team": "blue",
+      "number": 2,
+      "start": [
+        11.45,
+        12.8
+      ]
+    },
+    {
+      "id": "d3",
+      "team": "blue",
+      "number": 3,
+      "start": [
+        16.18,
+        18.2
+      ]
+    }
+  ],
+  "ball": {
+    "start": [
+      6.94,
+      18.48
+    ]
+  },
+  "balls": [
+    {
+      "path": [
+        {
+          "t": 0,
+          "at": [
+            6.73,
+            17.39
+          ]
+        }
+      ]
+    },
+    {
+      "path": [
+        {
+          "t": 0,
+          "at": [
+            11.45,
+            11.99
+          ]
+        }
+      ]
+    },
+    {
+      "path": [
+        {
+          "t": 0,
+          "at": [
+            16.18,
+            17.39
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "t": 0.8,
+      "type": "move",
+      "player": "a1",
+      "to": [
+        9.83,
+        25.22
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 1.8,
+      "type": "pass",
+      "from": "d1",
+      "to": "a1",
+      "flight": 0.77
+    },
+    {
+      "t": 4.19,
+      "type": "pass",
+      "from": "a1",
+      "to": "d1",
+      "flight": 0.77
+    },
+    {
+      "t": 5.04,
+      "type": "move",
+      "player": "a1",
+      "to": [
+        11.45,
+        24.28
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 6.57,
+      "type": "pass",
+      "from": "d1",
+      "to": "d2",
+      "flight": 0.72
+    },
+    {
+      "t": 8.91,
+      "type": "pass",
+      "from": "d2",
+      "to": "a1",
+      "flight": 1.15
+    },
+    {
+      "t": 11.68,
+      "type": "pass",
+      "from": "a1",
+      "to": "d2",
+      "flight": 1.15
+    },
+    {
+      "t": 12.99,
+      "type": "move",
+      "player": "a1",
+      "to": [
+        13.07,
+        25.22
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 14.44,
+      "type": "pass",
+      "from": "d2",
+      "to": "d3",
+      "flight": 0.72
+    },
+    {
+      "t": 16.78,
+      "type": "pass",
+      "from": "d3",
+      "to": "a1",
+      "flight": 0.77
+    },
+    {
+      "t": 19.17,
+      "type": "pass",
+      "from": "a1",
+      "to": "d3",
+      "flight": 0.77
+    },
+    {
+      "t": 20.02,
+      "type": "move",
+      "player": "a1",
+      "to": [
+        11.45,
+        24.28
+      ],
+      "gait": "walk"
+    }
+  ],
+  "duration": 23.15,
+  "overlays": {
+    "runPaths": "auto"
+  },
+  "narration": [
+    {
+      "t": 0,
+      "text": "Three servers deliver in continuous rotation — low, chest, high.",
+      "hold": 2.5
+    },
+    {
+      "t": 4.17,
+      "text": "Every ball is returned at once — immediately face the next.",
+      "hold": 2.5
+    },
+    {
+      "t": 11.58,
+      "text": "Thirty seconds of continuous work, then thirty seconds rest.",
+      "hold": 2.5
+    },
+    {
+      "t": 18.98,
+      "text": "Technique must hold as the arms tire — six rounds in total.",
+      "hold": 2.5
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 26.57,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.57,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.57,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.28,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    12.8,
+    40.37
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.77,
+    33.43
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 3,
+   "start": [
+    16.83,
+    33.43
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.77,
+    31.02
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    16.51,
+    30.05
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    23.6,
+    35.53
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   23.28,
+   35.67
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.42,
+    33.27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.54,
+    32.95
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.9,
+    30.37
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.57,
+    30.37
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.5,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.67,
+    31.82
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.72,
+   "type": "pass",
+   "from": "d3",
+   "to": "gk",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 5.3,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.03,
+    34.24
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.3,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    17.8,
+    33.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.44,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.77,
+    28.76
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.44,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.86,
+    28.44
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.42,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    21.34,
+    33.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.24,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.48,
+    36.66
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.29,
+     22.15
+    ],
+    "w": 22.57,
+    "h": 40.3,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Live crosses into a contested box — two attackers, two defenders, one keeper.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Claim, punch, or stay — all three are correct in different pictures.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Call the outcome loudly enough for the defenders to react.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Twelve crosses, mixing deep, near-post and cut-back deliveries.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

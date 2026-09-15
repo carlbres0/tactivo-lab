@@ -1,0 +1,416 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.5,
+  "length": 25.6
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    15.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.5,
+    23.6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    23.6
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    11.45,
+    8.75
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    11.45,
+    16.85
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.05,
+    8.75
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    6.05,
+    16.85
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.64,
+   9.05
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.18,
+    16.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.32,
+    9.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.78,
+    16.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.83,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.72,
+    17.26
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.83,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.78,
+    8.35
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.83,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.32,
+    17.26
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.83,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.13,
+    9.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.18,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.73,
+    9.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.19,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.78,
+    15.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.19,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.38,
+    15.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.31,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.78,
+    7.67
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.99,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.38,
+    7.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.13,
+    17.93
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.73,
+    17.93
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.16,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.45,
+    8.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.33,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.05,
+    8.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.34,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.45,
+    16.85
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.34,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.05,
+    16.85
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.34,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.45,
+    10.1
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.81,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.05,
+    10.1
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.82,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.45,
+    15.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.82,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.05,
+    15.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.87,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.45,
+    7.4
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.34,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.05,
+    7.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.35,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.45,
+    18.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.35,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.05,
+    18.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.77,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.45,
+    8.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.78,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.05,
+    8.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.45,
+    16.85
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.05,
+    16.85
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Warm-up: every player has a ball for toe taps, inside-outside touches and rolls.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Toe taps — alternate feet tapping the top of the ball, eyes up not down.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Inside-outside touches — push the ball across the body, then back with the outside.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "Ball rolls — sole of the foot rolls it side to side, then forward as you progress.",
+   "hold": 2.5
+  }
+ ]
+}

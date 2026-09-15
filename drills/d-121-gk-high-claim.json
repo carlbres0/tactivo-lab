@@ -1,0 +1,131 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.64,
+  "length": 26
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8.49,
+    13.29
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.73,
+    26
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.86,
+    20.35
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    16.68,
+    4.26
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.62,
+   4.6
+  ]
+ },
+ "events": [
+  {
+   "t": 3,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    9.06,
+    14.99
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 4.96,
+   "type": "pass",
+   "from": "n1",
+   "to": "gk",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 10.48,
+   "type": "pass",
+   "from": "gk",
+   "to": "n1",
+   "flight": 1.32
+  },
+  {
+   "t": 14.63,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.04,
+    16.96
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The coach lobs serves that drop between the keeper and a cone attacker.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Attack the drop at its highest point — knee up, arms long.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Shout 'KEEPER'S' on the way up: the call is technique, not noise.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "A catch above the head scores two, a safe punch one. Eight claims.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

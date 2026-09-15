@@ -1,0 +1,229 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.5,
+  "length": 33.63
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.75,
+    17
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.75,
+    32
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.25,
+    17
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.25,
+    17
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.75,
+    25.75
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    10.75,
+    32.63
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   9.22,
+   17.35
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.25,
+    25.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.13,
+    32
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.25,
+    27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.5,
+    24.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.42,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.5,
+    26
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.99,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.63,
+    28.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.77,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.54
+  },
+  {
+   "t": 6.77,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.25,
+    29.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.93,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    10.75,
+    32
+   ]
+  }
+ ],
+ "duration": 12,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two attack one from the halfway cone — go straight at the defender.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Attack the defender directly; don't drift wide until they commit.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Committed — release the pass late, and the defender keeps recovering.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Finish within eight seconds or the defender has won the round.",
+   "hold": 2.5
+  }
+ ]
+}

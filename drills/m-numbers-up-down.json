@@ -1,0 +1,328 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.94,
+  "length": 37.35
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.94,
+    2.35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.94,
+    37.35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.75,
+    2.35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.75,
+    37.35
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.85,
+    2.35
+   ],
+   "width": 3.23,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.85,
+    37.35
+   ],
+   "width": 3.23,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.54,
+    7.73
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.15,
+    7.73
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    12.85,
+    13.12
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.23,
+    25.23
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.85,
+    23.89
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    7.46,
+    25.23
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    12.85,
+    19.85
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    1.27,
+    18.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.1,
+   20.1
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.87,
+    8.41
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.52,
+    15.81
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    7.73,
+    25.91
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    1.27,
+    4.37
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d4",
+   "to": "d1",
+   "flight": 0.76
+  },
+  {
+   "t": 2.13,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    12.58,
+    20.52
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.58,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 0.55
+  },
+  {
+   "t": 5.74,
+   "type": "shoot",
+   "player": "d2",
+   "at": [
+    13.52,
+    15.81
+   ],
+   "flight": 0.81,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 6.59,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.85,
+    18.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.72,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.4,
+    29.48
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.77,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    3.42,
+    1.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.77,
+   "type": "collect",
+   "player": "a3"
+  },
+  {
+   "t": 11.07,
+   "type": "pass",
+   "from": "a3",
+   "to": "a2",
+   "flight": 1.14,
+   "flightStyle": "clipped",
+   "loft": 1.59
+  },
+  {
+   "t": 11.4,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    17.96,
+    1.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.83,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    12.85,
+    32.64
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 15.92,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    12.85,
+    37.35
+   ]
+  }
+ ],
+ "duration": 19,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Play begins evenly — every two minutes the coach removes a player from one team.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "The player taken off jogs the outside and feeds the next ball in.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Down a player, the short team compacts and stays patient.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "Turnover — the ball has to be used well the moment it arrives.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.25,
+   "text": "A quick counter with fewer numbers still finds the goal.",
+   "hold": 2.5
+  }
+ ]
+}

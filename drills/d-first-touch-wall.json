@@ -1,0 +1,121 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 9.99,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.04,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.04,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.95,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.95,
+    17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    2.68
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5,
+    9.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5,
+    16.32
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5,
+   3.03
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.68
+  },
+  {
+   "t": 3.5,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.68
+  }
+ ],
+ "duration": 6.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Working player stands between two servers, twelve metres apart.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "Server one plays in — the first touch must point straight at the next pass.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "One touch solves two problems: kill the pace, and open the angle to server two.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Ball goes to server two. Forty-five seconds work, then rotate — three turns each.",
+   "hold": 2.5
+  }
+ ]
+}

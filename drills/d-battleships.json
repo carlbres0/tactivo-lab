@@ -1,0 +1,289 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 30.67,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27.33,
+    4.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.33,
+    12.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.33,
+    20.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.33,
+    28.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.33,
+    36.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.33,
+    8.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.33,
+    16.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.33,
+    24.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.33,
+    32.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.33,
+    39.33
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.13,
+    12.67
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10,
+    26
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.33,
+    35.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    20.67,
+    15.33
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    22,
+    28.67
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    22.67,
+    7.33
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.95,
+   25.65
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.93,
+    30.53
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    23.33,
+    24.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    23.6,
+    10.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.3,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.67,
+    13.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.55,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 1.27
+  },
+  {
+   "t": 1.55,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    24.93,
+    18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.08,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.07,
+    22.53
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.44,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.4,
+    15.73
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.11,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    27.47,
+    20.93
+   ],
+   "flight": 1.78,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 7.96,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.87,
+    16.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.36,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    23.6,
+    11.33
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five cone ships on each end line, and the sea in front of them to defend.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Square it back into your own half — the strike has to come from there.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Sink a ship with a driven pass, low and hard past the blockers.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "First fleet fully sunk loses; salvage a ship back with a six-pass build.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29,
+  "length": 24.94
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    20.99,
+    5.64
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.29,
+    5.64
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.59,
+    5.64
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.99,
+    11.02
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.29,
+    11.02
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.59,
+    11.02
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    15.29,
+    24.94
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.39,
+    6.91
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.01,
+    18.3
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    8.01,
+    24.31
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    15.29,
+    22.73
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   8.16,
+   17.98
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.06,
+      18.93
+     ]
+    },
+    {
+     "t": 8.32,
+     "at": [
+      7.06,
+      18.93
+     ]
+    },
+    {
+     "t": 9.6,
+     "at": [
+      17.19,
+      6.91
+     ]
+    },
+    {
+     "t": 10.56,
+     "at": [
+      17.19,
+      6.91
+     ]
+    },
+    {
+     "t": 11.52,
+     "at": [
+      16.24,
+      8.17
+     ]
+    },
+    {
+     "t": 12.8,
+     "at": [
+      16.24,
+      8.17
+     ]
+    },
+    {
+     "t": 14.08,
+     "at": [
+      13.08,
+      24.31
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      13.08,
+      24.31
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.71,
+    7.85
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 1.19
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.65,
+    17.66
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.28,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.7,
+    18.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.01,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    14.97,
+    9.12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.66,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    15.29,
+    24.94
+   ]
+  },
+  {
+   "t": 5.66,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    17.19,
+    22.41
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.41,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.66,
+    9.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.51,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10.54,
+    23.99
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.11,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.33,
+    17.66
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.5,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.87,
+    7.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.68,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    15.29,
+    22.73
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.79,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.24,
+    7.85
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.6,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    13.39,
+    22.41
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.01,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.56,
+    9.12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.27,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.34,
+    22.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.52,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.24,
+    8.49
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Serve from beside the goal back into the coned zone — 18 to 25 metres out.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "One touch out of the feet, head steady — laces through the middle.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Next ball, new corner. Every strike leaves from inside the zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.75,
+   "text": "Rotate shooter, server and retriever every three strikes.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 26
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14,
+    2.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10,
+    2.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14,
+    21.6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10,
+    21.6
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    21,
+    8
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6,
+    10.4
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.4,
+    19.2
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   20.74,
+   8.23
+  ]
+ },
+ "events": [
+  {
+   "t": 1.02,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.2,
+    14.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.02,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.2,
+    16
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 2.82,
+   "type": "pass",
+   "from": "a1",
+   "to": "d1",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 4.55,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    17.6,
+    25
+   ],
+   "flight": 1.05,
+   "flightStyle": "ground",
+   "header": true
+  },
+  {
+   "t": 4.81,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.8,
+    12.8
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.7,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10,
+    18
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 9,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Server floats a serve in; attacker and defender both attack the flight.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Attack the ball, not the opponent — arms out for balance, not for holding.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Whoever moves first wins the header — this time it's the defender.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Clear header away from goal — rotate roles every four serves.",
+   "hold": 2.5
+  }
+ ]
+}

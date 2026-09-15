@@ -1,0 +1,146 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 38.94
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    38.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    38.94
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    38.94
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5.36,
+    37.26
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22.15,
+    15.43
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.57,
+   36.98
+  ]
+ },
+ "events": [
+  {
+   "t": 1.95,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    24.84,
+    22.15
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.67,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2.1,
+   "flightStyle": "lofted",
+   "loft": 5.42
+  },
+  {
+   "t": 4.52,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.03,
+    36.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.94,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    22.15,
+    38.94
+   ],
+   "header": true
+  }
+ ],
+ "duration": 9,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Attacker holds the penalty spot; server waits with the ball in hand on the byline.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Hand-thrown serve loops in from the byline.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Attack the ball at its highest point — don't wait underneath it.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Head down and across goal, forehead through the top half of the ball.",
+   "hold": 2.5
+  }
+ ]
+}

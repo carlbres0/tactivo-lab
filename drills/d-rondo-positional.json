@@ -1,0 +1,285 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16.5,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.25,
+    2.69
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.25,
+    26.31
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.81,
+    14.5
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    2.42,
+    14.5
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    8.94,
+    11.72
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    7.56,
+    17.97
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.94,
+    8.25
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    5.75,
+    15.61
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    10.33,
+    15.89
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    6.86,
+    20.06
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.1,
+   3
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    7.97,
+    18.39
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.56,
+    6.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.83,
+    14.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.64,
+    14.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    7.14,
+    19.64
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a4",
+   "flight": 1.32
+  },
+  {
+   "t": 2.74,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.53,
+    9.22
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.14,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 0.71
+  },
+  {
+   "t": 5.01,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    11.58,
+    15.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.46,
+   "type": "pass",
+   "from": "a5",
+   "to": "a3",
+   "flight": 0.56
+  },
+  {
+   "t": 8.64,
+   "type": "pass",
+   "from": "a3",
+   "to": "a6",
+   "flight": 0.7
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     8.25,
+     14.5
+    ],
+    "w": 12.5,
+    "h": 25,
+    "label": "zone",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Six attackers hold fixed positions: two wide, two deep, two in the middle.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Four defenders press inside — attackers move within their zone, never out of it.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Split the press to find a middle player between the lines — that scores a point.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Middle turns and plays on; rotate one position clockwise every three minutes.",
+   "hold": 2.5
+  }
+ ]
+}

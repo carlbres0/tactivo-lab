@@ -1,0 +1,518 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 34.36,
+  "length": 52
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    32.36,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    32.36,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    17.18,
+    52
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.14,
+    37.71
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 5,
+   "start": [
+    14.5,
+    37.71
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 6,
+   "start": [
+    19.86,
+    37.71
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 3,
+   "start": [
+    25.21,
+    37.71
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 7,
+   "start": [
+    9.14,
+    29.68
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 8,
+   "start": [
+    14.5,
+    29.68
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 4,
+   "start": [
+    19.86,
+    29.68
+   ]
+  },
+  {
+   "id": "a8",
+   "team": "white",
+   "number": 11,
+   "start": [
+    25.21,
+    29.68
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.46,
+    10.93
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    17.18,
+    7.71
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    27.89,
+    10.93
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    11.82,
+    18.07
+   ]
+  },
+  {
+   "id": "d5",
+   "team": "blue",
+   "number": 5,
+   "start": [
+    22.54,
+    18.07
+   ]
+  },
+  {
+   "id": "d6",
+   "team": "blue",
+   "number": 6,
+   "start": [
+    30.93,
+    3.78
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.52,
+   7.81
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    12.18,
+    17.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    22.18,
+    18.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d2",
+   "to": "d3",
+   "flight": 1.12
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.07,
+    37.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.43,
+    37.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    23.79,
+    37.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    29.14,
+    37.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    13.07,
+    29.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    18.43,
+    29.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    23.79,
+    29.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    29.14,
+    29.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.94,
+   "type": "pass",
+   "from": "d3",
+   "to": "d2",
+   "flight": 1.12
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.07,
+    34.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.43,
+    34.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    23.79,
+    34.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    29.14,
+    34.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    13.07,
+    26.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    18.43,
+    26.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    23.79,
+    26.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.94,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    29.14,
+    26.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.75,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.46,
+    11.82
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8,
+   "type": "pass",
+   "from": "d2",
+   "to": "d1",
+   "flight": 0.96,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.57,
+    38.07
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.93,
+    38.07
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    16.29,
+    38.07
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    21.64,
+    38.07
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    5.57,
+    30.03
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    10.93,
+    30.03
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    16.29,
+    30.03
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    21.64,
+    30.03
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two connected units — defence and midfield. Shadow attackers pass, unpressured.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Ball to the touchline: the block slides across on the flight of the pass.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Back pass — the whole block steps up together.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Freeze. Walk the distances: between players, between the units.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Ball over the top — drop and slide as one; the spacing never changes.",
+   "hold": 2.5
+  }
+ ]
+}

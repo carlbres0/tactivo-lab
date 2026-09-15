@@ -1,0 +1,349 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 41.5,
+  "length": 50
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    20.75,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.75,
+    50
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    19.5,
+    5
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "gk2",
+   "team": "gold",
+   "number": 2,
+   "start": [
+    20.75,
+    45
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    24.92,
+    27.08
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.33,
+    32.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    23.25,
+    17.5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    22.42,
+    30.42
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.75,
+    19.17
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    28.67,
+    22.92
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   22.24,
+   30.12
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    22.83,
+    12.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    22.42,
+    17.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    26.5,
+    23.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 1.31
+  },
+  {
+   "t": 1.53,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    19.92,
+    22.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.92,
+    25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.08,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    22.42,
+    13.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.43,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.25,
+    18.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.43,
+   "type": "shoot",
+   "player": "d2",
+   "at": [
+    18.25,
+    18.54
+   ],
+   "flight": 2.17,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 6.28,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    16.17,
+    18.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.77,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.75,
+    10.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.92,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 9.42,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    19.08,
+    17.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.58,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.75,
+    17.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.83,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    20.25,
+    10
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.73,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    23.5,
+    10.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.73,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    16.75,
+    11.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.89,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    20.75,
+    4.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15.19,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    20.75,
+    0
+   ]
+  }
+ ],
+ "duration": 19.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     20.75,
+     25
+    ],
+    "w": 20,
+    "h": 20,
+    "color": "technical",
+    "label": "keep-ball"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three v three keep-ball in the middle, two big goals with keepers far away.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Win the ball and the pitch is yours — charge either goal inside twenty seconds.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "The team that lost it may send only two chasers back.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.75,
+   "text": "Goal or not, everyone returns and the keep-ball restarts.",
+   "hold": 2.5
+  }
+ ]
+}

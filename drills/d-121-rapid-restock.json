@@ -1,0 +1,171 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 33.9,
+  "length": 25.49
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    16.96,
+    25.49
+   ],
+   "width": 2.09,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    15.91,
+    22.1
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    25.44,
+    11.66
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   27.66,
+   12.7
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      22.5,
+      8.39
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      16.96,
+      6.31
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      11.41,
+      8.39
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.28,
+      12.7
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      21.22,
+      14.79
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.92,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    26.87,
+    12.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.39,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    16.96,
+    25.49
+   ],
+   "deadBall": true
+  },
+  {
+   "t": 6.14,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18,
+    7.22
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Six balls round the edge of the box, coach in goal, the clock already running.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Finish all six in any order, sprinting between them.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "The coach saves what they can and calls the time at the last shot.",
+   "hold": 2.5
+  },
+  {
+   "t": 11,
+   "text": "Rest while restocking together, then race the time just set.",
+   "hold": 2.5
+  }
+ ]
+}

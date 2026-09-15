@@ -1,0 +1,267 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.31,
+  "length": 30
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    17.31,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.31,
+    30
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    0,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    0,
+    30
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    17.31,
+    8.08
+   ],
+   "width": 2.08,
+   "facing": "w"
+  },
+  {
+   "type": "goal",
+   "at": [
+    0,
+    19.62
+   ],
+   "width": 2.08,
+   "facing": "e"
+  },
+  {
+   "type": "goal",
+   "at": [
+    5.19,
+    0
+   ],
+   "width": 2.08,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.27,
+    30
+   ],
+   "width": 2.08,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.65,
+    13.85
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.12,
+    10.38
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.19,
+    17.31
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    10.96,
+    23.08
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.96,
+    13.85
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    7.5,
+    16.15
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    9.81,
+    20.77
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.9,
+   13.6
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.77,
+    18.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.81,
+    15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.08,
+    17.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.49
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.42,
+    14.42
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.31,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 1.28
+  },
+  {
+   "t": 4.75,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.88,
+    10.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.75,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    10.38,
+    21.35
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.2,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    13.27,
+    30
+   ]
+  }
+ ],
+ "duration": 9.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Small goals are spread around the area — score in any of them, from either side.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "Constant scanning, because the target keeps changing.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Switch to whichever goal is left uncovered.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Nobody can defend every goal, so the game stays end-to-end.",
+   "hold": 2.5
+  }
+ ]
+}

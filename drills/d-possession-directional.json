@@ -1,0 +1,329 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.5,
+  "length": 34.5
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.75,
+    7
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5.75,
+    7
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.25,
+    17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    10.75,
+    24.5
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    4.5,
+    14.5
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    17,
+    10.75
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12,
+    12
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    8.25,
+    14.5
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    10.75,
+    20.75
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    7,
+    28.25
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.4,
+   7
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    5.75,
+    22.63
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    16.38,
+    12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7,
+    8.88
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.75,
+    16.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    7.63,
+    27.63
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.5
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.38,
+    8.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.53,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.25,
+    11.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.53,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.25
+  },
+  {
+   "t": 4.38,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.75,
+    8.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.95,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    17,
+    20.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.95,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11,
+    17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.4,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    12.25,
+    33.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.4,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    10.25,
+    25.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.4,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    11.5,
+    31
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.4,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    8.5,
+    30.5
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Score by dribbling the ball under control over the opposition end line.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "A pass backwards draws the press and opens the pass forwards.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Play forward into space now that the defence has jumped.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Carry it under control over the end line — no goals, no keepers.",
+   "hold": 2.5
+  }
+ ]
+}

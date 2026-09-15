@@ -1,0 +1,320 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.7,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.85,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.85,
+    40
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.85,
+    11.11
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    19.78,
+    6.67
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.93,
+    6.67
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    13.85,
+    15.56
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    16.81,
+    22.96
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.89,
+    22.96
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.85,
+   11.46
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    12.37,
+    22.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.33,
+    20
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.41,
+    25.93
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19.78,
+    30.37
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.93,
+    30.37
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.85,
+    18.52
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.3,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.33
+  },
+  {
+   "t": 5.3,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.56,
+    24.44
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.79,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.11,
+    19.26
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.79,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    14.15,
+    28.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.62,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.19
+  },
+  {
+   "t": 11.24,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.81,
+    25.19
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.24,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.15,
+    31.85
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.98,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19.48,
+    31.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.43,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    13.85,
+    40
+   ]
+  },
+  {
+   "t": 14.82,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.89,
+    32.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.18,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.22,
+    31.11
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four attack against two — the overload is on, read it and go.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Commit the first defender, then release it wide before they recover.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "One touch across goal — the extra runner is already arriving.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "Finish immediately; an overload wasted is a wave lost.",
+   "hold": 2.5
+  }
+ ]
+}

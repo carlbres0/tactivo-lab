@@ -1,0 +1,147 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.16,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    3.42,
+    10
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.08,
+    11.16
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.08,
+    2.84
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.42,
+    4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.92,
+    6.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.92,
+    7.67
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.22,
+    7
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6.33,
+    7
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   3.26,
+   6.65
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.1,
+    3.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.76,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.67,
+    7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.9,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    2.61,
+    11.68
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three gates make a wide triangle; the player tours them in a figure of weave.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Each gate crossed a different way: left foot only, right foot only, sole taps.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "The coach spins the rules every lap — new foot, new gate order.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.75,
+   "text": "Three clean tours, then one for the stopwatch.",
+   "hold": 2.5
+  }
+ ]
+}

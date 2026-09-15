@@ -1,0 +1,136 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.2,
+  "length": 26.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.4,
+    24.68
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.8,
+    24.68
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.1,
+    26.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    10.1,
+    24.68
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.59,
+    16.58
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    13.61,
+    16.58
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.71,
+   16.91
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    10.1,
+    26.3
+   ]
+  },
+  {
+   "t": 6.64,
+   "type": "pass",
+   "from": "gk",
+   "to": "d2",
+   "flight": 0.88
+  },
+  {
+   "t": 10.47,
+   "type": "shoot",
+   "player": "d2",
+   "at": [
+    10.1,
+    26.3
+   ]
+  }
+ ],
+ "duration": 17.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Servers drive low to alternate sides — keeper set on his line.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Dive to smother: top hand behind the ball, both hands pin it.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Land on the side — hip, then shoulder — never flat on the front.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "Same again the other way. Six each side, then progress.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

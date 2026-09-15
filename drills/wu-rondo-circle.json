@@ -1,0 +1,244 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12,
+  "length": 12
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    6,
+    10
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.43,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.43,
+    4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.57,
+    4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.57,
+    8
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6,
+    8.86
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.46,
+    7.43
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    8.46,
+    4.57
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    6,
+    3.14
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    3.54,
+    4.57
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6,
+    6
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.3,
+   8.68
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.4
+  },
+  {
+   "t": 1.77,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.43,
+    5.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.22,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.4
+  },
+  {
+   "t": 3.37,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.57,
+    4.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.23,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.4
+  },
+  {
+   "t": 5.23,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.86,
+    4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.25,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 0.4
+  },
+  {
+   "t": 7.25,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.43,
+    5.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.27,
+   "type": "pass",
+   "from": "a5",
+   "to": "a1",
+   "flight": 0.49
+  }
+ ],
+ "duration": 12,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "This warms them up and sharpens the passing in the same go.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 3,
+   "text": "A ring of cones, everyone spread around it, one defender in the middle.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 7.75,
+   "text": "Play across the circle or round it, whatever's on.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 8.75,
+   "text": "Give the ball away and you swap places with the defender.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 10.25,
+   "text": "Ask them to disguise it, look one way and pass the other.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 12,
+   "text": "Too easy, put a second defender in. Too hard, take the defender out and count passes.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ]
+}

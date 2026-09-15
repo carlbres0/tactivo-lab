@@ -1,0 +1,358 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 23.09,
+  "length": 32
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.09,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.09,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    11.55,
+    32
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    11.55,
+    28.59
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.86,
+    18.36
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.41,
+    5.41
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    17.68,
+    5.41
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    6.09,
+    3.09
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    17,
+    3.09
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.49,
+   5.75
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    7.45,
+    14.27
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11,
+    28.73
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.64,
+    17.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.36,
+    13.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.5,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14,
+    15.64
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.81,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 0.79
+  },
+  {
+   "t": 5.35,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    9.91,
+    30.36
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.22,
+   "type": "shoot",
+   "player": "d2",
+   "at": [
+    11.55,
+    32
+   ]
+  },
+  {
+   "t": 9.03,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    19.73,
+    4.05
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.69,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.05,
+    5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 9.91,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.55,
+    19.05
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 13.13,
+   "type": "pass",
+   "from": "gk",
+   "to": "d3",
+   "flight": 2.29,
+   "flightStyle": "clipped",
+   "loft": 4
+  },
+  {
+   "t": 16.92,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    15.64,
+    14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.28,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.55,
+    28.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 18.37,
+   "type": "dribble",
+   "player": "d3",
+   "to": [
+    7.73,
+    14.27
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 20.3,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.82,
+    16.73
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 24.06,
+   "type": "pass",
+   "from": "d3",
+   "to": "d4",
+   "flight": 0.79
+  },
+  {
+   "t": 24.91,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    6.73,
+    7.49
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 25.02,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    9.91,
+    30.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 26.47,
+   "type": "shoot",
+   "player": "d4",
+   "at": [
+    11.55,
+    32
+   ]
+  },
+  {
+   "t": 32.31,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.55,
+    28.59
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 36,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Wave one attacks 2v1 — keeper resets their feet before the shot.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Save the wave — the shooter stays on as the next wave's defender.",
+   "hold": 2.5
+  },
+  {
+   "t": 18.75,
+   "text": "Wave two loads from the wide lines while the keeper sets again.",
+   "hold": 2.5
+  },
+  {
+   "t": 28,
+   "text": "Every wave ends in a save — keeper versus the rest, keep score.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

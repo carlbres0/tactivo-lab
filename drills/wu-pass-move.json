@@ -1,0 +1,358 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    20,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    20
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    20
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.4,
+    7.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.4,
+    16.4
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.6,
+    16.4
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.6,
+    7.4
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    17.48,
+    18.92
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    2.72,
+    16.04
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    5.24,
+    3.08
+   ]
+  },
+  {
+   "id": "a8",
+   "team": "white",
+   "number": 8,
+   "start": [
+    19.64,
+    5.96
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.4,
+   7.75
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a5",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      17.48,
+      18.92
+     ]
+    },
+    {
+     "t": 6,
+     "at": [
+      10.28,
+      18.92
+     ]
+    },
+    {
+     "t": 12,
+     "at": [
+      3.8,
+      17.84
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a6",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      2.72,
+      16.04
+     ]
+    },
+    {
+     "t": 6,
+     "at": [
+      2,
+      10.28
+     ]
+    },
+    {
+     "t": 12,
+     "at": [
+      3.08,
+      4.52
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a7",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.24,
+      3.08
+     ]
+    },
+    {
+     "t": 6,
+     "at": [
+      10.28,
+      2.36
+     ]
+    },
+    {
+     "t": 12,
+     "at": [
+      15.68,
+      3.44
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    11.9,
+    2.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    3.8,
+    17.84
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    2,
+    10.28
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    10.28,
+    2.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    19.64,
+    17.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.9
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.3,
+    7.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.72,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.08
+  },
+  {
+   "t": 4.57,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19.1,
+    11.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.13,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    15.68,
+    3.44
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.34,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    3.08,
+    4.52
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.41,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    9.2,
+    9.2
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 12,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     11,
+     11
+    ],
+    "w": 18,
+    "h": 18,
+    "label": "square",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Half hold a ball, half move free — everyone circulates inside the square.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.25,
+   "text": "Pass to a free player, then sprint away to find new space.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Build through: pass and follow, then a one-two.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Pass and move away from the ball as tempo rises.",
+   "hold": 2.5
+  }
+ ]
+}

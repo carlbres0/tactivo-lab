@@ -1,0 +1,271 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 34,
+  "length": 34
+ },
+ "equipment": [],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    21.17,
+    15.5
+   ]
+  },
+  {
+   "id": "n2",
+   "team": "coach",
+   "number": 2,
+   "start": [
+    13.83,
+    15.5
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13,
+    8
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.33,
+    12
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    27,
+    15.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.67,
+    20
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    19,
+    11
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    10,
+    23.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.07,
+   8.34
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    21.17,
+    20.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n2",
+   "to": [
+    13.83,
+    20.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    26.33,
+    24.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9,
+    17.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    17.67,
+    10.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.33,
+    24
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13,
+    13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.67,
+    11.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.46,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.67,
+    16.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.46,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15,
+    8.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.79,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.4
+  },
+  {
+   "t": 5.06,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    14,
+    25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.01,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.33,
+    15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.81,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    17.5,
+    24
+   ],
+   "flight": 1.19,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two neutrals carry a walking goal; 3v3 anywhere in the area.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Score through the moving goal from either side.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Look up twice — the goal has moved since you last looked.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Carriers swap with the scorers every three goals.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 24
+ },
+ "equipment": [],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    16.67,
+    12.67
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18.67,
+    10.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.39,
+   12.88
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a1",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      18,
+      11.33
+     ]
+    },
+    {
+     "t": 3.12,
+     "at": [
+      16,
+      13.33
+     ]
+    },
+    {
+     "t": 6.63,
+     "at": [
+      13.56,
+      15.11
+     ]
+    },
+    {
+     "t": 10.14,
+     "at": [
+      11.11,
+      17.11
+     ]
+    },
+    {
+     "t": 13.65,
+     "at": [
+      8.22,
+      16.44
+     ]
+    },
+    {
+     "t": 16.77,
+     "at": [
+      6.67,
+      13.33
+     ]
+    },
+    {
+     "t": 19.5,
+     "at": [
+      7.56,
+      10
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.78,
+    16.44
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    11.11,
+    16.89
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.54,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    8.44,
+    15.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.07,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.89,
+    15.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.32,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    7.11,
+    12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.98,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.33,
+    12.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.23,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    8.67,
+    8.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.65,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    10.67,
+    6.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.95,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.22,
+    9.33
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 19.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach leads a winding dribble anywhere in the area, player two metres behind.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Every coach move — stops, turns, skips — echoes down the line.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.75,
+   "text": "Sixty seconds, then the player leads and chooses harder moves.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.75,
+   "text": "Two turns each, and the leader picks the finish pose.",
+   "hold": 2.5
+  }
+ ]
+}

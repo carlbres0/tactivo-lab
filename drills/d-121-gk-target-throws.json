@@ -1,0 +1,161 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16.27,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    6.8,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    6.53,
+    38
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    11.6,
+    33.47
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.43,
+   33.78
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "n1",
+   "at": [
+    6.8,
+    42
+   ]
+  },
+  {
+   "t": 6.61,
+   "type": "shoot",
+   "player": "gk",
+   "at": [
+    6.8,
+    18.53
+   ],
+   "flight": 1.22,
+   "flightStyle": "ground",
+   "style": "throw"
+  },
+  {
+   "t": 10.76,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    8.93,
+    38.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.69,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    6.53,
+    37.2
+   ],
+   "gait": "sprint"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     6.8,
+     28.5
+    ],
+    "w": 2.98,
+    "h": 3,
+    "color": "technical",
+    "label": "10m"
+   },
+   {
+    "at": [
+     6.8,
+     18.5
+    ],
+    "w": 2.98,
+    "h": 3,
+    "color": "tactical",
+    "label": "20m"
+   },
+   {
+    "at": [
+     6.8,
+     8.5
+    ],
+    "w": 2.98,
+    "h": 3,
+    "color": "physical",
+    "label": "30m"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three target rings sit at ten, twenty and thirty metres.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Every rep starts with a save from the coach — catch it, then stand up.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "The call comes DURING the save, not after it: twenty metres.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "Roll, throw or kick to match the distance. Nine reps, count the hits.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

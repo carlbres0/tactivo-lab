@@ -1,0 +1,241 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14.5,
+  "length": 20
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10.78,
+    10.25
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.98,
+    10.25
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.53,
+    10.25
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.72,
+    10.25
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.5,
+    20
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    20
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    9.88,
+    20
+   ],
+   "width": 1.8,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    4.63,
+    20
+   ],
+   "width": 1.8,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.88,
+    3.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.88,
+    2.45
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.63,
+    3.5
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    4.63,
+    2.45
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.87,
+   3.85
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      4.47,
+      3.72
+     ]
+    },
+    {
+     "t": 7.28,
+     "at": [
+      4.47,
+      3.72
+     ]
+    },
+    {
+     "t": 10.92,
+     "at": [
+      4.63,
+      11.75
+     ]
+    },
+    {
+     "t": 12.04,
+     "at": [
+      4.4,
+      14
+     ]
+    },
+    {
+     "t": 12.88,
+     "at": [
+      4.4,
+      14.08
+     ]
+    },
+    {
+     "t": 13.72,
+     "at": [
+      4.25,
+      19.85
+     ]
+    },
+    {
+     "t": 14,
+     "at": [
+      4.25,
+      19.85
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.65,
+    14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.64,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    9.88,
+    20
+   ]
+  },
+  {
+   "t": 6.92,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.4,
+    14.45
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two short lines, a ball each — first to ten goals wins.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Dribble through the cone gate, one big touch, then shoot.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Other line goes — collect your ball and rejoin the opposite line.",
+   "hold": 2.5
+  }
+ ]
+}

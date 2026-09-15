@@ -1,0 +1,175 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12,
+  "length": 12
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10,
+    10
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    10
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6,
+    6
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.5,
+    6.8
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.25,
+   5.75
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7,
+    5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6,
+    6.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.53,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.5,
+    5.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.78,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8,
+    3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.66,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7,
+    5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.91,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.07,
+    2.37
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 8.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     6,
+     6
+    ],
+    "w": 8,
+    "h": 8,
+    "label": "square",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Shield the ball — body between ball and defender, ball on the far foot.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Arm across, low and wide — never square on to the pressure.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "On the whistle, turn out of the shield.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Dribble through any side of the grid to score.",
+   "hold": 2.5
+  }
+ ]
+}

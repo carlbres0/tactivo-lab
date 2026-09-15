@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sound lab</title>
+<!-- The Stage 2 judgement surface (Task 8): the ten pilot drills, with the
+     voice and the music bed on their own switch, so Carl can hear either on a
+     phone. The Pitch switch went with Carl's ruling on 2026-09-15 ("pitch
+     sounds — remove them"); the engine's pack is off unless a host asks. Same dark/lime look as lab.html; the
+     engine is ./embed.html in an iframe, driven over the host protocol, and
+     every URL is relative so this page works on the vite dev server and under
+     /tactivo-staging/engine3d/. -->
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0B0F10; color: #fff; font: 15px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif; padding: 16px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  p.sub { margin: 0 0 16px; color: #8D949B; font-size: 15px; }
+  label.cap { display: block; color: #8D949B; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; margin: 18px 0 6px; }
+  .top { position: sticky; top: 0; z-index: 2; background: #0B0F10; padding: 6px 0 2px; }
+  .stage { position: relative; width: 100%; aspect-ratio: 4 / 3; background: #000; border: 1px solid #2A3036; border-radius: 12px; overflow: hidden; }
+  .stage iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .cue { min-height: 2.8em; margin: 10px 0 0; padding: 10px 12px; border-radius: 10px; background: #171B1F; color: #C8F323; font-size: 15px; }
+  .cue.idle { color: #8D949B; }
+  .chk { display: flex; align-items: center; gap: 12px; padding: 12px; margin-top: 8px; background: #171B1F; border: 1px solid #2A3036; border-radius: 12px; }
+  .chk input { width: 24px; height: 24px; accent-color: #C8F323; }
+  .chk span small { display: block; color: #8D949B; font-size: 11px; }
+  .row { display: flex; gap: 12px; align-items: center; margin-top: 10px; }
+  .row input[type=range] { flex: 1; accent-color: #C8F323; }
+  .row output { min-width: 3.2em; text-align: right; font-variant-numeric: tabular-nums; color: #8D949B; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  button.btn { display: block; text-align: left; padding: 14px 12px; border-radius: 12px; background: #171B1F; color: #fff;
+    border: 1px solid #2A3036; font-size: 15px; font-weight: 700; font-family: inherit; width: 100%; }
+  button.btn small { display: block; color: #8D949B; font-weight: 400; font-size: 11px; margin-top: 2px; }
+  button.btn.on { background: #C8F323; color: #0B0F10; border-color: #C8F323; }
+  button.btn.on small { color: #3a4148; }
+  button.go { margin-top: 12px; background: #C8F323; color: #0B0F10; border: 0; width: 100%; font-size: 17px; font-weight: 700;
+    padding: 16px; border-radius: 12px; font-family: inherit; }
+  button.go[disabled] { opacity: .35; }
+  .note { color: #8D949B; font-size: 11px; margin-top: 16px; }
+  .note b { color: #C8F323; font-weight: 600; }
+  /* The blind test (Task 10). Same furniture, one column, nothing on screen
+     that could name the bed being played. */
+  button.ghost { margin-top: 12px; background: transparent; color: #C8F323; border: 1px solid #2A3036; width: 100%;
+    font-size: 15px; font-weight: 700; padding: 14px; border-radius: 12px; font-family: inherit; }
+  .trial { color: #8D949B; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; margin: 12px 0 2px; }
+  h2.drill { font-size: 22px; margin: 0 0 4px; }
+  p.q { font-size: 17px; font-weight: 700; margin: 12px 0 8px; }
+  .pips { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+  .pips button { min-height: 56px; border-radius: 10px; background: #171B1F; color: #fff; border: 1px solid #2A3036;
+    font-size: 20px; font-weight: 700; font-family: inherit; }
+  .pips button[disabled] { opacity: .3; }
+  .ends { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-top: 6px; color: #8D949B; font-size: 11px; }
+  .ends span:last-child { grid-column: 5; text-align: right; }
+  button.skip { width: 100%; min-height: 48px; margin-top: 12px; background: transparent; color: #8D949B;
+    border: 1px solid #2A3036; border-radius: 10px; font-size: 13px; font-family: inherit; }
+  /* The browser refused to sound the page. The way back is a tap INSIDE the
+     iframe — the engine's own document is the only one whose gesture counts —
+     so this note points at the picture and never covers it. The engine draws
+     its own lime "Tap for sound" over the canvas; an overlay here would eat
+     the very tap the engine is asking for. */
+  p.tapnote { margin: 8px 0 0; text-align: center; color: #C8F323; font-size: 13px; font-weight: 700; }
+  /* A trial must fit a 375x812 phone with nothing to scroll: the page's own
+     title, strapline and footnotes stand down, and the picture gives way
+     first on anything shorter. */
+  body.testing > h1, body.testing > p.sub, body.testing > .note { display: none; }
+  body.testing .stage { max-height: 38vh; }
+  table.res { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; }
+  table.res th, table.res td { text-align: right; padding: 8px 4px; border-bottom: 1px solid #2A3036; font-variant-numeric: tabular-nums; }
+  table.res th:first-child, table.res td:first-child { text-align: left; }
+  table.res th { color: #8D949B; font-weight: 400; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+  table.res tr:first-child td { color: #C8F323; font-weight: 700; }
+  textarea.raw { width: 100%; height: 140px; margin-top: 8px; background: #171B1F; color: #8D949B; border: 1px solid #2A3036;
+    border-radius: 10px; padding: 10px; font: 11px/1.4 ui-monospace, Menlo, monospace; }
+  a.reset { display: inline-block; margin-top: 16px; color: #8D949B; font-size: 12px; }
+</style>
+  <script type="module" crossorigin src="./assets/soundlab-oZcqHaYu.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+</head>
+<body>
+<h1>Sound lab</h1>
+<p class="sub">The ten pilot drills, with the voice and the music each on its own switch.</p>
+
+<div class="top">
+  <div class="stage"><iframe id="stage" src="./embed.html" title="Tactivo drill" allow="autoplay"></iframe></div>
+  <p class="tapnote" id="unblock" hidden>Tap the pitch for sound</p>
+  <p class="cue idle" id="cue">Pick a drill.</p>
+</div>
+
+<div id="free">
+<label class="cap">Sound</label>
+<label class="chk"><input type="checkbox" id="voice" checked><span>Voice<small>the coach's take, and the subtitles it lights</small></span></label>
+<label class="chk"><input type="checkbox" id="music" checked><span>Music<small>a quiet bed, picked per drill and ducked under the voice</small></span></label>
+<div class="row"><span>Level</span><input type="range" id="gain" min="0" max="0.4" step="0.01" value="0.3"><output id="gainv">0.3</output></div>
+
+<button class="go" id="play" disabled>Starting the engine…</button>
+</div>
+
+<button class="ghost" id="test">Blind test</button>
+
+<div id="free2">
+<label class="cap">The ten</label>
+<div class="grid" id="drills"></div>
+</div>
+
+<!-- The blind test. What the rater may see is the trial number and the
+     drill's name; the bed under it is never named until the results. -->
+<div id="panel" hidden>
+  <p class="trial" id="tcount">Trial 1 of 12</p>
+  <h2 class="drill" id="tname">…</h2>
+  <button class="go" id="tgo">Start</button>
+  <div id="rate" hidden>
+    <p class="q">How does this feel?</p>
+    <div class="pips" id="pips"></div>
+    <div class="ends"><span>flat</span><span>gripping</span></div>
+    <button class="skip" id="tskip">Skip</button>
+  </div>
+  <a class="reset" href="#" id="treset">Reset test</a>
+</div>
+
+<div id="results" hidden>
+  <h2 class="drill">Results</h2>
+  <p class="sub" id="rsub"></p>
+  <div id="rtable"></div>
+  <label class="cap">Raw</label>
+  <textarea class="raw" id="raw" readonly></textarea>
+  <button class="ghost" id="copy">Copy</button>
+  <a class="reset" href="#" id="rreset">Reset test</a>
+</div>
+
+<p class="note" id="state">Engine: waiting for hello.</p>
+<p class="note"><b>Blind test</b> runs the rating test from the sound-bed research note: 12 trials, two drills under six beds (one of them silence), shuffled, with the bed never named until the results. Watch, then tap one number — that tap both scores the trial and starts the next one. Scores are kept on this phone, so a reload carries on where you stopped.</p>
+<p class="note">Tapping a drill loads it, sends both switches and plays — the tap is the gesture a browser wants before it will make any sound at all. Moving a switch re-sends it straight away, with nothing else touched.</p>
+
+</body>
+</html>

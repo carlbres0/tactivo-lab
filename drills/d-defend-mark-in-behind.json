@@ -1,0 +1,172 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.19,
+  "length": 37
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.1,
+    37
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.48,
+    20.85
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.1,
+    14.12
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.75,
+    20.17
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.02,
+   14.46
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    8.6,
+    29.19
+   ],
+   "flight": 1.55,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.6,
+    29.19
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.46,
+    29.6
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.43,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 5.18,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 6.63,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.71,
+    26.23
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Server holds centrally; defender stays tight, seeing both ball and runner.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Trigger: the ball is about to go early — nobody can watch only the man.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Track the run all the way, shoulder to shoulder, without grabbing.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "Defender gets across first and clears — the run is beaten, not just followed.",
+   "hold": 2.5
+  }
+ ]
+}

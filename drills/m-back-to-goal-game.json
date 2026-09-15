@@ -1,0 +1,354 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    33.85
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    33.85
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    6.15
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    6.15
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    40
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.54,
+    0.92
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.08,
+    13.85
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12,
+    21.54
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.54,
+    3.69
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    13.54,
+    36.31
+   ]
+  },
+  {
+   "id": "gk2",
+   "team": "gold",
+   "number": 2,
+   "start": [
+    13.54,
+    39.08
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.54,
+    4.92
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    13.54,
+    37.54
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    13.54,
+    24.62
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.95,
+   14.17
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.92,
+    0.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk2",
+   "to": [
+    14.15,
+    39.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    13.23,
+    25.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.83
+  },
+  {
+   "t": 2.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.77,
+    14.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.65,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 1.49
+  },
+  {
+   "t": 5.3,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.69,
+    22.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.75,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    14.31,
+    34.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.75,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14,
+    4.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.75,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.15,
+    5.54
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.75,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14,
+    36.31
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.68,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    13.54,
+    40
+   ]
+  }
+ ],
+ "duration": 12,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.54,
+     3.08
+    ],
+    "w": 23.08,
+    "h": 6.15,
+    "label": "zone",
+    "color": "technical"
+   },
+   {
+    "at": [
+     13.54,
+     36.92
+    ],
+    "w": 23.08,
+    "h": 6.15,
+    "label": "zone",
+    "color": "tactical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Each team keeps a striker in the far zone, marked tight by one defender.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Ball goes early into the striker's feet, back to goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "A goal only counts if the striker received it exactly like this.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Turn, set back, or hold it up — any of the three counts.",
+   "hold": 2.5
+  }
+ ]
+}

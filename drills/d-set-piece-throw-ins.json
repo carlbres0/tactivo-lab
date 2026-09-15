@@ -1,0 +1,199 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.75,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    15.75,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.75,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16,
+    13.25
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.25,
+    12
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    15.5,
+    15.75
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    10.75,
+    13.25
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.13,
+    17
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.63,
+    13.25
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.93,
+   13.59
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    8.25,
+    12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.25,
+    22.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12,
+    13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    15.5,
+    23.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.84,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    8.88,
+    12.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.84,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.83,
+   "style": "throw",
+   "flightStyle": "clipped",
+   "loft": 1.5
+  }
+ ],
+ "duration": 7.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three rehearsed options: short and back, down the line, or the check-away run.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Two players move before the ball is thrown — a static throw-in is a lost ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Down the line is on — the runner has already beaten their marker to the spot.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Thrown in flat and fast — defenders mark live, but the movement got there first.",
+   "hold": 2.5
+  }
+ ]
+}

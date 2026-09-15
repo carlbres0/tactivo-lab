@@ -1,0 +1,498 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 31.37,
+  "length": 47.55
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    29.37,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    29.37,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.55,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.55,
+    40
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    18.46,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    18.46,
+    40
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.64,
+    7.27
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    23.91,
+    18.18
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13,
+    20
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    20.28,
+    23.64
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    17.55,
+    31.82
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12.1,
+    27.27
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    22.46,
+    45.09
+   ]
+  },
+  {
+   "id": "d5",
+   "team": "blue",
+   "number": 5,
+   "start": [
+    17.55,
+    46.55
+   ]
+  },
+  {
+   "id": "d6",
+   "team": "blue",
+   "number": 6,
+   "start": [
+    12.64,
+    45.09
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.83,
+   7.56
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      16.64,
+      46.91
+     ]
+    },
+    {
+     "t": 10.45,
+     "at": [
+      16.64,
+      46.91
+     ]
+    },
+    {
+     "t": 12.92,
+     "at": [
+      12.64,
+      44.55
+     ]
+    },
+    {
+     "t": 15.2,
+     "at": [
+      15.37,
+      37.64
+     ]
+    },
+    {
+     "t": 16.34,
+     "at": [
+      15.37,
+      37.64
+     ]
+    },
+    {
+     "t": 19,
+     "at": [
+      13.91,
+      32.73
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.31
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.91,
+    28.18
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    22.1,
+    29.09
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    19.37,
+    36.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    14.82,
+    31.82
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.46,
+    12.73
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.13,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    21.19,
+    31.82
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.39,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17.55,
+    17.27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.66,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    21.19,
+    30
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.99,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    1.55,
+    36.36
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.99,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    14.46,
+    32.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.99,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    18.46,
+    40
+   ]
+  },
+  {
+   "t": 10.74,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19.91,
+    33.09
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.79,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    1.73,
+    31.82
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.79,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    2.1,
+    28.18
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.79,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    22.1,
+    33.64
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.79,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    13,
+    44.18
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.79,
+   "type": "move",
+   "player": "d6",
+   "to": [
+    12.1,
+    31.82
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 11.34,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.82,
+    21.82
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.58,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19.37,
+    24.55
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.32,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    15.73,
+    37.27
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 14.76,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    1,
+    36.73
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.83,
+   "type": "move",
+   "player": "d6",
+   "to": [
+    12.64,
+    31.27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.94,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    21.73,
+    33.09
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15.34,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    1.37,
+    28.73
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15.97,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    1.19,
+    32.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16.3,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    16.28,
+    36.36
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 19,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three teams: two play, first goal wins — one waits behind the goal, ball ready.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "Attack like every chance ends the game — a single goal decides it.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Goal! Winners stay, losers jog off — the waiters are already running on.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.5,
+   "text": "The waiting team restarts instantly — nobody stands for more than one game.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 39.79,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    12.95,
+    4.11
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.95,
+    14.63
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.95,
+    25.16
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.95,
+    35.26
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.95,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    11.47,
+    5.16
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.74,
+    16.74
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.79,
+    3.68
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    26.21,
+    22
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    19.89,
+    18.42
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.05,
+    31.89
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    20.95,
+    40.74
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   11.39,
+   5.5
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.68,
+    32.53
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    18.84,
+    40.32
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.19
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.05,
+    5.58
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.77,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.26,
+    23.47
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 8.03,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.91,
+    34.21
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 9.72,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.79
+  },
+  {
+   "t": 10.57,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.47,
+    26.84
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.9,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.58,
+    36.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.9,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    18.84,
+    38.21
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.29,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    16.32,
+    33.16
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 13.13,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    6.21,
+    39.26
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 18.69,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 19.51,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    15.89,
+    33.58
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 19.54,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.63,
+    38.84
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 20.41,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    20.53,
+    40.53
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 21.86,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    20.95,
+    42
+   ]
+  },
+  {
+   "t": 23.61,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    18.42,
+    38.63
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 26,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Winger receives to feet in the channel and holds it up — wait for the call.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "Full-back overlaps on the outside; the winger lets the run go by.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Release into the run — then deliver first time from the byline.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.75,
+   "text": "Two attackers arrive on different lines. Finish, then rotate all four roles.",
+   "hold": 2.5
+  }
+ ]
+}

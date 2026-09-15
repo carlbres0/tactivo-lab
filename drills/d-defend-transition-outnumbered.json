@@ -1,0 +1,199 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.25,
+  "length": 32
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.25,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.25,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.13,
+    32
+   ],
+   "width": 3.75,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.38,
+    17.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.88,
+    18.75
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.13,
+    9.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    5.13,
+    12
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    16.38,
+    12
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.13,
+   9.85
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    10.13,
+    14.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.48,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.88,
+    18.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.48,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.38,
+    17.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.2,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    16.38,
+    18.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.06,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.38,
+    17.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.06,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.88,
+    18.75
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two defenders face an extra attacker — the aim is delay, not the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Nearest defender shuffles ACROSS to his partner — never across his path.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Patience, not diving in — every second bought is a second closer to help.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Forced wide with no end product — that is a defensive win.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,327 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29.96,
+  "length": 47
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27.96,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.96,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    47
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    14.98,
+    47
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.98,
+    14.12
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    20.17,
+    19.31
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    9.79,
+    19.31
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    13.25,
+    7.19
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    8.06,
+    7.19
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    14.98,
+    45.62
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    14.98,
+    22.77
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    13.25,
+    26.23
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.01,
+   14.47
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.25,
+    40.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    6.33,
+    31.42
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.6,
+    36.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.17,
+    39.21
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.44,
+    33.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9.79,
+    36.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    15.85,
+    26.23
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.83,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.74
+  },
+  {
+   "t": 7.74,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.12,
+    29.69
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.19,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    16.71,
+    41.81
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.52,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 0.87
+  },
+  {
+   "t": 14.56,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    13.6,
+    45.44
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16.01,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    14.98,
+    47
+   ]
+  },
+  {
+   "t": 17.71,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    6.67,
+    32.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.76,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    10.13,
+    37.48
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 20.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     14.98,
+     24.5
+    ],
+    "w": 25.96,
+    "h": 45,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three attackers break; two midfielders join late from deep as the second wave.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "The first wave carries and switches wide — space opens down the line.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.25,
+   "text": "Cut back for the arriving second wave, not the box that is already covered.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.5,
+   "text": "Second wave finishes past the keeper — nobody stopped running.",
+   "hold": 2.5
+  }
+ ]
+}

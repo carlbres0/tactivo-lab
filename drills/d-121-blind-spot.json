@@ -1,0 +1,194 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16,
+  "length": 16
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.07,
+    7.33
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    10.27,
+    5.87
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.83,
+   7.59
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.33,
+    9.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.27,
+    10.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.58,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.2,
+    11.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.83,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.53,
+    12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.07,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    10.07,
+    10.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.32,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.2,
+    9.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.31,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    10.47,
+    8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.56,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.6,
+    6.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.95,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8,
+    5.87
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.53,
+    5.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.87,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    6.13,
+    5.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.12,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.67,
+    6
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 19,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The player dribbles freely; the coach wanders silently behind and beside.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "On the whistle, shout where he is — left, right, behind — no looking.",
+   "hold": 2.5
+  },
+  {
+   "t": 11,
+   "text": "Then a glance checks it. A right call scores.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.75,
+   "text": "The dribbling never stops between whistles.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12.1,
+  "length": 31
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10.1,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.1,
+    29
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    29
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.07,
+    2
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4.03,
+    2
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.07,
+   2.35
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.03,
+    29
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.35,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.03,
+    2
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.35,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.07,
+    29
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.89,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.03,
+    29
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 23.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs jog between the lines — high knees, heel flicks, side shuffles, open-the-gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Add a ball each: sole rolls travelling forward, inside-outside touches, drag-backs.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.75,
+   "text": "Finish with three rising-tempo runs building to eighty per cent pace.",
+   "hold": 2.5
+  }
+ ]
+}

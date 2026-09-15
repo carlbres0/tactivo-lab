@@ -1,0 +1,253 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.51,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.51,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.51,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.75,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    12.91,
+    40.62
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    24.17,
+    35.25
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    3.68,
+    35.92
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    24.84,
+    32.9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   23.85,
+   35.4
+  ]
+ },
+ "events": [
+  {
+   "t": 5.14,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.91,
+    31.39
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.47,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 10.79,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    24.5,
+    34.58
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.37,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    4.35,
+    35.42
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.62,
+   "type": "pass",
+   "from": "gk",
+   "to": "d2",
+   "flight": 0.79,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 17.77,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.91,
+    40.62
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 21.36,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    13.75,
+    31.89
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 23.6,
+   "type": "pass",
+   "from": "d2",
+   "to": "gk",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 23.84,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    22.15,
+    34.58
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 29.13,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.93,
+    30.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 30.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.43,
+    34.91
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 35.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.76,
+     22.15
+    ],
+    "w": 23.51,
+    "h": 40.3,
+    "label": "channel",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Crosses served from alternate channels — keeper starts on the line.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Call it early and loud — 'keeper's!' — before moving.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Attack the ball at its highest point, knee raised for protection.",
+   "hold": 2.5
+  },
+  {
+   "t": 25,
+   "text": "Catch clean, land balanced — eight per set; if not clean, punch high and wide.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

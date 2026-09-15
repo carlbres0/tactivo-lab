@@ -1,0 +1,252 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.7,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.85,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.85,
+    40
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.85,
+    9.63
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.63,
+    36.3
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.85,
+    15.56
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.41,
+    20
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.81,
+   9.98
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    17.11,
+    33.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.41,
+    13.93
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.3,
+    31.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    13.41,
+    13.63
+   ],
+   "flight": 2.7,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.67,
+    20
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.41,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 5.72,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    15.33,
+    24.44
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.92,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.22,
+    31.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.92,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.8
+  },
+  {
+   "t": 12.34,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    13.85,
+    40
+   ]
+  },
+  {
+   "t": 12.34,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    16.52,
+    34.52
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.09,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    17.7,
+    33.63
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 17.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Normal game — but the picture can flip in an instant.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Regain in our own third — now we're the attacking team.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Break immediately; the runner ahead is already sprinting.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Play them through — both blues are chasing the picture back.",
+   "hold": 2.5
+  }
+ ]
+}

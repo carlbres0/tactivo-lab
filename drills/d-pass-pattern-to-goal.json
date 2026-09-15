@@ -1,0 +1,215 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 33.09,
+  "length": 52
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8.36,
+    8.36
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.64,
+    24.73
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.73,
+    42.91
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.55,
+    33.82
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.55,
+    52
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.27,
+    9.27
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.73,
+    25.64
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    23.82,
+    43.82
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    7.45,
+    34.73
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.38,
+   9.6
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.73
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.45,
+    18.36
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 2.46,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    14.73,
+    47.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.93,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.8,
+   "firstTime": true
+  },
+  {
+   "t": 6.63,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 2.83
+  },
+  {
+   "t": 9.46,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.98,
+   "firstTime": true
+  },
+  {
+   "t": 9.62,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12,
+    19.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.84,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    16.55,
+    52
+   ],
+   "firstTime": true
+  },
+  {
+   "t": 10.6,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    22.91,
+    44.73
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.59,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    15.64,
+    49.27
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Fixed pattern from the back: centre-back plays into the midfielder.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "The set-back comes first time — the centre-back has already stepped in for it.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Ball goes wide; the wide player sets it across first time.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "Cut-back along the floor, one-touch finish — the run arrives as the ball does.",
+   "hold": 2.5
+  }
+ ]
+}

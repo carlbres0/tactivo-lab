@@ -1,0 +1,180 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.67,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    4.56,
+    5.06
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.56,
+    7.28
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.56,
+    10.06
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    5.33,
+    2.28
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    5.91,
+    4.58
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   5.82,
+   4.24
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "gk",
+   "to": "n1",
+   "flight": 0.4,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 4.55,
+   "type": "pass",
+   "from": "n1",
+   "to": "gk",
+   "flight": 0.85,
+   "style": "throw",
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 10.65,
+   "type": "pass",
+   "from": "gk",
+   "to": "n1",
+   "flight": 0.4
+  },
+  {
+   "t": 14.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    5.56,
+    7.28
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 16.37,
+   "type": "pass",
+   "from": "n1",
+   "to": "gk",
+   "flight": 0.87
+  },
+  {
+   "t": 17.41,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    6,
+    2.28
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 21.21,
+   "type": "pass",
+   "from": "gk",
+   "to": "n1",
+   "flight": 0.51
+  },
+  {
+   "t": 25.36,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    6.89,
+    6.39
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 25.63,
+   "type": "pass",
+   "from": "n1",
+   "to": "gk",
+   "flight": 0.85,
+   "style": "throw",
+   "flightStyle": "lofted",
+   "loft": 3
+  }
+ ],
+ "duration": 32.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Throw-catch ladder: W-hands above the chest, cup below — eyes through the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.75,
+   "text": "Catches clean? Step back a mark — harder throw in, faster return out.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.25,
+   "text": "Kick-serve rounds: the server passes in, gather it at the feet, both sides.",
+   "hold": 2.5
+  },
+  {
+   "t": 26,
+   "text": "Ten reaction catches thrown high — attack the drop at full stretch.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

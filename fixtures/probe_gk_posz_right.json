@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "pitch": {
+    "width": 20,
+    "length": 30
+  },
+  "equipment": [
+    {
+      "type": "goal",
+      "at": [
+        10,
+        0
+      ]
+    }
+  ],
+  "teams": {
+    "blue": {
+      "kit": {
+        "primary": "#FFFFFF"
+      }
+    },
+    "gold": {
+      "kit": {
+        "primary": "#E8B93B"
+      }
+    }
+  },
+  "players": [
+    {
+      "id": "p1",
+      "team": "blue",
+      "number": 9,
+      "start": [
+        10,
+        4
+      ]
+    },
+    {
+      "id": "gk",
+      "team": "gold",
+      "number": 1,
+      "start": [
+        10,
+        0.4
+      ],
+      "role": "keeper"
+    }
+  ],
+  "ball": {
+    "start": [
+      10,
+      4.35
+    ]
+  },
+  "events": [
+    {
+      "t": 1.5,
+      "type": "shoot",
+      "player": "p1",
+      "at": [
+        8.5,
+        0
+      ]
+    }
+  ],
+  "duration": 6
+}

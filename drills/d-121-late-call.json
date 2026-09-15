@@ -1,0 +1,151 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.67,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8.75,
+    13.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.17,
+    17.91
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.17,
+    20.18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.17,
+    6.54
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.17,
+    8.82
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.25,
+    13.33
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    5.33,
+    23.58
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.6,
+   13.32
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.59,
+    12.79
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.64,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.67,
+    9.83
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.19,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    15.33,
+    7.67
+   ],
+   "flight": 0.4,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 7.04,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.83,
+    12
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two coloured gates ahead — the player dribbles at them from fifteen metres.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Nothing is called until the ball reaches the decision cone, five metres out.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "\"RED!\" — only now. Adjust and finish through the called gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Straight back for the next ball; the cone creeps closer every week.",
+   "hold": 2.5
+  }
+ ]
+}

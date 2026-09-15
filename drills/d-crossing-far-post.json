@@ -1,0 +1,244 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 38.94
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    38.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    38.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    39.61,
+    38.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    32.9,
+    38.94
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    38.94
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.34,
+    10.06
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    36.59,
+    6.37
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.82,
+    37.6
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   3.27,
+   10.4
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    35.58,
+    7.04
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    2.67,
+    13.42
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.3,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.01,
+    14.09
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.88,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    33.57,
+    34.24
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.88,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    23.49,
+    36.93
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.96,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2.3,
+   "flightStyle": "lofted",
+   "loft": 6.5
+  },
+  {
+   "t": 11.81,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.72,
+    18.12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.87,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    22.15,
+    38.94
+   ]
+  },
+  {
+   "t": 14.87,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    24.84,
+    36.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16.62,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    29.54,
+    35.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 19.35,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    30.88,
+    35.25
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 22.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every cross must land beyond the far post, past the keeper's reach.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Floated delivery clears the keeper and drops beyond the far post.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Attacker holds the run — attacking from the far side, arriving late.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.5,
+   "text": "Finish in the far-post zone — ten crosses per side, count the hits.",
+   "hold": 2.5
+  }
+ ]
+}

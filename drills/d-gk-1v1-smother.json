@@ -1,0 +1,189 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19.91,
+  "length": 27
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.91,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.91,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    9.95,
+    27
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    9.95,
+    25.64
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.95,
+    3.14
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.95,
+   3.49
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    9.95,
+    15.86
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.51,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    9.95,
+    18.14
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 4.49,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    9.95,
+    16.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.56,
+   "type": "tackle",
+   "player": "gk",
+   "from": "d1"
+  },
+  {
+   "t": 10.49,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.45,
+    16.55
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.49,
+   "type": "shoot",
+   "player": "gk",
+   "at": [
+    11.32,
+    3.36
+   ],
+   "flight": 1.34,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Your keeper gets a decision to make on every repetition, close, hold or spread.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 2.5,
+   "text": "A striker breaks clear and runs at the goal.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 8.75,
+   "text": "The keeper chooses. Close fast while the ball's travelling, then slow and set as the striker looks up.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 10.25,
+   "text": "Spread big and low only once the ball's beyond the striker's control.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 13.5,
+   "text": "Eight goes, then rest.",
+   "hold": 1.47,
+   "beat": "take"
+  },
+  {
+   "t": 17,
+   "text": "Too easy, the striker can pass to a supporting attacker. Too hard, start them closer, first time shot.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

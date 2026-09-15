@@ -1,0 +1,320 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 29.71
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    29.71
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    29.71
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    29.71
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    41.04,
+    28.7
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    38.52,
+    22.15
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    22.15,
+    12.08
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    19.63,
+    12.08
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    34.74,
+    18.37
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    23.41,
+    15.85
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    24.67,
+    25.93
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   40.91,
+   28.37
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    18.37,
+    15.85
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    24.67,
+    17.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    25.93,
+    25.42
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    24.67,
+    17.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.7
+  },
+  {
+   "t": 2.07,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    39.78,
+    25.93
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.07,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    37.77,
+    21.65
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.52,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.63,
+   "flightStyle": "lofted",
+   "loft": 3.24
+  },
+  {
+   "t": 4.22,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    38.52,
+    24.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.83,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    37.26,
+    21.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.31,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    37.77,
+    21.65
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.31,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    17.62,
+    16.61
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.76,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    22.15,
+    29.71
+   ]
+  },
+  {
+   "t": 8.51,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    25.17,
+    18.37
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22.15,
+     15.86
+    ],
+    "w": 40.3,
+    "h": 27.71,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A corner routine worth having, and it works by moving one defender out.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 1.75,
+   "text": "Two players at the corner, the rest set in the box.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 4,
+   "text": "The short ball drags a defender out, and that opens the cross.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 5,
+   "text": "Three versions, the return cross, the drive inside, the pull back to the edge.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 6,
+   "text": "Nobody in the box moves until the second pass. Eight corners a side.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 11.5,
+   "text": "Too easy, defenders send two out to the short corner. Too hard, defenders ignore it completely.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ]
+}

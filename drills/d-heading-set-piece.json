@@ -1,0 +1,207 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 38.94
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    38.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    38.94
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    38.94
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    40.73,
+    38.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.08,
+    15.43
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.75,
+    17.11
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    37.26
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   40.46,
+   38.28
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    22.15,
+    22.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.7,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    24.84,
+    24.84
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 5.86,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.94,
+   "flightStyle": "lofted",
+   "loft": 4.61
+  },
+  {
+   "t": 7.26,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    24.84,
+    35.58
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.96,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    22.15,
+    38.94
+   ],
+   "header": true
+  },
+  {
+   "t": 8.41,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    22.82,
+    21.48
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22.15,
+     20.47
+    ],
+    "w": 40.3,
+    "h": 36.94,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Corner delivered to the near post — attacker starts outside the six-yard box.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Attacker times the run onto the ball, arriving ahead of the marker.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Header flicked goalward — keeper commands the near post.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Header finds the net — count it, then rotate for the next delivery.",
+   "hold": 2.5
+  }
+ ]
+}

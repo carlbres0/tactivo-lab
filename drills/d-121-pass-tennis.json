@@ -1,0 +1,158 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12.75,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    9.5,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.63,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.75,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.87,
+    12
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.37,
+    6.4
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6.91,
+    16.93
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.39,
+   6.75
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "n1",
+   "flight": 1.05
+  },
+  {
+   "t": 2.42,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.71,
+    7.87
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.87,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.91
+  },
+  {
+   "t": 4.72,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.31,
+    16.53
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.72,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8.11,
+    16.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.39,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    5.04,
+    20.13
+   ],
+   "flight": 1.25,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 9.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A line of flat cones is the net; player and coach take a court each.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Pass the ball over — through — the net, then control and return in two touches.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "The coach plays honestly, and the rally makes a hundred passes feel like none.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "A ball stopping dead, or leaving the court, loses the point. First to seven.",
+   "hold": 2.5
+  }
+ ]
+}

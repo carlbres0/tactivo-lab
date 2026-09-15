@@ -1,0 +1,106 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8.25,
+    15.75
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.75,
+    15.75
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    3.89,
+    4.5
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7,
+    9.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.07,
+   4.8
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.59
+  },
+  {
+   "t": 3.41,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7,
+    16.83
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A finish gate ten metres away, the coach serving in from the side.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Cushion the serve one touch INTO space — never under your feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Then burst: three touches maximum to clear the gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Through before 'three' scores it. Ten serves a set.",
+   "hold": 2.5
+  }
+ ]
+}

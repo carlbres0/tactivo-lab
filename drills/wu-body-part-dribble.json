@@ -1,0 +1,338 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16.5,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12,
+    4.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    3.25,
+    7
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    2,
+    17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    12,
+    19.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.91,
+   4.84
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.75,
+      7.63
+     ]
+    },
+    {
+     "t": 4.55,
+     "at": [
+      7.25,
+      12
+     ]
+    },
+    {
+     "t": 6.5,
+     "at": [
+      7.25,
+      12
+     ]
+    },
+    {
+     "t": 8.45,
+     "at": [
+      7.25,
+      12
+     ]
+    },
+    {
+     "t": 13,
+     "at": [
+      13.75,
+      20.13
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      2.38,
+      16.38
+     ]
+    },
+    {
+     "t": 4.55,
+     "at": [
+      5,
+      11.63
+     ]
+    },
+    {
+     "t": 6.5,
+     "at": [
+      5,
+      11.63
+     ]
+    },
+    {
+     "t": 8.45,
+     "at": [
+      5,
+      11.63
+     ]
+    },
+    {
+     "t": 13,
+     "at": [
+      9.88,
+      2.63
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a4",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      11.5,
+      20.13
+     ]
+    },
+    {
+     "t": 4.55,
+     "at": [
+      9.25,
+      17
+     ]
+    },
+    {
+     "t": 6.5,
+     "at": [
+      9.25,
+      17
+     ]
+    },
+    {
+     "t": 8.45,
+     "at": [
+      9.25,
+      17
+     ]
+    },
+    {
+     "t": 13,
+     "at": [
+      4.25,
+      8.88
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.75,
+    11.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.63,
+    12.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9.75,
+    16.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.31,
+    10.75
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.08,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.25,
+    15.13
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.84,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.5,
+    16.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.84,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.25,
+    19.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.84,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.5,
+    3.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.84,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    4.75,
+    8.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.65,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10,
+    21.38
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Ball each, dribbling freely inside the area.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "On a call, stop the ball dead with the named body part — sole, knee, elbow, head.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Between calls, ask for a specific surface: inside, outside, laces.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Make the last two calls silly on purpose — this is the fun slot.",
+   "hold": 2.5
+  }
+ ]
+}

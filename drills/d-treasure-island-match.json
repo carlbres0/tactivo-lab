@@ -1,0 +1,379 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 28,
+  "length": 30
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    14,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    14,
+    30
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.4,
+    8.33
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.2,
+    14.33
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    17.6,
+    20.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.47,
+    11.93
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    11.6,
+    17.93
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12.67,
+    24.33
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    5.33,
+    13.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.43,
+   8.68
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      10.27,
+      1.67
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      10.27,
+      3.13
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      19.47,
+      26.87
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      19.47,
+      28.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      17.73,
+      27.6
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.53,
+      2.4
+     ]
+    },
+    {
+     "t": 6.48,
+     "at": [
+      8.53,
+      2.4
+     ]
+    },
+    {
+     "t": 8.64,
+     "at": [
+      8.27,
+      3.27
+     ]
+    },
+    {
+     "t": 12.24,
+     "at": [
+      6.93,
+      8.87
+     ]
+    },
+    {
+     "t": 15.3,
+     "at": [
+      5.87,
+      15.53
+     ]
+    },
+    {
+     "t": 18,
+     "at": [
+      5.33,
+      21.27
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.8,
+    17.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.8,
+    14.47
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.47,
+    20.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    14,
+    26.47
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    4.8,
+    7.53
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 1.21
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.73,
+    11.53
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.3,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    7.73,
+    3.53
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    8,
+    4.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.8,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    14,
+    30
+   ]
+  },
+  {
+   "t": 7.97,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    5.07,
+    22.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.55,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.8,
+    22.73
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     9.4,
+     2.4
+    ],
+    "w": 3.6,
+    "h": 3.6,
+    "color": "technical",
+    "label": "treasure"
+   },
+   {
+    "at": [
+     18.6,
+     27.6
+    ],
+    "w": 3.6,
+    "h": 3.6,
+    "color": "tactical",
+    "label": "treasure"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A normal match to two goals — each team guards a pile of treasure beside its goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Score by goal for one point, or steal the treasure and dribble it home for three.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Only one raider may be on a treasure island at a time.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.5,
+   "text": "Stolen treasure is replaced; the match never stops for a raid.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.01,
+  "length": 11
+ },
+ "equipment": [],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    6.48,
+    2.99
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.48,
+    8.01
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    3.53,
+    2.99
+   ]
+  },
+  {
+   "id": "gk2",
+   "team": "gold",
+   "number": 2,
+   "start": [
+    3.53,
+    8.01
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   6.48,
+   7.66
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.53,
+      3.17
+     ]
+    },
+    {
+     "t": 2,
+     "at": [
+      3.53,
+      3.17
+     ]
+    },
+    {
+     "t": 4.6,
+     "at": [
+      3.53,
+      7.78
+     ]
+    },
+    {
+     "t": 6.2,
+     "at": [
+      3.53,
+      7.78
+     ]
+    },
+    {
+     "t": 8.6,
+     "at": [
+      3.53,
+      3.23
+     ]
+    },
+    {
+     "t": 10,
+     "at": [
+      3.53,
+      3.23
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "gk",
+   "flight": 0.66,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 5.83,
+   "type": "pass",
+   "from": "gk",
+   "to": "a1",
+   "flight": 0.5
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     6.48,
+     2.5
+    ],
+    "w": 0.99,
+    "h": 0.99,
+    "color": "technical",
+    "label": "castle"
+   },
+   {
+    "at": [
+     6.48,
+     8.5
+    ],
+    "w": 0.99,
+    "h": 0.99,
+    "color": "tactical",
+    "label": "castle"
+   },
+   {
+    "at": [
+     3.53,
+     2.5
+    ],
+    "w": 1,
+    "h": 0.99,
+    "color": "physical",
+    "label": "castle"
+   },
+   {
+    "at": [
+     3.53,
+     8.5
+    ],
+    "w": 1,
+    "h": 0.99,
+    "color": "social",
+    "label": "castle"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs, one small cone castle each, five metres apart.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Serve by throw or kick, trying to hit your partner's castle.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "They save with hands — every save is a point for the keeper.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Five serves, then swap: everyone is a keeper every minute.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

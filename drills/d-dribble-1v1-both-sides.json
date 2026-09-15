@@ -1,0 +1,251 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19.2
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    11,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    11
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    11
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    9.5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.5,
+    7.7
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.27,
+   9.23
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.95,
+    6.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.6,
+    6.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.18,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.9,
+    3.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.43,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.75,
+    1.1
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.87,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.2,
+    4.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.12,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.75,
+    9.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.94,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.5,
+    11.3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.49,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.55,
+    12.8
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.76,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.4,
+    12.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.68,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.75,
+    17.9
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.24,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.1,
+    14.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.8,
+    15.5
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 16.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Attacker faces the defender in the middle — a gate marked on every side.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Beat them through the left gate first — defender starts two metres off.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Reset to the centre without delay.",
+   "hold": 2.27
+  },
+  {
+   "t": 9,
+   "text": "Now beat them through the right gate — no favourite side, both count.",
+   "hold": 2.5
+  }
+ ]
+}

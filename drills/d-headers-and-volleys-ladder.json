@@ -1,0 +1,112 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.06,
+    3.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    5.06,
+    6.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.06,
+   3.68
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "d1",
+   "flight": 0.4,
+   "style": "throw",
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 4.5,
+   "type": "pass",
+   "from": "d1",
+   "to": "a1",
+   "flight": 0.4,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 6.52,
+   "type": "pass",
+   "from": "a1",
+   "to": "d1",
+   "flight": 0.4,
+   "style": "throw",
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 9.82,
+   "type": "pass",
+   "from": "d1",
+   "to": "a1",
+   "flight": 0.4,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs, one server one header, five metres apart.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "Serve underarm; head it back to the server's hands.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Chest, waist, then a bouncing serve — five clean headers climbs a rung.",
+   "hold": 2.5
+  },
+  {
+   "t": 11,
+   "text": "Swap jobs every rung; no defenders, no goals yet.",
+   "hold": 2.5
+  }
+ ]
+}

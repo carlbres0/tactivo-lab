@@ -1,0 +1,347 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 34,
+  "length": 34
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    24,
+    8.67
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    29.33,
+    5.67
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5,
+    29
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    29.33,
+    30
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    5,
+    5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17,
+   17
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      17,
+      18.2
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      16.06,
+      17.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      15.83,
+      16.73
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      16.48,
+      15.92
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      17.52,
+      15.92
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      18.17,
+      16.73
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      17.94,
+      17.75
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.03,
+    15.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    28.67,
+    6.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.67,
+    28.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    28,
+    30.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    5.67,
+    5.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.6,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    25,
+    29.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.66,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 8.26,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    17.34,
+    15.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.26,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    29.67,
+    5.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.26,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5,
+    29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.26,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    5,
+    5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.51,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    26.27,
+    6.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.04,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    18.37,
+    18.37
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     29,
+     5
+    ],
+    "w": 4.5,
+    "h": 4.5,
+    "color": "technical",
+    "label": "nest"
+   },
+   {
+    "at": [
+     29,
+     29
+    ],
+    "w": 4.5,
+    "h": 4.5,
+    "color": "tactical",
+    "label": "nest"
+   },
+   {
+    "at": [
+     5,
+     5
+    ],
+    "w": 4.5,
+    "h": 4.5,
+    "color": "physical",
+    "label": "nest"
+   },
+   {
+    "at": [
+     5,
+     29
+    ],
+    "w": 4.5,
+    "h": 4.5,
+    "color": "social",
+    "label": "nest"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four corner nests, and every ball piled in the middle.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Dribble one ball at a time back to your own nest — never carry it.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "When the middle is empty, steal from any other nest.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.25,
+   "text": "Ninety seconds, count your nest, play again.",
+   "hold": 2.5
+  }
+ ]
+}

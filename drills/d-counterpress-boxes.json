@@ -1,0 +1,302 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 27.4
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22,
+    5.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22,
+    25.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    5.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    25.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14,
+    5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10,
+    5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14,
+    25.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10,
+    25.8
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18,
+    11.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    18,
+    21.4
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6,
+    21.4
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.6,
+    11.4
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12,
+    16.4
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    7.6,
+    13.4
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    9.6,
+    22.6
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.67,
+   11.53
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.4,
+    14.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    10.4,
+    14.4
+   ],
+   "flight": 0.82,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 2.19,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17,
+    13.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.79,
+   "type": "collect",
+   "player": "d1"
+  },
+  {
+   "t": 4.24,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    12,
+    9.4
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.24,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    7.6,
+    9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.78,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14,
+    15.4
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.78,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10,
+    16.4
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.78,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    10,
+    21.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.81,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    12,
+    1.8
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.19,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8,
+    12.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.65,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    11.2,
+    7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.85,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.2,
+    5.8
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four keep the ball in the box; three defenders hunt as a pack.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Trigger: the diagonal pass is cut out — a clean win for the defence.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Five seconds to escape: he drives AT the gate, ball under control.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Out through the gate with the ball — the counter-press was a step late.",
+   "hold": 2.5
+  }
+ ]
+}

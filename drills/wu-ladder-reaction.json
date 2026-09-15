@@ -1,0 +1,359 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.07,
+  "length": 12.33
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    5.04,
+    4.52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.04,
+    5.26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.04,
+    6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.04,
+    6.74
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.56,
+    9.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.04,
+    9.85
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.52,
+    9.7
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.04,
+    3.48
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5.04,
+    2.81
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.04,
+    2.15
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    3.63,
+    11.19
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   3.63,
+   10.84
+  ]
+ },
+ "events": [
+  {
+   "t": 0.88,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.15,
+    4.52
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.1,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.04,
+    3.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.1,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.04,
+    2.81
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.36,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.93,
+    5.26
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 4.14,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.15,
+    6
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 5.92,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.93,
+    6.74
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 6.05,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    3.93,
+    4.52
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.05,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.04,
+    3.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.53,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.15,
+    5.26
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.7,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.04,
+    7.78
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.19,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.67,
+    9.04
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.31,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    3.93,
+    6
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.91,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.39,
+    8.02
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.09,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.15,
+    6.74
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 12.28,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.19,
+    4.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.87,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.04,
+    7.78
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.49,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.59,
+    3.26
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16.25,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.04,
+    2.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16.25,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    3.63,
+    8.74
+   ],
+   "flight": 2.11,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 16.25,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    3.63,
+    8.74
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 18.07,
+   "type": "collect",
+   "player": "a2"
+  },
+  {
+   "t": 20.18,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    2.89,
+    10.81
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 23.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Quick feet through the ladder — one pattern per round: single, lateral, in-in-out.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Last rung: the coach calls a colour — sprint through that cone.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.75,
+   "text": "Jog back down the outside; the next runner is already on the ladder.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.75,
+   "text": "Final rounds: the coach rolls a ball in — sprint onto it and dribble clear.",
+   "hold": 2.5
+  }
+ ]
+}

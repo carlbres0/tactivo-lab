@@ -1,0 +1,254 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.6,
+  "length": 16
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.6,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8,
+    14
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.6,
+    14
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.8,
+    5.6
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.8,
+    10.4
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.96,
+   5.91
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.8,
+      10.4
+     ]
+    },
+    {
+     "t": 1.73,
+     "at": [
+      7.4,
+      9.2
+     ]
+    },
+    {
+     "t": 3.45,
+     "at": [
+      6.8,
+      10.4
+     ]
+    },
+    {
+     "t": 5.18,
+     "at": [
+      6.2,
+      9.2
+     ]
+    },
+    {
+     "t": 6.9,
+     "at": [
+      6.8,
+      10.4
+     ]
+    },
+    {
+     "t": 9.78,
+     "at": [
+      6.8,
+      13.4
+     ]
+    },
+    {
+     "t": 11.5,
+     "at": [
+      6.8,
+      13.4
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.4,
+    9.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.4,
+    6.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.48,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.8,
+    10.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.73,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.8,
+    5.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.2,
+    9.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.25,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.2,
+    6.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.53,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.8,
+    10.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.78,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.8,
+    5.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.06,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.8,
+    13.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.31,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.8,
+    2.6
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs face each other with a ball each, three metres apart.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "One leads with a move — step-over, drag-back, feint — the partner copies.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "On the call, both drop the mirror and race to dribble through their own end gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.75,
+   "text": "Swap the leader every minute.",
+   "hold": 1.93
+  }
+ ]
+}

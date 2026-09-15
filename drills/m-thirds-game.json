@@ -1,0 +1,270 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29.71,
+  "length": 47
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    16.95
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    16.95
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    32.05
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32.05
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    14.86,
+    47
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.86,
+    8.43
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.86,
+    22.89
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    18.07,
+    34.14
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    10.04,
+    35.75
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    14.05,
+    26.11
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    16.46,
+    42.18
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.86,
+   8.78
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    11.64,
+    40.57
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.86,
+    25.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    17.27,
+    41.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    18.07,
+    38.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.45
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.54,
+    9.23
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.27,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.64
+  },
+  {
+   "t": 5.12,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.66,
+    24.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.52,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    18.88,
+    44.59
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.21,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    18.39,
+    46.36
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A goal only counts if the ball was first received in the middle third.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Build-up must go through the middle — no long clearance skips it.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Once received there, the ball can go forward into the final third.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "Players move freely; only the ball's path through the middle is restricted.",
+   "hold": 2.5
+  }
+ ]
+}

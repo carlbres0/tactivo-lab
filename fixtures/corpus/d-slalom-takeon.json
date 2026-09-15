@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "pitch": { "width": 12, "length": 28 },
+  "equipment": [
+    { "type": "cone", "at": [5, 4.5] }, { "type": "cone", "at": [7, 7.5] },
+    { "type": "cone", "at": [5, 10.5] }, { "type": "cone", "at": [7, 13.5] },
+    { "type": "cone", "at": [5, 16.5] }, { "type": "cone", "at": [7, 19.5] }
+  ],
+  "teams": {
+    "white": { "kit": { "primary": "#FFFFFF" } },
+    "blue":  { "kit": { "primary": "#7aa2ff" } }
+  },
+  "players": [
+    { "id": "p1", "team": "white", "number": 10, "start": [6, 1.5] },
+    { "id": "x1", "team": "blue",  "number": 4,  "start": [6, 23.5] }
+  ],
+  "ball": { "start": [6, 1.85] },
+  "events": [
+    { "t": 1.0,   "type": "dribble", "player": "p1", "to": [4.2, 6],    "gait": "jog" },
+    { "t": 3.8,   "type": "dribble", "player": "p1", "to": [7.8, 9],    "gait": "jog" },
+    { "t": 6.5,   "type": "dribble", "player": "p1", "to": [4.2, 12],   "gait": "jog" },
+    { "t": 9.2,   "type": "dribble", "player": "p1", "to": [7.8, 15],   "gait": "jog" },
+    { "t": 11.9,  "type": "dribble", "player": "p1", "to": [4.4, 18],   "gait": "jog" },
+    { "t": 14.55, "type": "dribble", "player": "p1", "to": [5.2, 21.5], "gait": "jog" },
+    { "t": 16.8,  "type": "dribble", "player": "p1", "to": [7.6, 24.8], "gait": "run" },
+    { "t": 17.0,  "type": "move",    "player": "x1", "to": [4.6, 24.6], "gait": "jog" },
+    { "t": 18.9,  "type": "dribble", "player": "p1", "to": [6.4, 27.2], "gait": "jog" }
+  ],
+  "duration": 23,
+  "overlays": {
+    "zones": [
+      { "at": [6, 26.9], "w": 9, "h": 1.8, "color": "physical", "label": "score" }
+    ]
+  }
+}

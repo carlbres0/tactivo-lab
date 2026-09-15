@@ -1,0 +1,181 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7,
+    7
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.5,
+    4.94
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.5,
+    9.06
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7,
+    11.06
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    3.5,
+    9.06
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    3.5,
+    4.94
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    7,
+    2.94
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.33,
+    7.94
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.3,
+   3.11
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.56,
+    6.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a6",
+   "to": "a1",
+   "flight": 0.4
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    6.11,
+    3.44
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.22,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.22,
+    6.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.22,
+   "type": "pass",
+   "from": "a1",
+   "to": "a4",
+   "flight": 0.81
+  },
+  {
+   "t": 4.07,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.89,
+    5.44
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 7.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A rondo circle with a small cone volcano in the middle, beside the defender.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "Outside players keep the ball off the one defender — normal rondo rules.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Round the circle counts one.",
+   "hold": 1.87
+  },
+  {
+   "t": 5,
+   "text": "But any pass THROUGH the middle past the volcano counts five.",
+   "hold": 2.5
+  }
+ ]
+}

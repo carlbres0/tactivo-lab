@@ -1,0 +1,107 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.43,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    6.29,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.14,
+    17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.21,
+    4.14
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5.21,
+    29.86
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.21,
+   4.49
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2.57
+  },
+  {
+   "t": 5.39,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 2.57
+  },
+  {
+   "t": 9.57,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2.14,
+   "flightStyle": "clipped",
+   "loft": 4
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs start twenty metres apart and pass along the ground with the inside of the foot.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Step back five metres every two minutes; switch to the instep as the distance grows.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "The receiver kills the ball with one touch and returns with the second.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Finish at maximum range, clipped over a cone gate midway.",
+   "hold": 2.5
+  }
+ ]
+}

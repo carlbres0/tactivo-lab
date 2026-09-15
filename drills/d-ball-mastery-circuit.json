@@ -1,0 +1,111 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.5,
+    2.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.5,
+    7.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.5,
+    2.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.5,
+    7.5
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    4.17
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.22,
+   4.44
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.5,
+    6
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     5,
+     5
+    ],
+    "w": 5,
+    "h": 5,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Ball each — 45 seconds per move: toe taps, sole rolls, inside-outside, V-drags.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Both feet, every move — count touches and beat your own score each round.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "The V-drag pulls the ball behind the body before accelerating away.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Progression: carry the same moves travelling forward across the box.",
+   "hold": 2.5
+  }
+ ]
+}

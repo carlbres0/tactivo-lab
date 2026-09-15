@@ -1,0 +1,255 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    20.46
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    35.85
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.08,
+    22
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    21.85,
+    30.15
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    17.38,
+    18.92
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    19.69,
+    25.85
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    12,
+    20.46
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.3,
+   22.27
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.15,
+    23.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    21.23,
+    30.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12.62,
+    25.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 1.06
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.54,
+    20.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.98,
+   "type": "collect",
+   "player": "a2"
+  },
+  {
+   "t": 5.43,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    15.38,
+    23.85
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.46,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12,
+    28.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.1,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.31,
+    22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.05,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.55
+  },
+  {
+   "t": 9.9,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.77,
+    24.77
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22,
+     28.16
+    ],
+    "w": 6.16,
+    "h": 15.39,
+    "color": "technical",
+    "label": "TRAP"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Build-up team shows the ball out toward the touchline — the trap is being set.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Pressers show inside, cutting the return ball; nobody presses from outside in.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Trap springs — win it against the line as a team, not alone.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Keep it away from the line; that's two points banked inside the trap zone.",
+   "hold": 2.5
+  }
+ ]
+}

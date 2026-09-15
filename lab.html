@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3D scale lab</title>
+<!-- One-tap page for the scale spike: every button opens the dev harness
+     (index.html) with the right switches. Links are RELATIVE so this file
+     works on the vite dev server and under /tactivo-staging/engine3d/. -->
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0B0F10; color: #fff; font: 15px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif; padding: 16px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  p.sub { margin: 0 0 16px; color: #8D949B; font-size: 15px; }
+  label { display: block; color: #8D949B; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; margin: 14px 0 6px; }
+  select, input[type=range] { width: 100%; }
+  select { font-size: 15px; padding: 12px; border-radius: 10px; background: #171B1F; color: #fff; border: 1px solid #2A3036; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  a.btn, button.btn { display: block; text-decoration: none; text-align: center; padding: 16px 10px; border-radius: 12px;
+    background: #171B1F; color: #fff; border: 1px solid #2A3036; font-size: 15px; font-weight: 700; }
+  a.btn small { display: block; color: #8D949B; font-weight: 400; font-size: 11px; margin-top: 2px; }
+  a.btn.rec { background: #C8F323; color: #0B0F10; border-color: #C8F323; }
+  a.btn.rec small { color: #3a4148; }
+  a.btn.off { opacity: .35; pointer-events: none; }
+  .row { display: flex; gap: 10px; align-items: center; }
+  .row output { min-width: 3.5em; text-align: right; font-variant-numeric: tabular-nums; }
+  .chk { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+  .chk input { width: 22px; height: 22px; }
+  button.go { margin-top: 12px; background: #C8F323; color: #0B0F10; border: 0; width: 100%; font-size: 15px; }
+  .note { color: #8D949B; font-size: 11px; margin-top: 18px; }
+</style>
+</head>
+<body>
+<h1>3D scale lab</h1>
+<p class="sub">Pick a drill, tap a variant. Same engine, only the switch changes.</p>
+
+<a class="btn rec" href="./presets.html" style="margin-bottom:4px">Rate the 20 presets<small>pictures only — flick, star, note</small></a>
+
+<label for="drill">Drill</label>
+<select id="drill"></select>
+
+<label>The eight from the sheets</label>
+<div class="grid" id="variants"></div>
+
+<label>Or set it yourself</label>
+<div class="row"><span>Players</span><input type="range" id="bs" min="1" max="2" step="0.1" value="1.4"><output id="bsv">×1.4</output></div>
+<div class="row"><span>Camera</span><input type="range" id="el" min="20" max="85" step="5" value="38"><output id="elv">38°</output></div>
+<div class="chk"><input type="checkbox" id="fp" checked><label for="fp" style="margin:0;text-transform:none;letter-spacing:0;font-size:inherit;color:#fff">Keep the whole card in frame</label></div>
+<button class="btn go" id="go">Open</button>
+
+<p class="note">The trimmed-margin and 7-a-side-cap variants are only pre-built for the four spike drills; they grey out for the rest. Elev 85 is top-down.</p>
+
+<script>
+  // The four drills the spike pre-built margin/cap fixtures for.
+  var SPIKE = ["d-rondo-4v2", "d-y-pattern-passing", "d-clipped-switch", "d-defend-box-3v3"];
+  var V = [
+    ["As today", "true size", ""],
+    ["Bodies ×1.4", "", "&bodyscale=1.4"],
+    ["Bodies ×1.8", "recommended", "&bodyscale=1.8", "rec"],
+    ["Margin 1 m + ×1.4", "spike fixture", "m1&bodyscale=1.4", "fx"],
+    ["Higher camera + ×1.4", "elev 55", "&bodyscale=1.4&elev=55"],
+    ["Top-down + ×1.4", "elev 85", "&bodyscale=1.4&elev=85&az=0"],
+    ["7-a-side cap", "spike fixture", "cap55", "fx"],
+    ["Cap + ×1.4", "spike fixture", "cap55&bodyscale=1.4", "fx"],
+    ["Card framed + ×1.4", "whole pitch in frame", "&bodyscale=1.4&framepitch=1"],
+    ["Card framed + ×1.8", "whole pitch in frame", "&bodyscale=1.8&framepitch=1", "rec"]
+  ];
+  var sel = document.getElementById("drill"), grid = document.getElementById("variants");
+  function opt(key, label) { var o = document.createElement("option"); o.value = key; o.textContent = label || key; sel.appendChild(o); }
+  SPIKE.forEach(function (k) { opt(k, k + "  (spike drill)"); });
+  fetch("drills/index.json").then(function (r) { return r.json(); }).then(function (rows) {
+    rows.forEach(function (d) { if (SPIKE.indexOf(d.key) < 0) opt(d.key); });
+  }).catch(function () {});
+  function href(v) {
+    var key = sel.value, spike = SPIKE.indexOf(key) >= 0;
+    if (v[3] === "fx") {
+      if (!spike) return null;
+      var m = v[2].match(/^(m1|cap55)(.*)$/);
+      return "./?fixture=spike/" + key + "-" + m[1] + m[2] + "&framepitch=1";
+    }
+    return "./?drill=" + key + v[2];
+  }
+  function render() {
+    grid.innerHTML = "";
+    V.forEach(function (v) {
+      var a = document.createElement("a"); a.className = "btn" + (v[3] === "rec" ? " rec" : "");
+      var h = href(v); if (h) a.href = h; else a.className += " off";
+      a.innerHTML = v[0] + "<small>" + v[1] + "</small>";
+      grid.appendChild(a);
+    });
+  }
+  sel.addEventListener("change", render); render();
+  var bs = document.getElementById("bs"), el = document.getElementById("el");
+  bs.oninput = function () { document.getElementById("bsv").textContent = "×" + bs.value; };
+  el.oninput = function () { document.getElementById("elv").textContent = el.value + "°"; };
+  document.getElementById("go").onclick = function () {
+    var q = "./?drill=" + sel.value + "&bodyscale=" + bs.value + "&elev=" + el.value + (el.value >= 80 ? "&az=0" : "")
+      + (document.getElementById("fp").checked ? "&framepitch=1" : "");
+    location.href = q;
+  };
+</script>
+</body>
+</html>

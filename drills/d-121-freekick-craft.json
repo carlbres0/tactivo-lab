@@ -1,0 +1,129 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12.56,
+  "length": 16
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.6,
+    10.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.28,
+    10.4
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.28,
+    16
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    5.29,
+    15.01
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.32,
+    2.99
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.28,
+   5.79
+  ]
+ },
+ "events": [
+  {
+   "t": 6.6,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.53,
+    6.04
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.06,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.28,
+    16
+   ],
+   "deadBall": true
+  },
+  {
+   "t": 11.01,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    4.64,
+    14.19
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A two-cone wall where a real wall would stand; the coach keeps goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Three spots — centre and both wall edges. Each spot owns a technique.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "The routine never changes: place, breathe, look, strike.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "Five kicks a spot. Craft is a curve across ten sessions, not a day.",
+   "hold": 2.5
+  }
+ ]
+}

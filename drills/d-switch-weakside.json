@@ -1,0 +1,328 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 26.86,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.57,
+    0
+   ],
+   "width": 2.86,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.29,
+    0
+   ],
+   "width": 2.86,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.57,
+    40
+   ],
+   "width": 2.86,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.29,
+    40
+   ],
+   "width": 2.86,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22,
+    15.14
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    22.57,
+    23.71
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    17.71,
+    19.71
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    6.29,
+    17.14
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    2.86,
+    15.43
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    20.86,
+    21.14
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    19.14,
+    25.14
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    5.14,
+    20
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   22.02,
+   15.49
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    2.86,
+    32.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    21.71,
+    22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.86,
+    24.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.86
+  },
+  {
+   "t": 2.23,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    21.14,
+    20.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.23,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.29,
+    23.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.68,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.63
+  },
+  {
+   "t": 4.47,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    20.86,
+    20.86
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.47,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.29,
+    24
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.92,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.98,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 7.07,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    4.57,
+    27.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.52,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    7.43,
+    28.57
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.68,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    6.86,
+    40
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.43,
+     20
+    ],
+    "w": 22.86,
+    "h": 40,
+    "label": "channel",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Goals sit in each wide channel; score only where you outnumber the defence.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "Overload the near channel on purpose — draw the defenders across.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Switch within two passes — the far channel is empty.",
+   "hold": 2.5
+  },
+  {
+   "t": 13,
+   "text": "Two against one in the far channel — carry and finish before it closes.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.7,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    14.59,
+    37.56
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.85,
+    36.81
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.3,
+    32.37
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    9.41,
+    32.37
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    20.52,
+    28.67
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.33,
+    26.44
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.89,
+    26.44
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.1,
+   36.56
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.7,
+    33.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    19.78,
+    30.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.07,
+    28.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12.37,
+    28.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "gk",
+   "to": "d1",
+   "flight": 0.63
+  },
+  {
+   "t": 3.33,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17.56,
+    29.41
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.78,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    17.56,
+    29.41
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.78,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.63,
+    29.41
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.78,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12.07,
+    29.41
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.83,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    14.59,
+    37.56
+   ]
+  },
+  {
+   "t": 6.83,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.81,
+    30.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.58,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.85,
+    30.6
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Keeper builds out; the pressing trio are already showing high and tight.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Ball into the centre-back — the press jumps as one unit.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "Won it high — the back line pushes up as the front line presses.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Score within six seconds of the regain for the double point.",
+   "hold": 2.5
+  }
+ ]
+}

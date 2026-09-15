@@ -1,0 +1,119 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.17,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    11.17,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.17,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.92,
+    3.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.02,
+   4
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.83,
+    9.92
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.1,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.17,
+    13
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.12,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7,
+    16.17
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Walking juggle-and-catch — the breathing slows with the pace.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Hold the big stretches: quads, hamstrings, hips, calves — 30 seconds each.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Name tonight's one win and one thing to fix — out loud, even alone.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Set the next session's target, then the ball goes away.",
+   "hold": 2.5
+  }
+ ]
+}

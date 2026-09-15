@@ -1,0 +1,331 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 34.1,
+  "length": 35
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    32.1,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    32.1,
+    35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    17.05,
+    0
+   ],
+   "width": 3.5,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    17.05,
+    35
+   ],
+   "width": 3.5,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    17.05,
+    7
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    23.7,
+    16.1
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.4,
+    16.1
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    17.05,
+    24.5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.3,
+    29.4
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    24.05,
+    11.2
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    10.05,
+    11.2
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.26,
+   7.28
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.55,
+    29.05
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    22.3,
+    14.35
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    10.75,
+    15.05
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.13
+  },
+  {
+   "t": 2.5,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.2,
+    11.9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.95,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.33
+  },
+  {
+   "t": 6.79,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    22.65,
+    22.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.79,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    19.85,
+    16.45
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.89,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 1.07
+  },
+  {
+   "t": 9.58,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    14.95,
+    27.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.62,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.5,
+    17.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.55,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10.75,
+    22.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.48,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    22.3,
+    22.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.33,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.42,
+    26.15
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 14.37,
+   "type": "collect",
+   "player": "d1"
+  },
+  {
+   "t": 16.56,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    19.15,
+    10.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 16.86,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    11.1,
+    22.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 22.15,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    17.05,
+    0
+   ]
+  }
+ ],
+ "duration": 25.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every player limited to two touches, anywhere on the pitch.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Quick one-two combinations — there's no time to think on the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.25,
+   "text": "A heavy third touch here turns the ball straight over.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.75,
+   "text": "The turnover is instant, and the counter is already on.",
+   "hold": 2.5
+  }
+ ]
+}

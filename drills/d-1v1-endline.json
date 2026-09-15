@@ -1,0 +1,190 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.4,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.4,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.6,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.6,
+    17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    2.6
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5,
+    9.8
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5,
+   9.45
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    5,
+    5
+   ],
+   "flight": 2.95,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5,
+    5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5,
+    8.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.49,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 5.97,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    7.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.84,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.6,
+    8.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.04,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    3.92,
+    9.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.29,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.28,
+    9.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.84,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    16.4
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Defender serves into the attacker's path, then closes down immediately.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "First touch forward — attack the defender head-on, no delay.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Feint one way to commit the defender, then take the touch beside the body.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Burst past and stop the ball dead on the end line to score.",
+   "hold": 2.5
+  }
+ ]
+}

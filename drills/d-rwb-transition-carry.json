@@ -1,0 +1,170 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.67,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8.11,
+    2.56
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.11,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.56,
+    2.56
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.56,
+    7
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.33,
+    5.06
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.28,
+    3.39
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5.22,
+    5.89
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    3.22,
+    3.39
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.06,
+   3.66
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.61,
+    5.61
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.4
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.94,
+    4.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.22,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    5.89,
+    16.44
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     5.34,
+     4.78
+    ],
+    "w": 5.55,
+    "h": 4.44,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A 3v1 keeps the ball inside the tight box — the defender stays central.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "On the call, the ball is played to the player who will break out.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Change of gear: tight touches become long strides through the open channel.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Carry all the way — the defender does not chase into the channel this rep.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 38.4,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    13.2,
+    4.6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    13.2,
+    14
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    13.2,
+    23.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    13.2,
+    32.6
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.4,
+    41.4
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10,
+    6.6
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.2,
+    3.4
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6,
+    2.6
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18,
+    27.4
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    20.4,
+    40.2
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   10.02,
+   6.95
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.6,
+    21
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    18.4,
+    39.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.6,
+    17.6
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 2.23,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.2,
+    10.6
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.56,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.8,
+    20.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.21,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.8,
+    23
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.13,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.88,
+    30.17
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 11.62,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.34
+  },
+  {
+   "t": 11.92,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10,
+    27.4
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.47,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17.6,
+    34.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.58,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    7.6,
+    38.2
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 16.36,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.4,
+    33.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 20.28,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.89,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 20.28,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    19.6,
+    39.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 21.13,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.2,
+    38.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 22.79,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    20.4,
+    41.4
+   ]
+  },
+  {
+   "t": 22.79,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    21.6,
+    39.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 24.54,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17.2,
+    34.2
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 27,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two attackers enter the wide channel — one defender recovers across.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "The defender closes the carrier: that is the cue. Punish the choice.",
+   "hold": 2.5
+  },
+  {
+   "t": 15,
+   "text": "Overlap released to the byline — deliver first time, no recycling.",
+   "hold": 2.5
+  },
+  {
+   "t": 22.75,
+   "text": "Arrive on the far side and finish. Rotate the defender every three.",
+   "hold": 2.5
+  }
+ ]
+}

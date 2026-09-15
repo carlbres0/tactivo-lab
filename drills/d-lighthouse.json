@@ -1,0 +1,338 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22,
+  "length": 22
+ },
+ "equipment": [],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    11,
+    11
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.5,
+    5.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.6,
+    16.6
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.8,
+    15.6
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    7,
+    6
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.28,
+   5.77
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      14.2,
+      17.2
+     ]
+    },
+    {
+     "t": 5.6,
+     "at": [
+      12,
+      18.2
+     ]
+    },
+    {
+     "t": 11.2,
+     "at": [
+      9.6,
+      18.4
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      7.6,
+      17.8
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.4,
+      15
+     ]
+    },
+    {
+     "t": 5.6,
+     "at": [
+      4.4,
+      13.4
+     ]
+    },
+    {
+     "t": 11.2,
+     "at": [
+      4,
+      11.6
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      4,
+      9.8
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a4",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.6,
+      5.4
+     ]
+    },
+    {
+     "t": 5.6,
+     "at": [
+      8.6,
+      4.4
+     ]
+    },
+    {
+     "t": 11.2,
+     "at": [
+      10.8,
+      4
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      12.8,
+      4.4
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.4,
+    17.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.8,
+    14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9,
+    5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.2,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10,
+    17.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.4,
+    10.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.2,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    11.2,
+    4.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "n1",
+   "flight": 0.71
+  },
+  {
+   "t": 5.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.8,
+    7.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.5,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14,
+    10.6
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 8.96,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.4
+  },
+  {
+   "t": 9.77,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8,
+    17.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.77,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    13.2,
+    5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.98,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.4,
+    14.2
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     11,
+     11
+    ],
+    "w": 2,
+    "h": 2,
+    "color": "technical",
+    "label": "lighthouse"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One keeper in a small centre circle; ships sail around the sea outside.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "A ship in trouble calls the keeper's name and passes in.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "The keeper returns it first time, into the ship's path.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "Five keeper passes and the ship docks: swap with the keeper.",
+   "hold": 2.5
+  }
+ ]
+}

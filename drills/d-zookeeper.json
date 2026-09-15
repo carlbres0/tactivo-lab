@@ -1,0 +1,337 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    12.8,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.4,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    6.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    9.2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    15.2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    17.6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    9.2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    11.6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14,
+    20
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.6,
+    20
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14,
+    6.8
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.2,
+    12.8
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    15.2,
+    16.4
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.4,
+    8
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.8,
+    19.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.21,
+   7.08
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.8,
+      13.4
+     ]
+    },
+    {
+     "t": 4.72,
+     "at": [
+      7.4,
+      12.6
+     ]
+    },
+    {
+     "t": 8.78,
+     "at": [
+      5.4,
+      11.6
+     ]
+    },
+    {
+     "t": 11.88,
+     "at": [
+      3.4,
+      11
+     ]
+    },
+    {
+     "t": 13.5,
+     "at": [
+      2,
+      10.8
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      14.8,
+      17
+     ]
+    },
+    {
+     "t": 5.4,
+     "at": [
+      14,
+      17.8
+     ]
+    },
+    {
+     "t": 10.8,
+     "at": [
+      13,
+      18.6
+     ]
+    },
+    {
+     "t": 13.5,
+     "at": [
+      12.4,
+      19
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    3.8,
+    10.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12.8,
+    18.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.6,
+    19
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    16.2,
+    9.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.08,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.6,
+    19.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.33,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    18.6,
+    17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.6,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    18.8,
+    10.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.57,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    2.4,
+    10.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.08,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    20.71,
+    16.89
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A pen with five cone gates; animals dribble inside, two zookeepers outside.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Zookeepers close a gate by standing in it — they never enter the pen.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Animals escape through any open gate — check the keepers BEFORE you run.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Each escape is a point; run round and come back in through another.",
+   "hold": 2.5
+  }
+ ]
+}

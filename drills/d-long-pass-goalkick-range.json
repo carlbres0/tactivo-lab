@@ -1,0 +1,244 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14.38,
+  "length": 49
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.19,
+    22.77
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.19,
+    33.15
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.19,
+    43.54
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.19,
+    5.46
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.19,
+   5.81
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.19,
+      3.38
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.81,
+      3.38
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.58,
+      3.38
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.19,
+      2.35
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      9.27,
+      4.42
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    7.19,
+    22.77
+   ],
+   "flight": 1.73,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.02,
+    6.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.24,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.19,
+    3.04
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.31,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.54,
+    4.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.6,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.88,
+    5.46
+   ],
+   "gait": "jog",
+   "newBall": true
+  },
+  {
+   "t": 8.1,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    7.19,
+    33.15
+   ],
+   "flight": 2.77,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 8.95,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.81,
+    3.04
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.16,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.5,
+    5.12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.93,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.5,
+    5.46
+   ],
+   "gait": "walk",
+   "newBall": true
+  },
+  {
+   "t": 13.82,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    8.06,
+    43.54
+   ],
+   "flight": 3.81,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 19.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three target zones sit at increasing range; three balls are taken at each.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Strike with the instep for range — three points for landing inside the zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Next ball off the pile, no fetching — laces for a driven ball further out.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.25,
+   "text": "Same technique, furthest target — keep individual scores across the ladder.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    40
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.69,
+    9.23
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.08,
+    18.46
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    5.85,
+    26.15
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    12,
+    23.08
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.62,
+    33.85
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12,
+    33.85
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.38,
+    33.85
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   19.53,
+   9.54
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    11.69,
+    23.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 1.03
+  },
+  {
+   "t": 2.4,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.38,
+    10
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.85,
+   "type": "pass",
+   "from": "d2",
+   "to": "d3",
+   "flight": 1.2
+  },
+  {
+   "t": 5.21,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.77,
+    19.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.66,
+   "type": "pass",
+   "from": "d3",
+   "to": "a2",
+   "flight": 0.82,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 7.65,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    6.15,
+    26.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.1,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    18.15,
+    16.92
+   ],
+   "flight": 1.8,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 9.95,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.54,
+    34.15
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One team plays a player short for the whole game.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Width comes from the extra man — the short side has to decide what to sacrifice.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Bodies behind the ball; the block absorbs the overload.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Clear your lines and the short side survives another wave.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,396 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.75,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    18.88,
+    10.75
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.88,
+    14.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.88,
+    18.25
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    7
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10,
+    17
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.38,
+    12
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    7.63,
+    22
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.75,
+    11.38
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.75,
+    14.5
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    15.75,
+    17.63
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.52,
+   7.35
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9,
+    20
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.13,
+    16.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7,
+    11.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.95
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.5,
+    13.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.5,
+    16.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.5,
+    19.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9,
+    8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.32,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.75,
+    11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.85,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.25,
+    13.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.85,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.25,
+    20
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.1,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.25,
+    16.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.43,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7,
+    9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.22,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.55
+  },
+  {
+   "t": 4.94,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.25,
+    13.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.94,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.25,
+    16.63
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.94,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    14.25,
+    19.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.07,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.75,
+    15.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.35,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.5,
+    16.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.39,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    18.38,
+    10.88
+   ],
+   "flight": 0.86,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 6.68,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9.25,
+    19
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.41,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10.25,
+    11.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.41,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.75,
+    12.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.41,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.75,
+    16
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.41,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    13.75,
+    19.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.69,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.75,
+    17.5
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three defenders link as a wall in front of three cone castles.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Four attackers pass across the channel, probing for a shooting lane.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "The wall shuffles together — one body, never three.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Switched back quicker than the wall can shift: the gap is the goal.",
+   "hold": 2.5
+  }
+ ]
+}

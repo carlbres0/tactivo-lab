@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 26.86,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.29,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.57,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.29,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.57,
+    42
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.43,
+    9.14
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    17.71,
+    16.29
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.43,
+    12
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    12,
+    23.43
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    14.86,
+    14.86
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    13.43,
+    22
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.61,
+   9.44
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17,
+    17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.83
+  },
+  {
+   "t": 2.94,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.14,
+    13.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.65,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.61
+  },
+  {
+   "t": 4.42,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.86,
+    30.57
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.42,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    15.57,
+    27.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.75,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.14,
+    19.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.67,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    14.86,
+    32
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.26,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 2.01
+  },
+  {
+   "t": 11.89,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    14.86,
+    40.57
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Build from the back — every attack needs a set-back and a forward pass.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "The first receiver is under pressure and plays the set-back.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "The third man plays the pass the first receiver could not see.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "Carry it through the end gate to finish the move.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,420 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    21.64,
+    6.46
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.57,
+    8.79
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.54,
+    17.18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.54,
+    19.68
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.39,
+    22.54
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.89,
+    22.54
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    13.61,
+    10.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.18,
+    12.18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.36,
+    17.18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.61,
+    19.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.46,
+    5.57
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.21,
+    7.71
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    25.21,
+    3.43
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    24.86,
+    24.32
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    2.71,
+    3.07
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   24.96,
+   3.68
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      24.86,
+      24.32
+     ]
+    },
+    {
+     "t": 1.76,
+     "at": [
+      24.86,
+      24.32
+     ]
+    },
+    {
+     "t": 5.28,
+     "at": [
+      22.54,
+      18.43
+     ]
+    },
+    {
+     "t": 9.24,
+     "at": [
+      18.07,
+      13.07
+     ]
+    },
+    {
+     "t": 10.12,
+     "at": [
+      17.71,
+      12.71
+     ]
+    },
+    {
+     "t": 14.08,
+     "at": [
+      10.93,
+      10.93
+     ]
+    },
+    {
+     "t": 18.7,
+     "at": [
+      5.93,
+      6.64
+     ]
+    },
+    {
+     "t": 22,
+     "at": [
+      3.25,
+      4.86
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      2.71,
+      3.07
+     ]
+    },
+    {
+     "t": 1.76,
+     "at": [
+      2.71,
+      3.07
+     ]
+    },
+    {
+     "t": 5.72,
+     "at": [
+      5.93,
+      6.64
+     ]
+    },
+    {
+     "t": 10.56,
+     "at": [
+      8.07,
+      18.25
+     ]
+    },
+    {
+     "t": 11.44,
+     "at": [
+      8.43,
+      18.61
+     ]
+    },
+    {
+     "t": 16.28,
+     "at": [
+      14.14,
+      22.54
+     ]
+    },
+    {
+     "t": 22,
+     "at": [
+      21.29,
+      24.14
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    21.11,
+    7.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    22.54,
+    18.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.93,
+    6.64
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.91,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    16.64,
+    9.14
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.78,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    17.71,
+    12.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.07,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.07,
+    18.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.35,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.89,
+    11.11
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.86,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.93,
+    10.93
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.31,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.14,
+    22.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.31,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.79,
+    17.71
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.24,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    14.14,
+    22.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.24,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    3.25,
+    4.86
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.7,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.79,
+    13.61
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 14.79,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    21.29,
+    24.14
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 22,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Ball each — sixty seconds to dribble through as many different gates as you can.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Same gate twice in a row scores nothing — find a new path every time.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.25,
+   "text": "Scan between touches: pick the next gate before you're through this one.",
+   "hold": 2.5
+  },
+  {
+   "t": 18.75,
+   "text": "Count out loud, rest — then beat your score.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.08,
+    42
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22,
+    20.46
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.08,
+    15.85
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    12,
+    34.31
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.69,
+    20.46
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    13.54,
+    35.85
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.37,
+   16.04
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.38,
+    21.23
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.15,
+    37.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    15.08,
+    38.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.83
+  },
+  {
+   "t": 2.2,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.77,
+    16.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.65,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    22,
+    35.85
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.85,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.63,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 11.1,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    13.54,
+    42
+   ]
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22.54,
+     22
+    ],
+    "w": 5.08,
+    "h": 40,
+    "label": "channel",
+    "color": "technical"
+   },
+   {
+    "at": [
+     4.54,
+     22
+    ],
+    "w": 5.08,
+    "h": 40,
+    "label": "channel",
+    "color": "tactical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A goal only counts if the attack passed through a wide channel first.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Wide channels are free zones — defenders may not enter them.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Guaranteed run to the byline; no need to even say the word cross.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Ball came through the channel, so the finish now counts.",
+   "hold": 2.5
+  }
+ ]
+}

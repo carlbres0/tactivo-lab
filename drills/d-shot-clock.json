@@ -1,0 +1,355 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 34.97
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    34.97
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    32.04
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    29.48,
+    19.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    18.49,
+    21.23
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    23.98,
+    14.82
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    25.81,
+    26.73
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.56,
+    28.74
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    22.15,
+    22.52
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    36.8,
+    7.5
+   ]
+  },
+  {
+   "id": "n2",
+   "team": "coach",
+   "number": 2,
+   "start": [
+    31.31,
+    6.4
+   ]
+  },
+  {
+   "id": "n3",
+   "team": "coach",
+   "number": 3,
+   "start": [
+    25.81,
+    5.66
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   29.13,
+   19.43
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    22.52,
+    19.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    22.15,
+    22.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    17.39,
+    24.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    26.18,
+    19.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    36.44,
+    7.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n2",
+   "to": [
+    30.94,
+    6.76
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n3",
+   "to": [
+    25.45,
+    6.03
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    17.39,
+    22.52
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    26.91,
+    19.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.61,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1
+  },
+  {
+   "t": 4.46,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    27.28,
+    21.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.78,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    36.8,
+    7.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.78,
+   "type": "move",
+   "player": "n2",
+   "to": [
+    31.31,
+    6.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.78,
+   "type": "move",
+   "player": "n3",
+   "to": [
+    25.81,
+    5.66
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.48,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    20.32,
+    33.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.23,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    22.15,
+    34.97
+   ]
+  },
+  {
+   "t": 7.98,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.49,
+    24.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.86,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    20.69,
+    32.77
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22.15,
+     25.81
+    ],
+    "w": 29.3,
+    "h": 18.32,
+    "color": "technical",
+    "label": "the box"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "3v3 to one goal with a keeper — attackers start on the edge of the box.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Ten seconds on the clock, counted down out loud by the resting trio.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "No shot before zero? Possession flips and the clock resets the other way.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "The clock kills the extra pass nobody needed — the shot is the point.",
+   "hold": 2.5
+  }
+ ]
+}

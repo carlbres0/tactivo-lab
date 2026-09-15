@@ -1,0 +1,318 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.08,
+    20.46
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12,
+    20.46
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    16.62,
+    20.46
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    21.23,
+    20.46
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.08,
+    9.69
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.46,
+    8.92
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    13.54,
+    13.54
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    16.62,
+    8.92
+   ]
+  },
+  {
+   "id": "d5",
+   "team": "blue",
+   "number": 5,
+   "start": [
+    22,
+    9.69
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.81,
+   8.92
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.15,
+    20.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.08,
+    20.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    19.69,
+    20.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    22,
+    20.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d2",
+   "to": "d4",
+   "flight": 0.62
+  },
+  {
+   "t": 3.44,
+   "type": "pass",
+   "from": "d4",
+   "to": "d5",
+   "flight": 0.54
+  },
+  {
+   "t": 3.44,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    22.46,
+    19.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.83,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    21.69,
+    12
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.38,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.69,
+    17.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.38,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.69,
+    20.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.38,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    16.62,
+    20.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.59,
+   "type": "pass",
+   "from": "d5",
+   "to": "d1",
+   "flight": 1.41,
+   "flightStyle": "clipped",
+   "loft": 2.44
+  },
+  {
+   "t": 7.81,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.54,
+    12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.92,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    21.23,
+    18.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.63,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    20.92,
+    19.23
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five attackers circulate the ball; the back four holds a compact line, ball-side.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "The ball moves — the closest defender steps out to press it.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "The other three slide across and cover in behind the press.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Switch — shift while the ball travels; never more than 12m between defenders.",
+   "hold": 2.5
+  }
+ ]
+}

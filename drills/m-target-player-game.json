@@ -1,0 +1,311 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 23.78,
+  "length": 39
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    21.78,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.78,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.78,
+    33.2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    33.2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.78,
+    5.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    5.8
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.41,
+    10.37
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.46,
+    19.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.33,
+    16.46
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    11.89,
+    35.02
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.98,
+    34.11
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    14.93,
+    22.54
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    8.85,
+    17.98
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.52,
+   10.7
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.54,
+    21.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    10.07,
+    19.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.24,
+    21.93
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.96
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.5,
+    11.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.78,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 1.35,
+   "flightStyle": "clipped",
+   "loft": 2.23
+  },
+  {
+   "t": 4.16,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.93,
+    20.72
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.29,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.72,
+    35.33
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.29,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.37,
+    33.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.74,
+   "type": "pass",
+   "from": "a4",
+   "to": "a3",
+   "flight": 1.36
+  },
+  {
+   "t": 7.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.93,
+    31.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.59,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    8.85,
+    25.89
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     11.89,
+     3.9
+    ],
+    "w": 19.78,
+    "h": 3.8,
+    "color": "technical",
+    "label": "TARGET ZONE"
+   },
+   {
+    "at": [
+     11.89,
+     35.1
+    ],
+    "w": 19.78,
+    "h": 3.8,
+    "color": "tactical",
+    "label": "TARGET ZONE"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Score by finding the target player, who receives and controls in the end zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Build through midfield to open the pass into the zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Long ball goes forward — the target is marked tight by one defender.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "That is the point; the target joins the game and the scorer takes his place.",
+   "hold": 2.5
+  }
+ ]
+}

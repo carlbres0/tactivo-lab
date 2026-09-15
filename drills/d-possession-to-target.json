@@ -1,0 +1,324 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.14,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.14,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.14,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.14,
+    5.21
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    5.21
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.14,
+    28.79
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    28.79
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.86,
+    10.04
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.21,
+    15.93
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.71,
+    21.29
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    10.57,
+    29.64
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    11,
+    14.86
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    11.86,
+    20.21
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.1,
+   10.3
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.71,
+    17.21
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11,
+    21.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.8
+  },
+  {
+   "t": 3.38,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.04,
+    18.28
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.62,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.92
+  },
+  {
+   "t": 3.62,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.71,
+    26.86
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.07,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.57,
+    22.89
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.15,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.92
+  },
+  {
+   "t": 7.24,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.21,
+    3.61
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.24,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.07,
+    26.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.77,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.14,
+    21.82
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.69,
+   "type": "pass",
+   "from": "a4",
+   "to": "a3",
+   "flight": 0.92
+  },
+  {
+   "t": 9.78,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8,
+    18.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.78,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.86,
+    20.21
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.23,
+   "type": "pass",
+   "from": "a3",
+   "to": "a1",
+   "flight": 1.15
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     10.57,
+     3.61
+    ],
+    "w": 17.14,
+    "h": 3.21,
+    "color": "technical",
+    "label": "END ZONE"
+   },
+   {
+    "at": [
+     10.57,
+     30.4
+    ],
+    "w": 17.14,
+    "h": 3.21,
+    "color": "tactical",
+    "label": "END ZONE"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two teams keep possession; a point comes from finding the target in the end zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Six passes must be strung together before the target can be found.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Find the target — one touch to control, one to lay it back.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Play turns the other way; a player breaks into the far end zone to be found next.",
+   "hold": 2.5
+  }
+ ]
+}

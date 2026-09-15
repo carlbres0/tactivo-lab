@@ -1,0 +1,176 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.25,
+  "length": 19
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.13,
+    4.5
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    5.13,
+    8.9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.13,
+   4.85
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    5.53,
+    8.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.13,
+    6.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.04,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.23,
+    7.1
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.23,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    6.33,
+    8.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.58,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.83,
+    8.1
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.92,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    4.72,
+    9.3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.95,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.13,
+    16.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.2,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    3.63,
+    11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.44,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    3.33,
+    13.5
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     5.13,
+     9.5
+    ],
+    "w": 3.75,
+    "h": 15,
+    "color": "technical",
+    "label": "the alley"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A narrow alley three metres wide; the coach retreat-defends inside it.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "No room to run round him — make him lean first, then go.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Beat him before the alley's end line or the run is dead.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Six runs, then the alley narrows by a stride.",
+   "hold": 2.5
+  }
+ ]
+}

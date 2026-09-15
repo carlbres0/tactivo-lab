@@ -1,0 +1,506 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29.96,
+  "length": 47
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27.96,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.96,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.77,
+    3.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.31,
+    3.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.65,
+    3.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.19,
+    3.04
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    14.98,
+    47
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.98,
+    26.23
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    19.31,
+    35.75
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.65,
+    35.75
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    24.5,
+    37.48
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    18.44,
+    17.58
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    11.52,
+    17.58
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    14.98,
+    38.35
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    20.17,
+    40.08
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    9.79,
+    40.08
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    23.63,
+    34.88
+   ]
+  },
+  {
+   "id": "d5",
+   "team": "blue",
+   "number": 5,
+   "start": [
+    13.25,
+    40.94
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    14.98,
+    46.13
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   15.12,
+   26.55
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    11.52,
+    36.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    22.94,
+    36.79
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.12,
+    36.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    19.48,
+    38.52
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.62,
+    38.87
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    22.42,
+    33.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    12.9,
+    39.56
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.05
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    15.85,
+    30.56
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.87,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    13.77,
+    37.31
+   ],
+   "flight": 3.23,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 4.72,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.85,
+    36.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.72,
+   "type": "collect",
+   "player": "d1"
+  },
+  {
+   "t": 8.91,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    10.65,
+    23.81
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.98,
+    28.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.25,
+    30.9
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10.13,
+    24.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    20.17,
+    34.02
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    16.37,
+    14.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    9.79,
+    15.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    16.71,
+    32.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.92,
+    33.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    20.52,
+    31.42
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.91,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    12.21,
+    34.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.69,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.98,
+    25.02
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.83,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.87,
+    22.77
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 16.24,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.41,
+    23.16
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.31,
+   "type": "tackle",
+   "player": "a2",
+   "from": "d1"
+  },
+  {
+   "t": 21.88,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    12.9,
+    20
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 25.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "While attacking, two nominated rest defenders stay behind the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Possession lost — coach freezes play: who was still behind the ball?",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "The counter-press engages ahead; the rest defence delays, screening the gates.",
+   "hold": 2.5
+  },
+  {
+   "t": 20,
+   "text": "Nearest white pokes it back before the counter gates — reset the shape and go again.",
+   "hold": 2.5
+  }
+ ]
+}

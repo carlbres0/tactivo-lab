@@ -1,0 +1,243 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    24.29,
+    40.81
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.23,
+    36.77
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    9.54,
+    37.69
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.85,
+    35.54
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    8,
+    36.77
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    12.92,
+    41.08
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   23.96,
+   40.69
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.46,
+    37.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    5.85,
+    38.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.77,
+    41.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.77,
+    38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.54,
+    39.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.8,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 2.65,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    24.15,
+    41.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.53,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.56,
+   "header": true,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 5.09,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    12,
+    42
+   ],
+   "header": true
+  }
+ ],
+ "duration": 7.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach awards a corner or free kick every two minutes, at random.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.25,
+   "text": "The corner is whipped to the near post, where the flick-on begins.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Front-post flick-on: one header on, across the face of goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "The far-post runner heads it back in first contact — no touch, no pause.",
+   "hold": 2.5
+  }
+ ]
+}

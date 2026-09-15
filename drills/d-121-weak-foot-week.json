@@ -1,0 +1,110 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14,
+  "length": 9.5
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    7,
+    9.5
+   ],
+   "width": 1.8,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    4.17,
+    7.83
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7,
+    4.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.38,
+   7.55
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.47
+  },
+  {
+   "t": 3.29,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    7,
+    9.5
+   ]
+  },
+  {
+   "t": 5.56,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.67,
+    5.17
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 8.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Everything today is the other foot: approach, set touch, finish.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Coach serves easy, and praises the miss that was struck properly.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Set it with the weak foot, then strike with the weak foot.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Strong-foot goals count one, weak-foot goals count three — only the threes.",
+   "hold": 2.5
+  }
+ ]
+}

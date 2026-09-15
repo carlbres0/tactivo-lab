@@ -1,0 +1,224 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 25.54,
+  "length": 35
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    19.5,
+    0
+   ],
+   "width": 2.69,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.04,
+    0
+   ],
+   "width": 2.69,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    19.5,
+    35
+   ],
+   "width": 2.69,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.04,
+    35
+   ],
+   "width": 2.69,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    19.5,
+    16.15
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.04,
+    26.92
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    12.77,
+    21.54
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    11.42,
+    12.12
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.83,
+    17.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    17.48,
+    14.81
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    6.04,
+    21.54
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   19.23,
+   16.37
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12.1,
+    22.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    10.75,
+    14.81
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.15,
+    15.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    6.98,
+    26.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.44,
+   "flightStyle": "clipped",
+   "loft": 2.54
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.83,
+    16.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.26,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    6.04,
+    35
+   ]
+  }
+ ],
+ "duration": 7.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two goals to defend, two to attack, spread wide on each end line.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "The near side is congested — two defenders crowd the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Scanning early spots the far goal standing wide open.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "A goal scored right after the switch counts double.",
+   "hold": 2.5
+  }
+ ]
+}

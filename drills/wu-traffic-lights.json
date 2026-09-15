@@ -1,0 +1,431 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.75,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    20.75,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.75,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    17.63,
+    12.94
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    19.19,
+    5.13
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    3.56,
+    25.44
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    3.56,
+    3.56
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    19.97,
+    20.75
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    2.78,
+    9.03
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.35,
+   12.73
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      18.72,
+      5.91
+     ]
+    },
+    {
+     "t": 8.8,
+     "at": [
+      15.59,
+      18.41
+     ]
+    },
+    {
+     "t": 10.4,
+     "at": [
+      15.59,
+      18.41
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      6.22,
+      26.22
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.09,
+      26.22
+     ]
+    },
+    {
+     "t": 8.8,
+     "at": [
+      3.09,
+      15.28
+     ]
+    },
+    {
+     "t": 10.4,
+     "at": [
+      3.09,
+      15.28
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      9.34,
+      5.91
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a4",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.09,
+      4.34
+     ]
+    },
+    {
+     "t": 8.8,
+     "at": [
+      10.91,
+      13.72
+     ]
+    },
+    {
+     "t": 10.4,
+     "at": [
+      10.91,
+      13.72
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      17.16,
+      24.66
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a5",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      19.5,
+      21.53
+     ]
+    },
+    {
+     "t": 8.8,
+     "at": [
+      14.03,
+      9.03
+     ]
+    },
+    {
+     "t": 10.4,
+     "at": [
+      14.03,
+      9.03
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      4.66,
+      11.38
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a6",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      2.31,
+      9.81
+     ]
+    },
+    {
+     "t": 8.8,
+     "at": [
+      7,
+      23.88
+     ]
+    },
+    {
+     "t": 10.4,
+     "at": [
+      7,
+      23.88
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      17.94,
+      10.59
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19.19,
+    12.16
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.56,
+    14.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    11.38,
+    12.94
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    14.5,
+    8.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    7.47,
+    23.09
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.22,
+    4.34
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.68,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.06,
+    17.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.07,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.47,
+    21.53
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.38,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.81,
+    5.13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.93,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    17.63,
+    23.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.56,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    5.13,
+    10.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.07,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    18.41,
+    9.81
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.25,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.69,
+    25.44
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every player dribbles their own ball inside the area.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Green — dribble at speed. Amber — slow to toe-taps.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Red — everyone stops the ball dead under the sole.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Green again — add roundabout (turn on the sole) and reverse (drag it back).",
+   "hold": 2.5
+  }
+ ]
+}

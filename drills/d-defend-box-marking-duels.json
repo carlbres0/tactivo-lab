@@ -1,0 +1,246 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 44.66
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    11.08
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    44.66
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    11.08
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    44.66
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    44.66
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    30.21,
+    26.86
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.77,
+    26.19
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    41.31
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    38.94,
+    1.01
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    30.55,
+    28.21
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    14.09,
+    27.87
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   38.84,
+   1.34
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    28.2,
+    26.53
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    29.87,
+    28.21
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.88,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    28.87,
+    27.87
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.13,
+   "type": "pass",
+   "from": "a3",
+   "to": "d1",
+   "flight": 2.27,
+   "flightStyle": "lofted",
+   "loft": 6.31
+  },
+  {
+   "t": 4.57,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    28.87,
+    27.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.57,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    38.27,
+    1.68
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.02,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    38.27,
+    17.8
+   ],
+   "flight": 1.38,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 6.87,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    29.54,
+    28.21
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 9.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22.15,
+     27.87
+    ],
+    "w": 40.3,
+    "h": 33.58,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Each defender is assigned one attacker for the whole round — a pure duel.",
+   "hold": 2.5
+  },
+  {
+   "t": 0.5,
+   "text": "Cross comes in — ball and marker must both stay in sight, never turn the back.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "First ball won off the crosser — the marker never leaves his man.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Headed clear of the box while the second marker holds their duel untouched.",
+   "hold": 2.5
+  }
+ ]
+}

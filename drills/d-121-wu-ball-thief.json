@@ -1,0 +1,169 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14,
+  "length": 14
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.78,
+    5.33
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    3.89,
+    10.89
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.09,
+   10.61
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a1",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.56,
+      5
+     ]
+    },
+    {
+     "t": 2.75,
+     "at": [
+      6.78,
+      6
+     ]
+    },
+    {
+     "t": 5.5,
+     "at": [
+      6.11,
+      6.89
+     ]
+    },
+    {
+     "t": 7.75,
+     "at": [
+      5.89,
+      7.22
+     ]
+    },
+    {
+     "t": 10,
+     "at": [
+      5.11,
+      6.56
+     ]
+    },
+    {
+     "t": 12.5,
+     "at": [
+      4.11,
+      5.56
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.33,
+    7.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    5.89,
+    8.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.13,
+   "type": "tackle",
+   "player": "a1",
+   "from": "n1"
+  },
+  {
+   "t": 4.38,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    5.33,
+    9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.7,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.11,
+    6.22
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach and player each dribble a ball in the same small box.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Steal the other's ball while protecting your own — both at once.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "A clean steal is a point, and play restarts instantly.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Three minutes, giggling allowed, the score remembered.",
+   "hold": 2.5
+  }
+ ]
+}

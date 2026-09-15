@@ -1,0 +1,113 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.01,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    5.97,
+    9.69
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.04,
+    9.69
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.97,
+    17.38
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.04,
+    17.38
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.97,
+    25.08
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.04,
+    25.08
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5,
+    3.44
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5,
+   3.79
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    27.48
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Dribble the full lane at maximum speed through all three gates.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Through the first gate — under control counts, not just fast.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Through the second gate at full pace.",
+   "hold": 2.47
+  },
+  {
+   "t": 9,
+   "text": "Through the final gate — it only counts if the ball is controlled at the finish.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 17
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    6.8,
+    2.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.2,
+    2.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.9,
+    5.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.9,
+    8.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.9,
+    11.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.1,
+    5.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.1,
+    8.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.1,
+    11.9
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    5,
+    17
+   ],
+   "width": 1.8,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.32,
+    3.72
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5.1,
+    2.9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.36,
+   13.1
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.9,
+    5.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.1,
+    5.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.61,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.8,
+    2.9
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.2,
+    2.9
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.59,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.9,
+    8.9
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 4.98,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.1,
+    8.9
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.29,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.8,
+    2.9
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.68,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.2,
+    2.9
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 9.99,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.9,
+    11.9
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.38,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.1,
+    11.9
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 13.25,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.48,
+    12.98
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 16.45,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    5,
+    17
+   ]
+  }
+ ],
+ "duration": 19.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Out and back to the first cone — the run grows a leg each rep.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "Second cone: walk-back recovery, then a low, balanced turn over raw pace.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.75,
+   "text": "Furthest cone — this rep is raced in pairs.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.5,
+   "text": "Finish the set by striking the dead ball into the gate.",
+   "hold": 2.5
+  }
+ ]
+}

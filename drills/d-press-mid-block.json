@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 30.67,
+  "length": 49
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    28.67,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    28.67,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    47
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.33,
+    9.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    22,
+    14.5
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    8.67,
+    14.5
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    20.33,
+    31.17
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.33,
+    32.83
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.33,
+    31.17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    15.33,
+    27
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.61,
+   9.71
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9,
+    15.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 0.83
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.5,
+    10.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.46,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    21.33,
+    15.17
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.46,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.17,
+    25.33
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.46,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12,
+    26.17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.46,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    17,
+    22.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.05,
+   "type": "tackle",
+   "player": "a1",
+   "from": "d2"
+  },
+  {
+   "t": 11.62,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    20.67,
+    15.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.56,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    17,
+    22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.62,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    20.33,
+    17.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.93,
+   "type": "pass",
+   "from": "a1",
+   "to": "a4",
+   "flight": 0.53
+  }
+ ],
+ "duration": 19,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Mid-block holds a compact shape — no one presses without the trigger.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Trigger: the ball goes into a wide, backward-facing area.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "Everyone jumps together — a lone presser is worse than none.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.25,
+   "text": "Regain secured; reset the block and go again.",
+   "hold": 2.5
+  }
+ ]
+}

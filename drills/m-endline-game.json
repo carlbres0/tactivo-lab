@@ -1,0 +1,318 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.5,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.13,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.75,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.38,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.13,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.75,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.38,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.75,
+    8.25
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    17,
+    13.25
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7,
+    12
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    11.38,
+    11.38
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    14.5,
+    22
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    9.5,
+    27.63
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.02,
+   8.47
+  ]
+ },
+ "events": [
+  {
+   "t": 0.95,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.75,
+    13.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.82
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.5,
+    25.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.25,
+    10.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.5,
+    22.63
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.63,
+    29.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12,
+    15.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.64,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    16.38,
+    22
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.91,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.5,
+    15.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.69,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.75,
+    25.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.94,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    17.75,
+    24.22
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.81,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    17.63,
+    26.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.32,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.13,
+    27
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.57,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    15.99,
+    31.49
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The whole end line is the goal — stop the ball dead on it to score.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Ball goes wide, away from the crowd — attack the space.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Carry at speed and beat the last defender on the run.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "Stopped dead in the final metre after a take-on — counts double.",
+   "hold": 2.5
+  }
+ ]
+}

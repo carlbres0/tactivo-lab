@@ -1,0 +1,312 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    40
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.54,
+    2.31
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18.15,
+    7.69
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.92,
+    7.69
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.54,
+    16.92
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    19.69,
+    21.54
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    16.62,
+    10.77
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    13.54,
+    12.31
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    8.92,
+    13.85
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    10.46,
+    27.69
+   ]
+  },
+  {
+   "id": "gk2",
+   "team": "gold",
+   "number": 2,
+   "start": [
+    13.85,
+    38.15
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   13.77,
+   2.58
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.38,
+    8.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.77,
+    10.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.69,
+    12.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "gk",
+   "to": "a1",
+   "flight": 0.71
+  },
+  {
+   "t": 4.86,
+   "type": "pass",
+   "from": "a1",
+   "to": "gk",
+   "flight": 0.71,
+   "toFeet": true
+  },
+  {
+   "t": 5.74,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.15,
+    10.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.19,
+   "type": "pass",
+   "from": "gk",
+   "to": "a2",
+   "flight": 0.71
+  },
+  {
+   "t": 8.06,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    13.85,
+    2.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.51,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.03
+  },
+  {
+   "t": 10.71,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    17.85,
+    26.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.16,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    13.54,
+    23.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 12.16,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    11.23,
+    26.15
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every restart begins with the keeper playing short — no long kicks allowed.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "The press arrives, so the ball comes straight back to the keeper.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Keeper counts as an outfield player once their team has the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Switch of side keeps the press guessing before the ball goes forward.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

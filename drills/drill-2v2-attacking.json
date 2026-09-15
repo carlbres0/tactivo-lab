@@ -1,0 +1,253 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.9,
+  "length": 34.4
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    20.9,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.9,
+    34.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    34.4
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    11.72,
+    34.4
+   ],
+   "width": 2.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    10.1,
+    10.1
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.58,
+    20.63
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.78,
+    15.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    14.15,
+    22.25
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.14,
+   10.45
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.37,
+    16.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.42,
+    21.58
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.5,
+    18.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.78,
+    16.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.72,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.45,
+    19.55
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.02,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.51
+  },
+  {
+   "t": 5.87,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.48,
+    26.98
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 8.46,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.83
+  },
+  {
+   "t": 8.46,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.45,
+    28.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.31,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.77,
+    19.82
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.91,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.53,
+    29.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.91,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.78,
+    22.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.03,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    11.72,
+    34.4
+   ]
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "2v2 to a small goal — attacker 1 on the ball, attacker 2 wide as the wall.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Play the wall pass early and sprint into the space beyond the defensive line.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "The wall lays it first-time into the run.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Carry it in and finish early into the small goal.",
+   "hold": 2.5
+  }
+ ]
+}

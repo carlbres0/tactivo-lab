@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "pitch": { "width": 20, "length": 25 },
+  "equipment": [
+    { "type": "cone", "at": [3, 6] }, { "type": "cone", "at": [17, 6] },
+    { "type": "cone", "at": [3, 23] }, { "type": "cone", "at": [17, 23] },
+    { "type": "goal", "at": [10, 25] }
+  ],
+  "teams": {
+    "white": { "kit": { "primary": "#FFFFFF" } },
+    "gold":  { "kit": { "primary": "#ffb340" } }
+  },
+  "players": [
+    { "id": "p1", "team": "white", "number": 8,  "start": [7, 7] },
+    { "id": "p2", "team": "white", "number": 9,  "start": [10, 11.5] },
+    { "id": "p3", "team": "white", "number": 11, "start": [4.5, 5.5] },
+    { "id": "gk", "team": "gold",  "number": 1,  "start": [10, 24.4], "role": "keeper" }
+  ],
+  "ball": { "start": [7, 7.35] },
+  "events": [
+    { "t": 1.5, "type": "pass", "from": "p1", "to": "p2", "flight": 0.85 },
+    { "t": 3.7, "type": "dribble", "player": "p2", "to": [11.8, 13.6], "gait": "jog" },
+    { "t": 6.1, "type": "shoot", "player": "p2", "at": [10, 25] },
+    { "t": 7.6, "type": "move", "player": "p3", "to": [6.6, 6.6], "gait": "walk" }
+  ],
+  "duration": 11
+}

@@ -1,0 +1,242 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.8,
+  "length": 26
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.8,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.8,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.4,
+    26
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    10.4,
+    21.8
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.2,
+    16.4
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.4,
+    11.6
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    14.6,
+    16.4
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.41,
+   16.68
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      10.4,
+      10.88
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      14.6,
+      15.68
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    8.96,
+    22.64
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.16,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 0.87
+  },
+  {
+   "t": 7,
+   "type": "pass",
+   "from": "gk",
+   "to": "d1",
+   "flight": 0.68
+  },
+  {
+   "t": 11.15,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    10.4,
+    21.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.36,
+   "type": "pass",
+   "from": "d2",
+   "to": "gk",
+   "flight": 1.02,
+   "newBall": true
+  },
+  {
+   "t": 17.34,
+   "type": "pass",
+   "from": "gk",
+   "to": "d2",
+   "flight": 1.02
+  },
+  {
+   "t": 21.49,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.84,
+    22.64
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 22.66,
+   "type": "pass",
+   "from": "d3",
+   "to": "gk",
+   "flight": 0.87,
+   "newBall": true
+  },
+  {
+   "t": 27.49,
+   "type": "pass",
+   "from": "gk",
+   "to": "d3",
+   "flight": 0.68
+  },
+  {
+   "t": 31.64,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    10.4,
+    21.8
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 35,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three servers deliver in continuous rotation — low, chest, high.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Every ball is returned at once — immediately face the next.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.5,
+   "text": "Thirty seconds of continuous work, then thirty seconds rest.",
+   "hold": 2.5
+  },
+  {
+   "t": 28.75,
+   "text": "Technique must hold as the arms tire — six rounds in total.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 11.5,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    9.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.5,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.75,
+    19.5
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.75,
+    4.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.25,
+    19.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.75,
+    32
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.75,
+   4.85
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.75,
+    18.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.99,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.4
+  },
+  {
+   "t": 6.84,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.44,
+    21.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.15,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7,
+    23.88
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.46,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.46
+  },
+  {
+   "t": 12.54,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.75,
+    28.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 14.98,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.4
+  },
+  {
+   "t": 15.83,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.75,
+    28.88
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Player A drives at the obstacle with the ball; the wall player waits beside it.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Lay it off first time — never a stop that invites a defender onto the pass.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "The wall pass is weighted into A's path, not to feet — A runs onto it.",
+   "hold": 2.5
+  },
+  {
+   "t": 13,
+   "text": "Accelerate away and finish into the end player, then rotate A to B to end.",
+   "hold": 2.5
+  }
+ ]
+}

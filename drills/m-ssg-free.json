@@ -1,0 +1,278 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    0
+   ],
+   "width": 3.69,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    40
+   ],
+   "width": 3.69,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.54,
+    9.23
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    19.69,
+    16.92
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.38,
+    16.92
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    13.54,
+    24.62
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.54,
+    12.62
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    18.15,
+    20
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    8.92,
+    20
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    13.85,
+    31.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.76,
+   9.5
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.62,
+    18.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.23,
+    13.23
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.77,
+    19.69
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    14.62,
+    30.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    14.31,
+    26.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.98
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.92,
+    10
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.8,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 1.14
+  },
+  {
+   "t": 4.65,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    20,
+    18.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.55,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    15.85,
+    34.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.84,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    13.54,
+    40
+   ]
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Even teams, free play — the coach referees loosely and lets it breathe.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Ball moves side to side, probing for the gap between defenders.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Line-breaking pass sends the runner clear in behind.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Final two minutes: next goal wins.",
+   "hold": 2.27
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.6,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8,
+    18.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.6,
+    18.8
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6.8,
+    5.6
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.8,
+    12.8
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.84,
+   5.95
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    7.28,
+    9.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.7,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.52,
+    11.48
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.67,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.6,
+    12.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.68,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    5.84,
+    10.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.38,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.92,
+    11.84
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.38,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    4.16,
+    9.8
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The coach attacks the channel; the player defends the end gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Stay goal-side and show him one way — the touchline is a team-mate.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "No lunging. Delay is the job; the tackle is a reward, not a plan.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Survive five seconds unbeaten and the defender scores it.",
+   "hold": 2.5
+  }
+ ]
+}

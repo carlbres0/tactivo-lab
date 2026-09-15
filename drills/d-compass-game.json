@@ -1,0 +1,351 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 30,
+  "length": 30
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    30,
+    15
+   ],
+   "width": 2.35,
+   "facing": "w"
+  },
+  {
+   "type": "goal",
+   "at": [
+    0,
+    15
+   ],
+   "width": 2.35,
+   "facing": "e"
+  },
+  {
+   "type": "goal",
+   "at": [
+    15,
+    0
+   ],
+   "width": 2.35,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    15,
+    30
+   ],
+   "width": 2.35,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.6,
+    9.6
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.8,
+    14.4
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    19.2,
+    18
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    21.6,
+    12
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    16.8,
+    13.2
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    14.4,
+    16.8
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12,
+    10.8
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    11.4,
+    19.2
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.51,
+   9.26
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.6,
+    13.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    22.32,
+    13.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    13.2,
+    8.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    12.48,
+    20.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    18.72,
+    18.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    14.88,
+    6.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.32,
+    9.12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.68,
+    11.28
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.5,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.12,
+    15.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.5,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    21.12,
+    20.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.5,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    11.52,
+    15.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.8,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 1.23
+  },
+  {
+   "t": 3.81,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.52,
+    20.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.45,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.92,
+    22.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.65,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.43,
+    12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.2,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    13.2,
+    24.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.65,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    17.77,
+    21.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.79,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    15,
+    30
+   ]
+  },
+  {
+   "t": 8.89,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.6,
+    18.6
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four mini-goals — north, south, east and west — and four v four in the middle.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Drive at one goal and the whole game leans that way.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Switch it: a goal within three passes of switching direction counts double.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "Play on straight from the net; there are no restarts.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "pitch": { "width": 20, "length": 30 },
+  "equipment": [
+    { "type": "cone", "at": [6, 15] }, { "type": "cone", "at": [14, 15] },
+    { "type": "goal", "at": [10, 30] }
+  ],
+  "teams": {
+    "blue": { "kit": { "primary": "#FFFFFF" } },
+    "gold": { "kit": { "primary": "#ffb340" } }
+  },
+  "players": [
+    { "id": "p1", "team": "blue", "number": 6,  "start": [10, 3]  },
+    { "id": "p2", "team": "blue", "number": 8,  "start": [6, 14]  },
+    { "id": "p3", "team": "blue", "number": 10, "start": [14, 14] },
+    { "id": "p4", "team": "blue", "number": 9,  "start": [10, 26] },
+    { "id": "gk", "team": "gold", "number": 1,  "start": [10, 29.6], "role": "keeper" }
+  ],
+  "ball": { "start": [10, 2.6] },
+  "events": [
+    { "t": 0.5, "type": "move", "player": "p2", "to": [7, 13], "gait": "jog", "runPath": true },
+    { "t": 1.6, "type": "pass", "from": "p1", "to": "p2", "flight": 1.0 },
+    { "t": 4.0, "type": "pass", "from": "p2", "to": "p4", "flight": 1.2 },
+    { "t": 6.5, "type": "shoot", "player": "p4", "at": [7.6, 30] },
+    { "t": 8.0, "type": "move", "player": "p2", "to": [6, 14], "gait": "jog" }
+  ],
+  "duration": 10,
+  "overlays": {
+    "runPaths": "authored",
+    "zones": [
+      { "at": [10, 7], "w": 10, "h": 7, "color": "tactical", "label": "build-up" },
+      { "at": [10, 24.5], "w": 12, "h": 8, "color": "physical", "label": "finish" }
+    ]
+  }
+}

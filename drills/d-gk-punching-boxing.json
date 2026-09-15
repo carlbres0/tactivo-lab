@@ -1,0 +1,172 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.51,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.51,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.51,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.75,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.08,
+    39.95
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.08,
+    33.9
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    16.27,
+    33.06
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    3.01,
+    35.58
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   3.33,
+   35.72
+  ]
+ },
+ "events": [
+  {
+   "t": 1.76,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.07,
+    32.56
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.8,
+   "type": "pass",
+   "from": "d3",
+   "to": "gk",
+   "flight": 1.56,
+   "deflect": {
+    "to": [
+     21.81,
+     20.47
+    ],
+    "style": "lofted"
+   },
+   "flightStyle": "lofted",
+   "loft": 3
+  }
+ ],
+ "duration": 8.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.76,
+     22.15
+    ],
+    "w": 23.51,
+    "h": 40.3,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Crosses arrive into a busy box — catching is not on.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.25,
+   "text": "Two-fisted punch through the middle: high, far and wide.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "One fist only when stretching across the body at full reach.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Ten serves, mixing catchable and uncatchable — the choice is live.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

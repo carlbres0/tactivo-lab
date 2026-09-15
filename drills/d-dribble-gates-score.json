@@ -1,0 +1,201 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.75,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    17.63,
+    6.69
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.63,
+    9.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.06,
+    20.75
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.06,
+    23.88
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.56,
+    5.13
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.56,
+    8.25
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.13,
+    22.31
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.13,
+    25.44
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    11.38,
+    12.94
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.81,
+    17.63
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.65,
+   12.71
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.38,
+    15.28
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    16.84,
+    8.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.02,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.16,
+    16.84
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.27,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.38,
+    14.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.36,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.47,
+    21.53
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.61,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.94,
+    22.31
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.87,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.13,
+    23.88
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Ball each — score a point for every gate you dribble through.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "The same gate cannot be used twice in a row, so scan for the next one.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Redirect at speed toward an unused gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.5,
+   "text": "Through the gate — personal best each round.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10.02
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.78,
+    3.22
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    7.4,
+    8.02
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.76,
+   3.57
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.6,
+    6.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.23,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.22,
+    6.69
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.13,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.31,
+    3.22
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.1,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.69,
+    3.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.01,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.4,
+    6.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.83,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    5
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 19.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     5,
+     5
+    ],
+    "w": 4,
+    "h": 4,
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One small box, one ball, thirty seconds on the coach's watch.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Soles, insides, both feet — as many touches as the box allows.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Never leave the box: the walls are the whole difficulty.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.25,
+   "text": "He counts in tens. The record is the only opponent.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.78,
+  "length": 24.11
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    12,
+    12.11
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.89,
+    13.44
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.44,
+    12.11
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.33,
+    13.44
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.56,
+    19.89
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.56,
+    22.55
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.11,
+    1
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.11,
+    3.67
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.44,
+    5.44
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.44,
+    19.89
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.33,
+    5.44
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.24,
+   5.73
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.76
+  },
+  {
+   "t": 4.58,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.45
+  },
+  {
+   "t": 7.64,
+   "type": "pass",
+   "from": "a3",
+   "to": "a1",
+   "flight": 1.11
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Teams of three, one ball — score a point for every gate the ball passes through.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "First pass threads a gate. Remember it — the same gate can't be used twice running.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Second pass finds a different gate — variety keeps the score climbing.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "Recycle and go again. Ninety-second rounds — beat your own best.",
+   "hold": 2.5
+  }
+ ]
+}

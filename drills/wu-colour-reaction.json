@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18.29,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.86,
+    3.43
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.86,
+    20.57
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.43,
+    3.43
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.43,
+    20.57
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.86,
+    4.14
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4.14,
+    17.71
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    12,
+    5.57
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.14,
+    14.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.29,
+    7.71
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.43,
+    12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.76,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.71,
+    19.71
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 6.76,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14,
+    18.86
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 6.76,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12.29,
+    19.71
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.25,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.43,
+    11.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.52,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.29,
+    10.57
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.85,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.86,
+    9.14
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Players jog inside the area, eyes up, waiting for a colour.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Colour called — every player sprints to THAT cone and touches it.",
+   "hold": 2.5
+  },
+  {
+   "t": 14,
+   "text": "Jog back into the middle and reset for the next call.",
+   "hold": 2.5
+  }
+ ]
+}

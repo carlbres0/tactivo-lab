@@ -1,0 +1,313 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10.1,
+    8.9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.2,
+    9.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.8,
+    10.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.3,
+    8.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.4,
+    9.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9,
+    10.2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4.1,
+    9.6
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7,
+    14.5
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    15,
+    9
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.3,
+    7.6
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.8,
+    11.3
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.26,
+   4.25
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6,
+    14.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    14.6,
+    7.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.78
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.4,
+    8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.8,
+    11.3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.8,
+    5.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.15,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5,
+    14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.4,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    13,
+    5.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.44,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.6,
+    7.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.45,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.2,
+    12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.6,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    8.7,
+    9.6
+   ],
+   "flight": 0.46,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 4.22,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.4,
+    13.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.22,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6,
+    7.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.45,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.4,
+    10.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.46,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    6.6,
+    12
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 7.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     9.5,
+     9.5
+    ],
+    "w": 2.2,
+    "h": 2.2,
+    "color": "technical",
+    "label": "the castle"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Six cones on the centre mound are the castle: guards defend it, raiders circle it.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Pass around the outside — the pass around is what makes the shot.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Strike low; guards block with feet and body but stay off the mound.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "All six down, or two minutes up: count, swap jobs, rebuild.",
+   "hold": 2.5
+  }
+ ]
+}

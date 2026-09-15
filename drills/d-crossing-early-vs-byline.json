@@ -1,0 +1,198 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32.57,
+  "length": 52
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    30.57,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.57,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    52
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.29,
+    52
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.79,
+    39.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    18.07,
+    30.57
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.93,
+    32.36
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    7.36,
+    43.07
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   3.86,
+   39.84
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.68,
+    43.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.36,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.07,
+    42.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.36,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19.86,
+    39.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.75,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.36,
+    43.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.25,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.68,
+   "flightStyle": "lofted",
+   "loft": 3.48
+  },
+  {
+   "t": 7.1,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.04,
+    44.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.55,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    16.29,
+    52
+   ]
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Wide player receives with a defender to beat; runners are already arriving centrally.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Look up before deciding — the runners' position dictates the ball, not the space.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Runners already ahead of the defence — the cross goes in early.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.75,
+   "text": "First-time finish — ten deliveries per side, alternating early and byline.",
+   "hold": 2.5
+  }
+ ]
+}

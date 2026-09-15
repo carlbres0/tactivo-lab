@@ -1,0 +1,160 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.83,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10.63,
+    4.31
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.77,
+    8.92
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.63,
+    13.54
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.85,
+    6.62
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.85,
+    11.23
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.58,
+    3.83
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    12.67,
+    16.17
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.28,
+   4.01
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.85,
+    6.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.41,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.77,
+    8.92
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.48,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.85,
+    11.23
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.56,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.63,
+    13.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.35,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.25,
+    15
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five cones in a wide W, and each cone owns a turn.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Drag-back, Cruyff, inside chop, outside cut, stop-go — the library in order.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Then the coach calls cones by number: dribble there, that turn, and out.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.25,
+   "text": "Two rounds ordered, two rounds called. Name each turn as you do it.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18.4,
+  "length": 26
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.4,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.4,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    9.2,
+    26
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    9.2,
+    21.8
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.2,
+    5.6
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.2,
+   5.95
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    9.2,
+    26
+   ]
+  },
+  {
+   "t": 7.2,
+   "type": "pass",
+   "from": "gk",
+   "to": "d1",
+   "flight": 1.62
+  },
+  {
+   "t": 11.77,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    9.2,
+    26
+   ]
+  }
+ ],
+ "duration": 19,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Keeper is set and facing the shooter from the start — no turn, no step.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Set on the shooter's planted foot, weight forward, hands ready.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Save to the corner, then reset dead centre straight after.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.25,
+   "text": "Alternate corners — eight shots per set, three sets.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

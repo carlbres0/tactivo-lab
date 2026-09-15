@@ -1,0 +1,111 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22.75,
+  "length": 29
+ },
+ "equipment": [],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    15.75,
+    17
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.25,
+    8.25
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.32,
+   8.59
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8.46,
+    22.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.98,
+    11.9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.44,
+   "type": "pass",
+   "from": "a1",
+   "to": "n1",
+   "flight": 1.07
+  },
+  {
+   "t": 7.13,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    5.23,
+    24.19
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 12,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach jogs arcs and diagonals, changing pace without warning.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "The player dribbles and picks the moment to feed the coach's run.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Into the path, never at the heels — weighted ahead of the runner.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "A pass taken without breaking stride scores. Ten feeds, then sudden sprints.",
+   "hold": 2.5
+  }
+ ]
+}

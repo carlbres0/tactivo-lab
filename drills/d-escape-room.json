@@ -1,0 +1,318 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    17,
+    8.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    10.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.33,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.67,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.33,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.67,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    8.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    10.33
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.83,
+    6.17
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.83,
+    12.83
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.17,
+    6.17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    6.17,
+    12.83
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.33,
+    9.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    7.83,
+    10.33
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.83,
+   6.52
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.58,
+    10.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.08,
+    11.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.5,
+    12.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.62
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.33,
+    7.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.39,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.08,
+    9.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.44,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.83,
+    9.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.44,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.88
+  },
+  {
+   "t": 4.29,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10,
+    11.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.48,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.83,
+    10.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.7,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    6.5,
+    11.58
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.93,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.67
+  },
+  {
+   "t": 6.77,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.5,
+    12.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.77,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.33,
+    14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.78,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.5,
+    7.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.22,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    9.38,
+    16.29
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four v two in a locked room — a square with four cone doors, all shut.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Three passes in a row unlocks the doors; a defender's touch restarts the count.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Unlocked — now escape before a defender stands in the door.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "Escape scores one; defenders rotate out every two escapes.",
+   "hold": 2.5
+  }
+ ]
+}

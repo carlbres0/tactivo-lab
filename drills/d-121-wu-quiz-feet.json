@@ -1,0 +1,114 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.3,
+    4.1
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    5.93,
+    6.3
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.65,
+   4.07
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.47,
+    4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.61,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.47,
+    5.07
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.96,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.4,
+    5.07
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.3,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.4,
+    4
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 8.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Player performs steady toe-taps while the coach fires easy quiz questions.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Maths, football, favourites — the feet must never pause for the brain.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "A stalled answer, or stalled feet, resets the streak.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Best streak of the day gets written down.",
+   "hold": 2.5
+  }
+ ]
+}

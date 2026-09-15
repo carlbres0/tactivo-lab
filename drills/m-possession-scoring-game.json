@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.42,
+  "length": 39
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    20.96,
+    4.92
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.96,
+    9.29
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.96,
+    29.71
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.96,
+    34.08
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.46,
+    4.92
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.46,
+    9.29
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.46,
+    29.71
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.46,
+    34.08
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18.04,
+    10.75
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    19.5,
+    25.33
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.92,
+    28.25
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    4.92,
+    10.75
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    12.21,
+    19.5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.04,
+    19.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    6.38,
+    19.5
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12.21,
+    19.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.85,
+   11.04
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.38,
+    15.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.13,
+    22.42
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.83,
+    23.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.29,
+    13.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a5",
+   "flight": 1.05
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17.75,
+    11.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.37,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.77,
+    26.06
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.87,
+   "type": "pass",
+   "from": "a5",
+   "to": "a2",
+   "flight": 0.93
+  },
+  {
+   "t": 5.72,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.67,
+    25.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.41,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.4
+  },
+  {
+   "t": 8.33,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.1,
+    26.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.43,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    3.46,
+    35.08
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Score by dribbling through any of four corner gates, from either side.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Corners are the furthest point from the middle — patient circulation to reach them.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Six passes must come first before any gate counts.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Take-on through the gate seals the point.",
+   "hold": 2.5
+  }
+ ]
+}

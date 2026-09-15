@@ -1,0 +1,312 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 55.05,
+  "length": 41.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    41.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    4.36
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    41.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    4.36
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    41.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    54.05,
+    40.63
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    38.94,
+    14.43
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    8.72,
+    14.43
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    22.15,
+    1
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    35.58,
+    17.79
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    18.79,
+    17.79
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    37.94
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   53.75,
+   40.45
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    32.9,
+    17.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    21.48,
+    1.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    33.9,
+    17.12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    20.47,
+    38.61
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.11,
+    19.47
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 5.49,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 2.3,
+   "flightStyle": "lofted",
+   "loft": 6.5
+  },
+  {
+   "t": 5.49,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    33.9,
+    16.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.49,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    34.91,
+    16.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.34,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    53.38,
+    39.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.48,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    17.45,
+    19.47
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.96,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    22.15,
+    41.3
+   ],
+   "header": true
+  },
+  {
+   "t": 7.96,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    19.8,
+    40.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.24,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    16.78,
+    19.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.11,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    18.12,
+    21.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.57,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    19.8,
+    41.3
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Corner taker shapes up; the near-post run goes early to drag a marker away.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "In-swinger struck toward the back post — the real target arrives late.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Back-post runner arrives as the ball does: timing beats marking.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Header on target — the screener behind owns the edge for any second ball.",
+   "hold": 2.5
+  }
+ ]
+}

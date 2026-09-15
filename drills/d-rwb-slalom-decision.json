@@ -1,0 +1,137 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 11.69,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    5.85,
+    20.27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.21,
+    27.77
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.29,
+    27.77
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.4,
+    27.77
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.48,
+    27.77
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.85,
+    2.96
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.85,
+   3.31
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.85,
+    18.35
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.36,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.12,
+    20.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.3,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.15,
+    23.35
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.16,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    3.44,
+    27.77
+   ],
+   "flight": 0.44,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Carrying the ball straight down the channel toward the split.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Head up — the coach points late and the lane is chosen only now.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Committing into the chosen lane at speed.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.25,
+   "text": "Finish with a pass through the gate at the end of that lane.",
+   "hold": 2.5
+  }
+ ]
+}

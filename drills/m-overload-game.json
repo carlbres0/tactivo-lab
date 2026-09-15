@@ -1,0 +1,285 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.19,
+  "length": 35
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.1,
+    0
+   ],
+   "width": 3.23,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.1,
+    35
+   ],
+   "width": 3.23,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.1,
+    8.08
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.13,
+    14.81
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.44,
+    18.85
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    9.4,
+    22.88
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.1,
+    10.77
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.46,
+    16.15
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12.77,
+    21.54
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    12.77,
+    28.27
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.28,
+   8.38
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.83,
+    11.44
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.19,
+    16.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    13.17,
+    20.87
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    13.44,
+    28.94
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    12.1,
+    26.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.78
+  },
+  {
+   "t": 2.15,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.83,
+    8.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.6,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.49
+  },
+  {
+   "t": 4.45,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.87,
+    15.48
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.7,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.75
+  },
+  {
+   "t": 8.07,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    12.77,
+    30.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.73,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    12.1,
+    35
+   ]
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two neutrals always play for whichever team has the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "That turns every attack into a numbers-up situation.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Neutrals are limited to two touches, so they link rather than dominate.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "One extra pass the defence can't cover is all it takes.",
+   "hold": 2.5
+  }
+ ]
+}

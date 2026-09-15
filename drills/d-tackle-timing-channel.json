@@ -1,0 +1,192 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.29,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.29,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.71,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.71,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.04,
+    21.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.96,
+    21.33
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.71,
+    3.25
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.38,
+    3.25
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4.28,
+    2.77
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    8.75,
+    2.82
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.71,
+   3.6
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.63,
+    13.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.38,
+    13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.26,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.71,
+    15.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.46,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    4.38,
+    17.5
+   ],
+   "flight": 2.76,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 8.14,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.21,
+    18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.35,
+   "type": "collect",
+   "player": "d1"
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Dribbler attacks the channel; defender starts level on the outside line.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Run alongside side-on — match strides and watch the ball, not the feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "The touch gets away. Level now — go and take it, never from behind.",
+   "hold": 2.5
+  },
+  {
+   "t": 11,
+   "text": "Clean win. The dribbler only scores if the touch never gets loose.",
+   "hold": 2.5
+  }
+ ]
+}

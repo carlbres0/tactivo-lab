@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.31,
+    11.23
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.08,
+    28.15
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    19.69,
+    25.08
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.46,
+    14.31
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.28,
+   11.58
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.54,
+    18.92
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.38,
+    18.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.17,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.08,
+    28.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.4,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.85,
+    20.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.43,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.08,
+    26.62
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.66,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12,
+    32.77
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.66,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.38,
+    37.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.39,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.54,
+    34.31
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.59,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.54,
+    34.69
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.88,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.54,
+    35.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.43,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 17.6,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    13.54,
+    42
+   ]
+  },
+  {
+   "t": 17.6,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.85,
+    38.92
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 21,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Winger receives wide with the full-back closing from inside.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "Feint to sit the full-back down, then burst outside them.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.25,
+   "text": "Whip the cross in — near and back post runs are already made.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.75,
+   "text": "Near-post run arrives first to finish; cutting inside to shoot also counts.",
+   "hold": 2.5
+  }
+ ]
+}

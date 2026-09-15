@@ -1,0 +1,413 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.69,
+    8.15
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.69,
+    16.62
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.69,
+    25.08
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.69,
+    33.54
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.38,
+    8.15
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.38,
+    16.62
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.38,
+    25.08
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.38,
+    33.54
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.46,
+    42
+   ],
+   "width": 3.38,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.62,
+    42
+   ],
+   "width": 3.38,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.54,
+    18.92
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    11.69,
+    25.08
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    22.46,
+    22
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 5,
+   "start": [
+    15.38,
+    18.15
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 4,
+   "start": [
+    4.62,
+    13.54
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    8.92,
+    28.92
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.54,
+    11.23
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.85,
+    30.46
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    18.15,
+    15.85
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    12,
+    34.31
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.44,
+   19.26
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.15,
+    14.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    17.38,
+    28.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.08,
+    18.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    10.46,
+    36.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.64
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.69,
+    20.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.46,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.12
+  },
+  {
+   "t": 4.31,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.46,
+    27.54
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.19,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.81
+  },
+  {
+   "t": 7.04,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    22.77,
+    26
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.62,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 0.98,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 9.47,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    13.23,
+    22.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.1,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    13.54,
+    35.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.22,
+   "type": "dribble",
+   "player": "a5",
+   "to": [
+    5.85,
+    25.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 15.41,
+   "type": "dribble",
+   "player": "a5",
+   "to": [
+    9.69,
+    32.77
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 18.88,
+   "type": "shoot",
+   "player": "a5",
+   "at": [
+    6.62,
+    42
+   ]
+  },
+  {
+   "t": 20.63,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    10.15,
+    33.69
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 23.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Central players circulate — a goal only counts once both wide zones have had the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Into the first wide zone — the wide player cannot be tackled in there.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Back inside — only a central player can find the switch.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "The central player lofts the switch into the far wide zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "Both wide zones visited — the wide player carries inside and finishes.",
+   "hold": 2.5
+  }
+ ]
+}

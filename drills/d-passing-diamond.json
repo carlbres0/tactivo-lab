@@ -1,0 +1,260 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16.19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    12.78,
+    9.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.09,
+    15.13
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.41,
+    9.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.09,
+    3.88
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.14,
+    10.27
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.45,
+    14.36
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.05,
+    8.73
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    8.09,
+    4.88
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    13.34,
+    8.19
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    9.22,
+    16.06
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    2.84,
+    10.81
+   ]
+  },
+  {
+   "id": "a8",
+   "team": "white",
+   "number": 8,
+   "start": [
+    6.97,
+    2.94
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.88,
+   10.5
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.62
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.16,
+    16.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.87,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    13.78,
+    9.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.44,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.66
+  },
+  {
+   "t": 4.29,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    2.28,
+    10.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.7,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    9.09,
+    15.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.71,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.56
+  },
+  {
+   "t": 6.56,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.16,
+    2.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.88,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    4.41,
+    9.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.89,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 0.66
+  },
+  {
+   "t": 8.72,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    7.26,
+    3.32
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.74,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9.22,
+    5.38
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 12,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two at each cone — the ball travels round the diamond as players follow their pass.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Every receiver takes an open touch away from the cone before playing on.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Follow your pass and join the next cone — the queue never stops.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "On the call of \"through\" — cut the ball straight across the diamond, not round it.",
+   "hold": 2.5
+  }
+ ]
+}

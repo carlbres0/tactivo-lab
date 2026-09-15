@@ -1,0 +1,114 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16,
+  "length": 16
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.87,
+    9.87
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    4.53,
+    12.53
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.89,
+   9.52
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8.27,
+    7.87
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6,
+    7.47
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.44,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.4,
+    5.07
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.48,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    9.2,
+    7.2
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 8,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One box, one ball, and the coach hunting it for real.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "The player keeps it alive any way they can: shields, turns, escapes.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Body between coach and ball, the far foot doing all the work.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Every full ten seconds survived is a point — three rounds, hunger rising.",
+   "hold": 2.5
+  }
+ ]
+}

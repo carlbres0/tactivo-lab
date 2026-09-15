@@ -1,0 +1,230 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32,
+  "length": 20.67
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    16,
+    20.67
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    16,
+    16.93
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    25.33,
+    8.22
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16,
+    5.11
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.67,
+    8.22
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   25.04,
+   8.41
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.58,
+      7.91
+     ]
+    },
+    {
+     "t": 12.47,
+     "at": [
+      5.89,
+      7.6
+     ]
+    },
+    {
+     "t": 21.5,
+     "at": [
+      6.51,
+      7.29
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      16.86,
+      4.9
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    16.47,
+    17.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    22.07,
+    10.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.52,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    16,
+    20.67
+   ]
+  },
+  {
+   "t": 6.27,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    22.53,
+    10.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.05,
+   "type": "pass",
+   "from": "gk",
+   "to": "a2",
+   "flight": 1.23
+  },
+  {
+   "t": 10.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    21.91,
+    9.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.05,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.6,
+    7.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.2,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.6,
+    17.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.23,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    16,
+    20.67
+   ]
+  }
+ ],
+ "duration": 21.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One goal, one keeper, three shooters spread on the arc, each with a ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Shooters strike in a steady rhythm — save, set, save.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "Every save scores the keeper a point; every goal scores the shooter.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.25,
+   "text": "As the keeper deals with one, the next is already coming.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

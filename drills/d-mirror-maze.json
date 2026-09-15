@@ -1,0 +1,246 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.67,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8.59,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.7,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.89,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.07,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.26,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.44,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.63,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.89,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    7
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.33,
+    4.78
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.33,
+    9.22
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.66,
+   4.89
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.19,
+      9.52
+     ]
+    },
+    {
+     "t": 1.68,
+     "at": [
+      5.41,
+      9.44
+     ]
+    },
+    {
+     "t": 4.2,
+     "at": [
+      6.74,
+      9.3
+     ]
+    },
+    {
+     "t": 5.88,
+     "at": [
+      6.3,
+      9.22
+     ]
+    },
+    {
+     "t": 7.56,
+     "at": [
+      4.81,
+      9
+     ]
+    },
+    {
+     "t": 10.5,
+     "at": [
+      4.74,
+      9
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.89,
+    5.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.47,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.89,
+    9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.93,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.63,
+    5.74
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.18,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    3.48,
+    8.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.19,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    2.9,
+    8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.12,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    2.22,
+    8.63
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs face each other across a line of flat cones, one ball each side.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "The leader dribbles side to side and the shadow must mirror them exactly.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "The feint that sends the shadow the wrong way is the whole game.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Escape by crossing the line at an open gate — a clean escape is a point.",
+   "hold": 2.5
+  }
+ ]
+}

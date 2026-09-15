@@ -1,0 +1,148 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.54,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    15.54,
+    3.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.54,
+    25.96
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    3.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    25.96
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.21,
+    4.08
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.33,
+    13.46
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.08,
+    11.38
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.32,
+   4.41
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.99
+  },
+  {
+   "t": 2.36,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.98,
+    24.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.81,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.99
+  },
+  {
+   "t": 8.17,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 2.19
+  },
+  {
+   "t": 10.52,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7,
+    4.6
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Player A has the ball; B is central, C waits wide and deep.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "A plays into B — the instant B receives, C's run begins beyond the line.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "B sets it back first time; C is already accelerating into the gap.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "The third pass goes straight to C, arriving beyond the defence.",
+   "hold": 2.5
+  }
+ ]
+}

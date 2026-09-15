@@ -1,0 +1,233 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.23,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.61,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.61,
+    12
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.96,
+    3.56
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    3.07,
+    4
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.73,
+    9.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.29,
+    6.44
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.83,
+   3.89
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.29,
+    11.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.4,
+    4.89
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.62
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.71,
+    12.43
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.71,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.51,
+    9.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.02,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.96,
+    16
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 6.7,
+   "type": "pass",
+   "from": "a3",
+   "to": "a2",
+   "flight": 0.67
+  },
+  {
+   "t": 7.44,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.78,
+    10.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.55,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.82,
+    15.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.36,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.67,
+    15.73
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.75,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.05,
+    11.1
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     6.62,
+     17.42
+    ],
+    "w": 9.23,
+    "h": 9.16,
+    "color": "technical",
+    "label": "TOP SQUARE"
+   },
+   {
+    "at": [
+     6.62,
+     6.58
+    ],
+    "w": 9.23,
+    "h": 9.16,
+    "color": "tactical",
+    "label": "3v1 SQUARE"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two squares joined by a narrow neck — 3v1 keep-ball in the bottom one.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "On the coach's call of TURN, the escape starts calm, not rushed.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Play the ball through the neck and everyone floods up.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.75,
+   "text": "Clean and controlled in the top square: a point, then it starts again there.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "pitch": {
+    "width": 14,
+    "length": 21
+  },
+  "equipment": [
+    {
+      "type": "cone",
+      "at": [
+        13,
+        1
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        13,
+        21
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        1,
+        1
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        1,
+        21
+      ]
+    },
+    {
+      "type": "goal",
+      "at": [
+        10,
+        21
+      ]
+    },
+    {
+      "type": "goal",
+      "at": [
+        4,
+        21
+      ]
+    }
+  ],
+  "teams": {
+    "white": {
+      "kit": {
+        "primary": "#FFFFFF"
+      }
+    },
+    "blue": {
+      "kit": {
+        "primary": "#7aa2ff"
+      }
+    }
+  },
+  "players": [
+    {
+      "id": "a1",
+      "team": "white",
+      "number": 1,
+      "start": [
+        7,
+        6
+      ]
+    },
+    {
+      "id": "d1",
+      "team": "blue",
+      "number": 1,
+      "start": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": "d2",
+      "team": "blue",
+      "number": 2,
+      "start": [
+        5.5,
+        4.5
+      ]
+    }
+  ],
+  "ball": {
+    "start": [
+      8.84,
+      2.31
+    ]
+  },
+  "events": [
+    {
+      "t": 1.2,
+      "type": "pass",
+      "from": "d1",
+      "to": "a1",
+      "flight": 0.45
+    },
+    {
+      "t": 1.82,
+      "type": "move",
+      "player": "d2",
+      "to": [
+        8,
+        10
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 3.27,
+      "type": "dribble",
+      "player": "a1",
+      "to": [
+        9.5,
+        9
+      ],
+      "gait": "run"
+    },
+    {
+      "t": 5.49,
+      "type": "dribble",
+      "player": "a1",
+      "to": [
+        10.2,
+        12
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 7.41,
+      "type": "move",
+      "player": "d2",
+      "to": [
+        9.2,
+        18
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 7.66,
+      "type": "dribble",
+      "player": "a1",
+      "to": [
+        9.9,
+        20.5
+      ],
+      "gait": "run"
+    }
+  ],
+  "duration": 13,
+  "overlays": {
+    "runPaths": "auto"
+  }
+}

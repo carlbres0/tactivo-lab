@@ -1,0 +1,221 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    17,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.29,
+    3.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.43,
+    4.79
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    15.29,
+    15.5
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    14.43,
+    14.21
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    3.71,
+    15.5
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    4.57,
+    14.21
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    3.71,
+    3.5
+   ]
+  },
+  {
+   "id": "a8",
+   "team": "white",
+   "number": 8,
+   "start": [
+    4.57,
+    4.79
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.71,
+    15.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.57,
+    14.21
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.71,
+    3.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    4.57,
+    4.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    15.29,
+    3.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    14.43,
+    4.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    15.29,
+    15.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.3,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    14.43,
+    14.21
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Forty seconds on at your corner — glute bridges, lunges, side planks, calf hops.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Coach calls rotate — jog the diagonal to the next corner, eyes up.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Arrive, settle, then forty more seconds at station two.",
+   "hold": 2.5
+  }
+ ]
+}

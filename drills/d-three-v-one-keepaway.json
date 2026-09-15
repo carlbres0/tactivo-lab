@@ -1,0 +1,297 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    2.9,
+    2.9
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.1,
+    2.9
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5,
+    7.1
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5,
+    4.88
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   3.25,
+   2.9
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.52,
+    7.28
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.42
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.48,
+    3.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.99,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.48,
+    6.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.24,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.43
+  },
+  {
+   "t": 3.24,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.12,
+    6.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.09,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.28,
+    3.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.28,
+   "type": "pass",
+   "from": "a3",
+   "to": "a1",
+   "flight": 0.48
+  },
+  {
+   "t": 5.34,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.1,
+    4.4
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.99,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.28,
+    3.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.1,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    3.77,
+    3.39
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.17,
+   "type": "tackle",
+   "player": "d1",
+   "from": "a1"
+  },
+  {
+   "t": 12.93,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.88,
+    4.09
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.13,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.1,
+    2.9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.73,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    3.2,
+    3.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.43,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.29,
+    4.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 16.91,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    7.1,
+    2.9
+   ],
+   "flight": 2.67,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 17.13,
+   "type": "collect",
+   "player": "a2"
+  }
+ ],
+ "duration": 22,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     5,
+     5
+    ],
+    "w": 6,
+    "h": 6,
+    "label": "grid",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three keep the ball from one defender in a tight grid.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "Off-ball pair always offers two angles — five passes in a row is a point, count aloud.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "A loose pass — the defender jumps the line and wins it.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.75,
+   "text": "Swap: the passer who gave it away becomes the new defender.",
+   "hold": 2.5
+  }
+ ]
+}

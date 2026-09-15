@@ -1,0 +1,145 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 35.58
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    35.58
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35.58
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    35.58
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    25.51
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    38.94,
+    2
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   38.74,
+   2.28
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    23.83,
+    23.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "gk",
+   "flight": 2.18,
+   "flightStyle": "lofted",
+   "loft": 5.84
+  },
+  {
+   "t": 3.55,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    38.27,
+    2.67
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 8,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Deliveries are mixed deliberately: some catchable, some not, some best left.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.25,
+   "text": "The keeper announces the decision before moving — the call comes first.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Catch, punch or stay — this one is caught clean at the highest point.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Coach reviews it after: was the call right, regardless of the outcome?",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

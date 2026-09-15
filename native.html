@@ -1,0 +1,14 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html,body{margin:0;height:100%;background:transparent;overflow:hidden}#slot{position:absolute;inset:0}</style>
+</head><body><div id="slot"></div>
+<script type="module">
+  import "./tactivo3d-host.js";
+  const api = window.tactivo3d;
+  const out = window.webkit?.messageHandlers?.TactivoHost;
+  api.onMessage((m) => out?.postMessage(JSON.stringify(m)));
+  window.tactivoNative = { post: (json) => api.post(JSON.parse(json)) };
+  api.mount(document.getElementById("slot"));
+  out?.postMessage(JSON.stringify({ type: "native_ready" }));
+</script></body></html>

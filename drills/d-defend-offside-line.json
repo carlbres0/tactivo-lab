@@ -1,0 +1,214 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.85,
+    31.23
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12,
+    31.23
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    18.15,
+    31.23
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    24.31,
+    31.23
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.08,
+    15.85
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    13.54,
+    9.69
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    7.38,
+    15.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15,
+   15.51
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 0.63
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.85,
+    23.54
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12,
+    23.54
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    18.15,
+    23.54
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    24.31,
+    23.54
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    6.92,
+    22.77
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 7,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Back four holds a deep line, watching the ball and the runner together.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Trigger: the attacker's head goes down — call it now, everyone steps.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "The whole line jumps as one on the backward pass, not on the runner.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "The run is timed too early — caught offside when the jump is together.",
+   "hold": 2.5
+  }
+ ]
+}

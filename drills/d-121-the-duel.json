@@ -1,0 +1,163 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 15.67,
+  "length": 18
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    9,
+    14.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.67,
+    14.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9,
+    3.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.67,
+    3.17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.83,
+    10.17
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    7.83,
+    12.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.59,
+   10.43
+  ]
+ },
+ "events": [
+  {
+   "t": 1.76,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.44,
+    11.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.76,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.02,
+    12.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.92,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    6.8,
+    11.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.17,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.15,
+    13.54
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.51,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.06,
+    12.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.76,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.83,
+    15.74
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two small gates at opposite ends — the player attacks one, the coach the other.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "A real 1v1: the coach plays properly, tuned to the player's edge.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Round the outside and away — the gate is the goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Winner keeps the ball to restart; first to five, then swap ends.",
+   "hold": 2.5
+  }
+ ]
+}

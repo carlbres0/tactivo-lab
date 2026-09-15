@@ -1,0 +1,153 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 20.33
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22,
+    20.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    20.33
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12,
+    20.33
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4,
+    19
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9,
+    7.83
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.14,
+   18.68
+  ]
+ },
+ "events": [
+  {
+   "t": 2.4,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.75,
+    9.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.17,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.67,
+    12.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.22,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.02
+  },
+  {
+   "t": 6.07,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.33,
+    17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.85,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    12,
+    20.33
+   ]
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Striker delays in the D while the server drives to the byline.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Cut-back pulled back along the floor to the penalty spot.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Arrive late onto the ball — first time, no touch allowed.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Side-foot placed low; laces for round two.",
+   "hold": 2.5
+  }
+ ]
+}

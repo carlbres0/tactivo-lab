@@ -1,0 +1,371 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29,
+  "length": 29
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.11,
+    5.33
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.17,
+    6.17
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    18.39,
+    15.33
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    21.17,
+    19.5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    24.22,
+    18.39
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    3.94,
+    10.06
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.2,
+   5.67
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.61,
+      7
+     ]
+    },
+    {
+     "t": 6.4,
+     "at": [
+      6.72,
+      8.39
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      7.83,
+      10.06
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      17.83,
+      16.17
+     ]
+    },
+    {
+     "t": 2.56,
+     "at": [
+      17,
+      15.06
+     ]
+    },
+    {
+     "t": 4.48,
+     "at": [
+      18.11,
+      13.11
+     ]
+    },
+    {
+     "t": 14.08,
+     "at": [
+      18.11,
+      13.11
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      15.06,
+      12.56
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a4",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      20.33,
+      18.67
+     ]
+    },
+    {
+     "t": 4.8,
+     "at": [
+      19.5,
+      17.56
+     ]
+    },
+    {
+     "t": 8.96,
+     "at": [
+      18.67,
+      15.61
+     ]
+    },
+    {
+     "t": 11.2,
+     "at": [
+      18.94,
+      14.5
+     ]
+    },
+    {
+     "t": 13.76,
+     "at": [
+      17.28,
+      15.06
+     ]
+    },
+    {
+     "t": 16,
+     "at": [
+      15.61,
+      15.89
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.39,
+    9.22
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    16.44,
+    13.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.78,
+    16.72
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    6.72,
+    13.39
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    19.5,
+    16.44
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.94,
+    8.39
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.69,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.28,
+    14.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.06,
+    15.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.05,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.39,
+    9.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.95,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.72,
+    19.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.95,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    19.78,
+    15.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.3,
+   "type": "pass",
+   "from": "a1",
+   "to": "a4",
+   "flight": 0.85
+  },
+  {
+   "t": 9.15,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12,
+    9.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.29,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.22,
+    11.72
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.77,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    15.89,
+    17.56
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two catchers chase everyone else, who each dribble a ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Tagged? Freeze, hold your ball overhead, stand feet wide apart.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Any free player rescues you with a pass through your legs.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.75,
+   "text": "Through, and you are back in — rescues are the score, not tags.",
+   "hold": 2.5
+  }
+ ]
+}

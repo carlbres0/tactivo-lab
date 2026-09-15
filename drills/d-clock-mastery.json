@@ -1,0 +1,506 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7,
+    11.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.94,
+    10.06
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.7,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.94,
+    3.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7,
+    2.69
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.06,
+    3.94
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.31,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.06,
+    10.06
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.28,
+    7
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.58,
+    6.44
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.45,
+    7.55
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.63,
+   6.95
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.58,
+      6.44
+     ]
+    },
+    {
+     "t": 2.05,
+     "at": [
+      6.58,
+      6.44
+     ]
+    },
+    {
+     "t": 4.51,
+     "at": [
+      4.22,
+      4.64
+     ]
+    },
+    {
+     "t": 6.15,
+     "at": [
+      4.22,
+      3.39
+     ]
+    },
+    {
+     "t": 9.02,
+     "at": [
+      6.58,
+      6.44
+     ]
+    },
+    {
+     "t": 10.66,
+     "at": [
+      6.58,
+      6.44
+     ]
+    },
+    {
+     "t": 13.12,
+     "at": [
+      7.56,
+      3.39
+     ]
+    },
+    {
+     "t": 14.76,
+     "at": [
+      6.45,
+      3.39
+     ]
+    },
+    {
+     "t": 17.22,
+     "at": [
+      6.58,
+      6.44
+     ]
+    },
+    {
+     "t": 19.07,
+     "at": [
+      6.58,
+      6.44
+     ]
+    },
+    {
+     "t": 20.5,
+     "at": [
+      5.47,
+      7.55
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.45,
+      7.55
+     ]
+    },
+    {
+     "t": 2.05,
+     "at": [
+      6.45,
+      7.55
+     ]
+    },
+    {
+     "t": 4.51,
+     "at": [
+      4.5,
+      9.36
+     ]
+    },
+    {
+     "t": 6.15,
+     "at": [
+      4.5,
+      10.61
+     ]
+    },
+    {
+     "t": 9.02,
+     "at": [
+      6.45,
+      7.55
+     ]
+    },
+    {
+     "t": 10.66,
+     "at": [
+      6.45,
+      7.55
+     ]
+    },
+    {
+     "t": 13.12,
+     "at": [
+      9.36,
+      4.64
+     ]
+    },
+    {
+     "t": 14.76,
+     "at": [
+      9.5,
+      3.53
+     ]
+    },
+    {
+     "t": 17.22,
+     "at": [
+      6.45,
+      7.55
+     ]
+    },
+    {
+     "t": 19.07,
+     "at": [
+      6.45,
+      7.55
+     ]
+    },
+    {
+     "t": 20.5,
+     "at": [
+      7.69,
+      8.81
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.42,
+    6.55
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    2.95,
+    4.06
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    2.96,
+    9.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.6,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4.65,
+    10.76
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.73,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.39,
+    3.05
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.73,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.28,
+    7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.13,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.45,
+    7.55
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.21,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.58,
+    6.44
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.95,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.38,
+    10.52
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.71,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.62,
+    3.47
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10.67,
+    3.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.49,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7,
+    1.69
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.49,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.63,
+    10.52
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.62,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.25,
+    3.35
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.02,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.38,
+    3.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.02,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.28,
+    7
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 14.02,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.45,
+    7.55
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.88,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.58,
+    6.44
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15.17,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.53,
+    5.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 17.04,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.69,
+    8.81
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.56,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.47,
+    7.55
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 20.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Everyone starts at the centre with a ball — the coach calls a cone.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Round it and dribble back — new touch each round: sole, weaker foot, outside cuts.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.75,
+   "text": "Two cones back to back — round both without stopping. The look up is the skill.",
+   "hold": 2.5
+  }
+ ]
+}

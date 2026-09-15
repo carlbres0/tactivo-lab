@@ -1,0 +1,373 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 15.2,
+  "length": 15.08
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    11.6,
+    4.68
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.6,
+    4.68
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.6,
+    4.68
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    7.6,
+    15.08
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.6,
+    1.32
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    11.92,
+    5.63
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.6,
+    5.68
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    3.92,
+    5.63
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    7.6,
+    14.6
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   7.85,
+   1.57
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8.4,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.8,
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    8.4,
+    14.52
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.61
+  },
+  {
+   "t": 3.43,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    12.08,
+    6.12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.44,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    7.6,
+    15.08
+   ]
+  },
+  {
+   "t": 4.55,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    7.76,
+    14.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.19,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.44,
+    6.76
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.43,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.23,
+    5.61
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.92,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.89,
+    5.39
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.92,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.44,
+   "newBall": true
+  },
+  {
+   "t": 9.22,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    6.8,
+    14.52
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.98,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    7.6,
+    15.08
+   ]
+  },
+  {
+   "t": 11.3,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    7.44,
+    14.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.73,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.44,
+    6.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.19,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.6,
+    5.68
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.19,
+   "type": "pass",
+   "from": "a1",
+   "to": "a4",
+   "flight": 0.57,
+   "newBall": true
+  },
+  {
+   "t": 14.93,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    6.16,
+    14.52
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 16.38,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    4.08,
+    6.12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 17.39,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    7.6,
+    15.08
+   ]
+  },
+  {
+   "t": 17.5,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    7.12,
+    14.6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 19.14,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    3.92,
+    6.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 20.32,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    3.76,
+    5.67
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 23.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Finishing from three angles, so the same shot doesn't come up every time.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 9,
+   "text": "Three stations, wide right, central and wide left, the same job from each.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 10,
+   "text": "Receive, take a touch to open the angle, and finish.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 17,
+   "text": "From wide, near post and far corner are both on. Ask them which one.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 18,
+   "text": "One striker at a time so the keeper sets. Six from each station.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 23.5,
+   "text": "Too easy, a defender jockeys across the near post. Too hard, take the keeper out.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ]
+}

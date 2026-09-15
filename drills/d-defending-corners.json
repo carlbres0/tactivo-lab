@@ -1,0 +1,487 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 55.05,
+  "length": 47.34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    47.34
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    10.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    47.34
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    10.4
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    47.34
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    43.98
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.78,
+    46.33
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    27.52,
+    46.33
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    18.12,
+    41.3
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    22.82,
+    41.3
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    27.52,
+    41.3
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    22.15,
+    13.76
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    34.91,
+    24.51
+   ]
+  },
+  {
+   "id": "a8",
+   "team": "white",
+   "number": 8,
+   "start": [
+    8.72,
+    25.51
+   ]
+  },
+  {
+   "id": "a9",
+   "team": "white",
+   "number": 9,
+   "start": [
+    22.15,
+    32.23
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    54.05,
+    46.67
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    38.94,
+    20.48
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    8.72,
+    23.83
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    23.83,
+    30.55
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   53.71,
+   46.6
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    9.39,
+    25.85
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a9",
+   "to": [
+    22.82,
+    31.89
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    23.16,
+    29.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.92,
+   "type": "move",
+   "player": "a9",
+   "to": [
+    22.15,
+    32.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.93,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    8.72,
+    25.51
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.02,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    23.83,
+    30.55
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.6,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    25.17,
+    39.95
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.89,
+   "type": "pass",
+   "from": "d1",
+   "to": "a5",
+   "flight": 2.3,
+   "flightStyle": "lofted",
+   "loft": 6.5
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    24.17,
+    43.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    18.79,
+    41.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    21.48,
+    41.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    33.23,
+    25.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    9.39,
+    27.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "a9",
+   "to": [
+    28.2,
+    37.94
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    35.58,
+    23.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.08,
+    25.18
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.89,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    25.51,
+    37.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.74,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    53.38,
+    46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.77,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    37.26,
+    22.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.24,
+   "type": "move",
+   "player": "a9",
+   "to": [
+    28.53,
+    37.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.43,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    22.49,
+    15.1
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.72,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    26.18,
+    35.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.98,
+   "type": "pass",
+   "from": "a5",
+   "to": "a6",
+   "flight": 2.12,
+   "flightStyle": "lofted",
+   "loft": 5.5
+  },
+  {
+   "t": 8.83,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    25.51,
+    39.28
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.77,
+   "type": "shoot",
+   "player": "a6",
+   "at": [
+    19.46,
+    1
+   ],
+   "flight": 1.44,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     22.15,
+     28.87
+    ],
+    "w": 40.3,
+    "h": 36.94,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Structure set: two posts, three zonal in the six, the rest man-marking.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Everyone already knows their job — said out loud before the ball is struck.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Near post wins the header first, clearing away from goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Second ball drops to the edge of the box — that space is never left empty.",
+   "hold": 2.5
+  }
+ ]
+}

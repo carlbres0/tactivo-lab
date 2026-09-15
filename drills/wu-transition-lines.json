@@ -1,0 +1,241 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.64,
+  "length": 29
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    13.36
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.82,
+    13.36
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.14,
+    13.36
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.23,
+    6.55
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.82,
+    6.55
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.41,
+    6.55
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    12.23,
+    20.18
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    8.82,
+    20.18
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    5.41,
+    20.18
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 3.15,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.23,
+    22.45
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.15,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.82,
+    22.45
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.15,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.41,
+    22.45
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.15,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    12.23,
+    25.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.15,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    8.82,
+    25.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.15,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    5.41,
+    25.3
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.23,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    12.23,
+    4.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.23,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    8.82,
+    4.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.23,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    5.41,
+    4.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.67,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.23,
+    16.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.67,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.82,
+    16.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.67,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.41,
+    16.77
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two groups on opposite sides, jogging in their own half.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Coach calls 'attack' — that group sprints across the line, the other recovers behind it.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Immediately call 'switch' so both groups reverse roles at pace.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "Six calls, with twenty seconds walking in between.",
+   "hold": 2.5
+  }
+ ]
+}

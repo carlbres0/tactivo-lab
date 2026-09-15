@@ -1,0 +1,187 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 15.67,
+  "length": 18
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    11.33,
+    5.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.33,
+    7.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.33,
+    10.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.33,
+    12.5
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    9.91,
+    9
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.72,
+    9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.07,
+   9
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    10.04,
+    9.91
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.2,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    9.91,
+    10.81
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.18,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    11.65,
+    6.88
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 5.63,
+   "type": "pass",
+   "from": "a1",
+   "to": "n1",
+   "flight": 0.71
+  },
+  {
+   "t": 6.48,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.24,
+    8.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.6,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.85,
+    7.7
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.81,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.5,
+    8.61
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.43,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.63
+  },
+  {
+   "t": 10.28,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    10.78,
+    7
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two gates six metres apart, with the coach loitering between them.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "The player passes through whichever gate the coach is further from.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "The coach drifts constantly; the eyes choose and the foot obeys.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "The ball comes straight back off their pass. Ten passes, a point a gate.",
+   "hold": 2.5
+  }
+ ]
+}

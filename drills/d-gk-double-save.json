@@ -1,0 +1,175 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.36,
+  "length": 12
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.36,
+    12
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.36,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    5.18,
+    12
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    5.18,
+    10.86
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.09,
+    5.18
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    2.91,
+    6.09
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.04,
+   5.53
+  ]
+ },
+ "events": [
+  {
+   "t": 1.1,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    4.09,
+    11.41
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    5.18,
+    12
+   ],
+   "deflect": {
+    "to": [
+     2.91,
+     6.09
+    ],
+    "style": "ground"
+   }
+  },
+  {
+   "t": 6.4,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    5.18,
+    10.86
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.4,
+   "type": "collect",
+   "player": "d2"
+  },
+  {
+   "t": 7.85,
+   "type": "shoot",
+   "player": "d2",
+   "at": [
+    5.18,
+    12
+   ]
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "First shot is saved and PARRIED — the recovery decides what's next.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Parry wide and away from the danger area, never back into the middle.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Back to the feet, set, and across — the second ball arrives at once.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.25,
+   "text": "Opposite corner, and this one is held — six doubles per set, two sets.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

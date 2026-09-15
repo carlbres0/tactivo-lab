@@ -1,0 +1,249 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.17,
+  "length": 24.5
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.17,
+    2.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.17,
+    22.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.17,
+    22.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.17,
+    2.5
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    21.45,
+    3.2
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    20.67,
+    1
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    21.17,
+    22.5
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    2.87,
+    21.78
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    2.88,
+    3.21
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   21.44,
+   3.55
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 1.93
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    23.17,
+    22.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 2.46,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    23.17,
+    2.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.75,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 1.83
+  },
+  {
+   "t": 5.6,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.17,
+    22.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 8.19,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 1.86
+  },
+  {
+   "t": 9.04,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    3.17,
+    3.17
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 11.67,
+   "type": "pass",
+   "from": "a5",
+   "to": "a3",
+   "flight": 1.93
+  },
+  {
+   "t": 12.52,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    1.17,
+    22.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 15.22,
+   "type": "pass",
+   "from": "a3",
+   "to": "a1",
+   "flight": 2
+  },
+  {
+   "t": 16.07,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    23.17,
+    22.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 18.83,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2
+  },
+  {
+   "t": 19.68,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    21.5,
+    10.83
+   ],
+   "gait": "sprint"
+  }
+ ],
+ "duration": 25,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     12.17,
+     12.5
+    ],
+    "w": 20,
+    "h": 20,
+    "label": "square",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two players on one corner; pass along the outside of the square and follow your pass.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "The receiver opens their body to play round the corner in one movement.",
+   "hold": 2.5
+  },
+  {
+   "t": 14,
+   "text": "Switch direction on the coach's call so both feet are used.",
+   "hold": 2.5
+  },
+  {
+   "t": 19,
+   "text": "The ball travels back the other way — everyone follows their pass again.",
+   "hold": 2.5
+  }
+ ]
+}

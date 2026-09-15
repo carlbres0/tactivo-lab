@@ -1,0 +1,363 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.19,
+  "length": 37.35
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    17.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    17.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.1,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.1,
+    35
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.1,
+    0
+   ],
+   "width": 3.23,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.1,
+    35
+   ],
+   "width": 3.23,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.1,
+    9.42
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.79,
+    17.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    8.06,
+    22.88
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.44,
+    14.81
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    14.79,
+    29.62
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.21,
+   9.75
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      19.91,
+      36.35
+     ]
+    },
+    {
+     "t": 8.8,
+     "at": [
+      19.91,
+      36.35
+     ]
+    },
+    {
+     "t": 9.24,
+     "at": [
+      17.48,
+      35.67
+     ]
+    },
+    {
+     "t": 22,
+     "at": [
+      17.48,
+      35.67
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      23.67,
+      17.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      0.52,
+      17.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.71,
+      -1.35
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.75,
+    20.19
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.85
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.83,
+    10.77
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.67,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    17.48,
+    35.67
+   ],
+   "flight": 1.84,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 4.52,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.71,
+    19.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.67,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    19.11,
+    35.3
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 8.65,
+   "type": "collect",
+   "player": "d2"
+  },
+  {
+   "t": 11.21,
+   "type": "dribble",
+   "player": "d2",
+   "to": [
+    19.91,
+    36.35
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13,
+   "type": "pass",
+   "from": "d2",
+   "to": "d1",
+   "flight": 1.86
+  },
+  {
+   "t": 13.68,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.37,
+    15.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.68,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.41,
+    13.73
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.85,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.12,
+    29.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 16.48,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    11.42,
+    9.42
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 22,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Spare balls sit all around the pitch, ready for instant restarts.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "The shot flies out off the attacking team — no stoppage, no fetching.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "The other team restarts instantly with the nearest spare ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.75,
+   "text": "No waiting, no arguing — far more playing time, far fewer stoppages.",
+   "hold": 2.5
+  }
+ ]
+}

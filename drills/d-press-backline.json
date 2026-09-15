@@ -1,0 +1,346 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.15,
+    42
+   ],
+   "width": 1.85,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    20.92,
+    42
+   ],
+   "width": 1.85,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.54,
+    41.08
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.62,
+    35.85
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    11.23,
+    33.54
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    15.85,
+    33.54
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    20.46,
+    35.85
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.92,
+    23.54
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.54,
+    21.23
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    18.15,
+    23.54
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.44,
+   40.75
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "gk",
+   "to": "d2",
+   "flight": 0.79
+  },
+  {
+   "t": 4.94,
+   "type": "pass",
+   "from": "d2",
+   "to": "d3",
+   "flight": 0.46
+  },
+  {
+   "t": 5.44,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.85,
+    36.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.31,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16,
+    30
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.69,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.23,
+    28.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.02,
+   "type": "dribble",
+   "player": "d3",
+   "to": [
+    16.31,
+    31.23
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.55,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    19.38,
+    34.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.55,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    19.69,
+    26.31
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.1,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.07,
+    30.26
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.92,
+   "type": "tackle",
+   "player": "a2",
+   "from": "d3"
+  },
+  {
+   "t": 12.17,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    17.38,
+    32.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15.48,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    13.85,
+    40.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 16.48,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.54
+  },
+  {
+   "t": 17.33,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.15,
+    28.92
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 18.64,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    21.23,
+    31.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 21.31,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    20.92,
+    42
+   ]
+  },
+  {
+   "t": 23.06,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    20.92,
+    32.77
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 26,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Back line builds out — the pressing trio hold their triangle.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Trigger: a heavy touch — the nearest presser springs.",
+   "hold": 2.5
+  },
+  {
+   "t": 13,
+   "text": "Win it as a three — the other two cut the return passes.",
+   "hold": 2.5
+  },
+  {
+   "t": 17.25,
+   "text": "Finish in either mini goal inside eight seconds.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16,
+  "length": 16
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.13,
+    8
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.27,
+    11.93
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.67,
+    10.4
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    4.67,
+    5.6
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    9.27,
+    4.07
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.8,
+   8.11
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.78
+  },
+  {
+   "t": 1.36,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.87,
+    3.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.62,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.33,
+    13.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.15,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.67,
+    11.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.6,
+   "type": "pass",
+   "from": "a3",
+   "to": "a5",
+   "flight": 0.78
+  },
+  {
+   "t": 4.27,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.07,
+    12.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.41,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    3.33,
+    5.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.78,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4,
+    7.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.99,
+   "type": "pass",
+   "from": "a5",
+   "to": "a2",
+   "flight": 0.81
+  },
+  {
+   "t": 6.84,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    6.53,
+    4.8
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 10.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Groups of five or six in a loose circle, one ball ticking between them.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Pass and move — the bomb never sits still, and nor do you.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Never to your neighbour: it has to skip somebody every time.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Whistle? Whoever holds it does three toe-taps, then straight back in.",
+   "hold": 2.5
+  }
+ ]
+}

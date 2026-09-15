@@ -1,0 +1,319 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22,
+  "length": 22
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.5,
+    6.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.4,
+    13.7
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.1,
+    15.5
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    7.4,
+    8.3
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.8,
+    10.1
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.35,
+    12.8
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    9.2,
+    11
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    6.5,
+    14.6
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.54,
+   6.85
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.6,
+    11.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.15,
+    14.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    11,
+    11.45
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    8.3,
+    15.05
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.86,
+    13.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.69
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.6,
+    7.76
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.67,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.2,
+    12.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.67,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    7.4,
+    13.7
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.73,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.7,
+    13.7
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.94,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.26,
+    15.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.51,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.61
+  },
+  {
+   "t": 3.72,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.26,
+    9.56
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.36,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.06,
+    14.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.39,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    6.86,
+    11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.71,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11,
+    14.24
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.81,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.3,
+    10.64
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.13,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.2,
+    13.16
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.73,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.77
+  },
+  {
+   "t": 6.58,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.02,
+    16.4
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four v four keep-ball; the ball is molten lava.",
+   "hold": 2.5
+  },
+  {
+   "t": 1,
+   "text": "Hold it longer than three touches and it burns — possession flips.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "The decision has to be made BEFORE the ball arrives.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Ten team passes make a goal; defenders play free, no touch limit.",
+   "hold": 2.5
+  }
+ ]
+}

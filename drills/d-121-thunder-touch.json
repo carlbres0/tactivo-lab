@@ -1,0 +1,123 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.6,
+  "length": 16
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8,
+    12.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.6,
+    12.8
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6.8,
+    3.79
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.59,
+    10.13
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.79,
+   4.14
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.53,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 3.35,
+   "type": "pass",
+   "from": "a1",
+   "to": "n1",
+   "flight": 0.63
+  },
+  {
+   "t": 5.59,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.63
+  },
+  {
+   "t": 7.84,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.8,
+    13.12
+   ],
+   "flight": 0.4,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A two-metre cushion gate sits five metres from the player.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.25,
+   "text": "Coach mixes serves with hands and feet: rollers, bouncers, knee-high, looping.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Kill each ball dead — the serve decides the surface, not the coach's voice.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Then play it through the gate within two touches. Ten serves a set.",
+   "hold": 2.5
+  }
+ ]
+}

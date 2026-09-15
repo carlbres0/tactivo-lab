@@ -1,0 +1,284 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 28.62,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    26.62,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    26.62,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.31,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.46,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.15,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.31,
+    22
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    14.31,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    14.31,
+    25.08
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    15.85,
+    28.15
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    18.92,
+    31.23
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    11.23,
+    29.69
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.85,
+    37.38
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.77,
+    34.31
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.23,
+    29.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.47,
+   25.39
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    10.46,
+    30.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17.38,
+    38.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.46,
+    35.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 0.4
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.54,
+    25.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.22,
+   "type": "pass",
+   "from": "d2",
+   "to": "d3",
+   "flight": 0.43
+  },
+  {
+   "t": 5.26,
+   "type": "shoot",
+   "player": "d3",
+   "at": [
+    17.38,
+    38.15
+   ],
+   "flight": 0.71,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 6.14,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 6.14,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.62,
+    28.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.59,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 1.22,
+   "flightStyle": "clipped",
+   "loft": 1.83
+  },
+  {
+   "t": 10.43,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    6.62,
+    14.62
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One team starts a goal up with eight minutes on the clock to protect it.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "The attacking team plays with an extra player and probes for a gap.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "The compact block holds firm and wins the ball back.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "Won it: turn OUT and counter through a gate, away from your own goal.",
+   "hold": 2.5
+  }
+ ]
+}

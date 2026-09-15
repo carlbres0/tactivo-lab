@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "pitch": { "width": 20, "length": 30 },
+  "equipment": [],
+  "teams": {
+    "blue": { "kit": { "primary": "#FFFFFF" } },
+    "gold": { "kit": { "primary": "#E8B93B" } }
+  },
+  "players": [
+    { "id": "p1", "team": "blue", "number": 10, "start": [3, 10] },
+    { "id": "p2", "team": "blue", "number": 8, "start": [10, 10] }
+  ],
+  "ball": { "start": [3, 10.35] },
+  "events": [
+    { "t": 1.0, "type": "pass", "from": "p1", "to": "p2", "flight": 3.0 },
+    { "t": 1.2, "type": "move", "player": "p2", "to": [10.8, 10.6], "gait": "jog" },
+    { "t": 7.0, "type": "pass", "from": "p2", "to": "p1", "flight": 1.2 }
+  ],
+  "duration": 10
+}

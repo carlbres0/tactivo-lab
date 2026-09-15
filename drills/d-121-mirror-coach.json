@@ -1,0 +1,163 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16,
+  "length": 16
+ },
+ "equipment": [],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    8.53,
+    6.4
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.53,
+    10.2
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.21,
+   10.07
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "n1",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      8,
+      6.4
+     ]
+    },
+    {
+     "t": 1.71,
+     "at": [
+      8,
+      6.4
+     ]
+    },
+    {
+     "t": 3.42,
+     "at": [
+      5.87,
+      5.33
+     ]
+    },
+    {
+     "t": 5.23,
+     "at": [
+      5.87,
+      5.33
+     ]
+    },
+    {
+     "t": 7.13,
+     "at": [
+      4.13,
+      6.93
+     ]
+    },
+    {
+     "t": 9.5,
+     "at": [
+      4.13,
+      6.93
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.98,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    6.4,
+    5.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.98,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.87,
+    9.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.72,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    4.67,
+    6.93
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.72,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.13,
+    10.73
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 9.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach and player each dribble a ball, three metres apart.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Whatever the coach does, the player mirrors — stops, turns, taps, tricks.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Thirty seconds, then swap: the player leads and the coach copies badly.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Leading and spotting the coach's mistakes are both worth points.",
+   "hold": 2.5
+  }
+ ]
+}

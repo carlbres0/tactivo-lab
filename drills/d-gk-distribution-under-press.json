@@ -1,0 +1,244 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32.45,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    30.45,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.45,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    28.08,
+    6.74
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    28.08,
+    11.48
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.37,
+    6.74
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.37,
+    11.48
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.41,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.67,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.22,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    16.22,
+    35.19
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    26.89,
+    9.11
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.56,
+    9.11
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 4,
+   "start": [
+    15.04,
+    4.37
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    16.22,
+    18.59
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.22,
+   18.94
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    26.42,
+    9.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.03,
+    9.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 1.66
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.22,
+    29.26
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.31,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.56,
+    4.84
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.83,
+   "type": "pass",
+   "from": "gk",
+   "to": "a1",
+   "flight": 2.76
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Keeper makes the save; the presser closes down immediately.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Three options: roll wide, throw long, or drive to the far gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Presser closes straight down the middle — the wide throw is on.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "Three outs every rep: roll wide, throw long or drive far — the press picks it.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

@@ -1,0 +1,510 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29,
+  "length": 30.34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27,
+    3.34
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27,
+    28.34
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    3.34
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    28.34
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    22.31,
+    7.25
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    5.91,
+    22.09
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 3,
+   "start": [
+    17.63,
+    13.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 5,
+   "start": [
+    9.81,
+    8.81
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 1,
+   "start": [
+    19.19,
+    5.68
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 2,
+   "start": [
+    22.31,
+    10.37
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 4,
+   "start": [
+    23.88,
+    24.43
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    5.13,
+    4.9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   27.63,
+   1
+  ],
+  "static": true
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.31,
+    17.36
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.56,
+    10.06
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.35,
+    6.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    19.97,
+    12.72
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    19.19,
+    24.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    4.34,
+    10.37
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.56,
+    19.12
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.94,
+    19.75
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 2.7,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    16.84,
+    8.81
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.3,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12,
+    18.81
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.3,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    16.06,
+    8.18
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.67,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    14.5,
+    21.31
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.77,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.59,
+    13.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.11,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.69,
+    11.93
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 5.15,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.31,
+    6.93
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.15,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    8.25,
+    5.68
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.5,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    22,
+    15.84
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 6.29,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    19.19,
+    23.65
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 6.38,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    8.25,
+    25.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.64,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.94,
+    23.18
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.08,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    20.75,
+    11.93
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.97,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    19.5,
+    12.87
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.55,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.94,
+    8.81
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.92,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    22.31,
+    14.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.39,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.31,
+    22.56
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.81,
+    8.5
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 9.9,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    8.88,
+    6.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.34,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    22.31,
+    18.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.41,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    9.19,
+    24.12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.68,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    13.88,
+    9.43
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 11.56,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.06,
+    10.68
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.67,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12.94,
+    13.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.5,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    11.69,
+    12.56
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.9,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    21.69,
+    17.4
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     14.5,
+     15.84
+    ],
+    "w": 25,
+    "h": 25,
+    "label": "square",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two taggers, bib in hand — everyone else dodges inside the square.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Tagged? Hold a star shape until a team-mate frees you with a high five.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Round three: pairs — the front player dodges, the partner copies every move.",
+   "hold": 2.5
+  },
+  {
+   "t": 15,
+   "text": "Short rounds, fast swaps — nobody stands out for long.",
+   "hold": 2.5
+  }
+ ]
+}

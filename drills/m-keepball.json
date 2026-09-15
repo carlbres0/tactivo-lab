@@ -1,0 +1,312 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 25,
+  "length": 35
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    23,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23,
+    35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.5,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.5,
+    35
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    19.5,
+    3.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    21.25,
+    28
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    3.75,
+    28
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.5,
+    3.5
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    12.5,
+    15.75
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.5,
+    15.75
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    5.5,
+    15.75
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    12.5,
+    15.75
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   19.33,
+   3.8
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16,
+    17.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9,
+    18.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.5,
+    13.13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a5",
+   "flight": 1.41
+  },
+  {
+   "t": 2.78,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    19.15,
+    4.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.23,
+   "type": "pass",
+   "from": "a5",
+   "to": "a2",
+   "flight": 1.51
+  },
+  {
+   "t": 4.9,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.25,
+    22.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.28,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.25,
+    12.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.35,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.75
+  },
+  {
+   "t": 8.5,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.35,
+    7.87
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.84,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.5,
+    21
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.72,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 2.46
+  },
+  {
+   "t": 12.82,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9,
+    12.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.8,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 1.41
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     12.5,
+     17.5
+    ],
+    "w": 21,
+    "h": 35,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Normal goals at each end — five keep the ball, three chase it down.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Quick angles round the press; every pass counts toward the target.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "Switch across the box — the chasers can never get set.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.75,
+   "text": "Ten consecutive passes scores a point, same as a normal goal.",
+   "hold": 2.5
+  }
+ ]
+}

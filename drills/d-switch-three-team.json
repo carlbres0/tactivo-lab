@@ -1,0 +1,370 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.38,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    13.54,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.69,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    19.69,
+    11.23
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.46,
+    8.15
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.38,
+    15.85
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    15.85,
+    18.92
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    18.15,
+    28.92
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    8.92,
+    30.46
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    14.31,
+    12.77
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    9.69,
+    14.31
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    19.69,
+    33.54
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    13.54,
+    36.62
+   ]
+  },
+  {
+   "id": "d5",
+   "team": "blue",
+   "number": 5,
+   "start": [
+    6.62,
+    33.54
+   ]
+  },
+  {
+   "id": "d6",
+   "team": "blue",
+   "number": 6,
+   "start": [
+    15.85,
+    39.69
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   19.36,
+   11.12
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.77,
+    14.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.69,
+    12.77
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.97
+  },
+  {
+   "t": 3.79,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.83
+  },
+  {
+   "t": 6.23,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.9
+  },
+  {
+   "t": 8.75,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 0.86,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 8.75,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    15.08,
+    25.85
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.75,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.15,
+    25.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.75,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.08,
+    16.31
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.78,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    14.31,
+    34.31
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.78,
+   "type": "move",
+   "player": "d6",
+   "to": [
+    9.69,
+    8.92
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 10.16,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    17.38,
+    9.69
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 11.23,
+   "type": "pass",
+   "from": "a5",
+   "to": "a6",
+   "flight": 0.94
+  },
+  {
+   "t": 12.34,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    7.69,
+    32.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.89,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.77,
+    26.31
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "4v2 keeps the ball in one half; across the centre line a 2v4 waits.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Circulate quickly — the overload side controls the tempo.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Possession is secure — the switch is clipped into the far half.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Two players sprint across with it — ball and bodies build the new overload.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.5,
+   "text": "Two defenders balance the other way — it reads 4v2 around the ball again.",
+   "hold": 2.5
+  }
+ ]
+}

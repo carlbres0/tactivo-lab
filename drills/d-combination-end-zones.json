@@ -1,0 +1,234 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.5,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    3.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    3.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    30.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    30.5
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    8.25
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.5,
+    15.75
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.75,
+    22
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.75,
+    13.25
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    9.5,
+    24.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.69,
+   8.54
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.9
+  },
+  {
+   "t": 2.27,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.13,
+    9.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.27,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.25,
+    16.38
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.27,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.75,
+    30.13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.27,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    11.38,
+    31
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.53,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.56
+  }
+ ],
+ "duration": 8.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     10.75,
+     2.75
+    ],
+    "w": 17.5,
+    "h": 1.5,
+    "label": "zone",
+    "color": "technical"
+   },
+   {
+    "at": [
+     10.75,
+     31.25
+    ],
+    "w": 17.5,
+    "h": 1.5,
+    "label": "zone",
+    "color": "tactical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two teams; player 1 has the ball facing a compact back line.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Combine forward — player 2 receives, laying the platform for the ball into the zone.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Three-touch max everywhere outside the end zones keeps it quick.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Player 3 arrives as the pass is played — no goal for a run that waited in the zone.",
+   "hold": 2.5
+  }
+ ]
+}

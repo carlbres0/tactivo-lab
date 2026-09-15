@@ -1,0 +1,230 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.5,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.5,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18.25,
+    12
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.88,
+    19.88
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    3.88,
+    17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    3.88,
+    7
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    13.88,
+    4.13
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   18.08,
+   12.31
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.9
+  },
+  {
+   "t": 2.27,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17,
+    10.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.72,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.04
+  },
+  {
+   "t": 4.92,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12,
+    21.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.37,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 1
+  },
+  {
+   "t": 7.54,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    2.63,
+    18.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.99,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 1.04
+  },
+  {
+   "t": 10.2,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    2,
+    5.75
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.25,
+    12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.65,
+   "type": "pass",
+   "from": "a5",
+   "to": "a1",
+   "flight": 0.9
+  },
+  {
+   "t": 11.65,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.25,
+    19.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.72,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    12,
+    2.63
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Number the group 1 to 5; the ball is passed strictly in that order, then back to 1.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Everyone moves continuously — nobody stands and waits for their number.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Once the sequence is smooth, add a second ball, then a third.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "A dropped sequence restarts at 1.",
+   "hold": 2.2
+  }
+ ]
+}

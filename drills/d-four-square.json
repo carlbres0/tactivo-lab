@@ -1,0 +1,573 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    17,
+    2.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.33,
+    2.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    21.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.33,
+    21.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.83,
+    6.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.83,
+    7.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.17,
+    16.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.17,
+    17.83
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18.67,
+    5.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.33,
+    8.67
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    17.83,
+    15.33
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    19.17,
+    17.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7,
+    6.17
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    4.83,
+    8.17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    7.83,
+    16.17
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    5.83,
+    19
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   18.57,
+   5.66
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      17.5,
+      15.91
+     ]
+    },
+    {
+     "t": 3.06,
+     "at": [
+      18.67,
+      16.76
+     ]
+    },
+    {
+     "t": 6.3,
+     "at": [
+      20,
+      17.24
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      20.83,
+      17.58
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.67,
+      6.76
+     ]
+    },
+    {
+     "t": 3.06,
+     "at": [
+      5.33,
+      7.09
+     ]
+    },
+    {
+     "t": 6.3,
+     "at": [
+      3.83,
+      7.09
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      3,
+      7.09
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a4",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.5,
+      16.76
+     ]
+    },
+    {
+     "t": 3.06,
+     "at": [
+      6.67,
+      17.91
+     ]
+    },
+    {
+     "t": 6.3,
+     "at": [
+      5.83,
+      18.91
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      5.5,
+      19.58
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "d1",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      14.97,
+      9.27
+     ]
+    },
+    {
+     "t": 0.9,
+     "at": [
+      14.97,
+      9.27
+     ]
+    },
+    {
+     "t": 3.06,
+     "at": [
+      16.97,
+      8.44
+     ]
+    },
+    {
+     "t": 5.58,
+     "at": [
+      16.14,
+      6.77
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      15.47,
+      4.77
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "d2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      18.8,
+      18.1
+     ]
+    },
+    {
+     "t": 3.06,
+     "at": [
+      19.14,
+      18.6
+     ]
+    },
+    {
+     "t": 6.3,
+     "at": [
+      19.47,
+      19.1
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      19.64,
+      19.44
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "d3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      4.47,
+      8.77
+     ]
+    },
+    {
+     "t": 3.06,
+     "at": [
+      4.14,
+      8.77
+     ]
+    },
+    {
+     "t": 6.3,
+     "at": [
+      3.8,
+      8.69
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      3.47,
+      8.6
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "d4",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.47,
+      19.6
+     ]
+    },
+    {
+     "t": 3.06,
+     "at": [
+      4.97,
+      20.1
+     ]
+    },
+    {
+     "t": 6.3,
+     "at": [
+      4.47,
+      20.6
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      4.14,
+      20.94
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19,
+    16.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    19.83,
+    18.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.55,
+    6.87
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.67,
+    19
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    4.83,
+    20
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    18,
+    7.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.33,
+    7.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.1,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.83,
+    4.17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.1,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    20.62,
+    17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.1,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    4.17,
+    8.09
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.35,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    16,
+    2.83
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 9,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     17,
+     7
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "technical"
+   },
+   {
+    "at": [
+     17,
+     17
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "tactical"
+   },
+   {
+    "at": [
+     7,
+     7
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "physical"
+   },
+   {
+    "at": [
+     7,
+     17
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "social"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One big square cut into four courts, a one v one with a mini-gate in each.",
+   "hold": 2.5
+  },
+  {
+   "t": 1,
+   "text": "Drive at the gate to commit your opponent.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Cut back the other way — win your duel by dribbling through their gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Every ninety seconds the winners move one court clockwise.",
+   "hold": 2.5
+  }
+ ]
+}

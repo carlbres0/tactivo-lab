@@ -1,0 +1,249 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.5,
+    4.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    19.5,
+    19.5
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    4.5,
+    19.5
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    4.5,
+    4.5
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.67,
+    9.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.33,
+    14.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   19.25,
+   4.75
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    4,
+    5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.67,
+    7
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    16.17,
+    12.83
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d3",
+   "flight": 2.12
+  },
+  {
+   "t": 3.91,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.5,
+    10.33
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.91,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.33,
+    17
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 4.94,
+   "type": "shoot",
+   "player": "d3",
+   "at": [
+    4.5,
+    10.33
+   ],
+   "flight": 0.92,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 5.79,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    4,
+    20
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.65,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.67,
+    15.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.91,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 10.36,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.69
+  },
+  {
+   "t": 11.21,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7,
+    12.83
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four keep the ball; the pressing pair start touch-tight, one pressing, one covering.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Ball shifts — the presser becomes cover and the cover becomes presser, instantly.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Pressure forces the risky ball; the pair have already shifted to cut it off.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Intercepted — the pair combine straight away before they rotate out.",
+   "hold": 2.5
+  }
+ ]
+}

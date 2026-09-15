@@ -1,0 +1,134 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14.67,
+  "length": 44
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.33,
+    6
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    4.13,
+    8.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.4,
+   6.34
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    5.2,
+    14.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.93,
+    14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.32,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    2.8,
+    26.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.57,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.73,
+    26.67
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.14,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.13,
+    35.07
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.47,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    4.67,
+    34.8
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A long channel; the coach jogs alongside calling gears one to five.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Gear two: small touches, head up, the ball on a string.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Gear four: drive it ahead and chase — big touch, big stride.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.25,
+   "text": "Gear one: back to a crawl. The touch must match the gear.",
+   "hold": 2.5
+  }
+ ]
+}

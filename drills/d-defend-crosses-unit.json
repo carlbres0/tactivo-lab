@@ -1,0 +1,287 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 64.81
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    64.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27.87
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    64.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    27.87
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    64.81
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    22.15,
+    61.45
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    37.26,
+    42.98
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    8.72,
+    42.98
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    22.15,
+    51.38
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    10.4,
+    51.38
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    42.3,
+    1
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    37.26,
+    42.98
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    7.04,
+    41.3
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   42.07,
+   1.26
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    36.59,
+    42.65
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.36,
+    44.66
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    22.15,
+    50.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    36.59,
+    42.65
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    5.36,
+    44.66
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.8,
+   "type": "pass",
+   "from": "d1",
+   "to": "d3",
+   "flight": 2.3,
+   "flightStyle": "lofted",
+   "loft": 6.5
+  },
+  {
+   "t": 2.29,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    22.82,
+    60.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.65,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    41.63,
+    2.68
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.72,
+   "type": "shoot",
+   "player": "d3",
+   "at": [
+    3.68,
+    31.23
+   ],
+   "flight": 1.35,
+   "flightStyle": "ground"
+  },
+  {
+   "t": 5.72,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    3.68,
+    31.23
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 6.57,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    7.04,
+    42.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.86,
+   "type": "collect",
+   "player": "a2"
+  }
+ ],
+ "duration": 12,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four defenders and the keeper set — crosses coming from both wings tonight.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Keeper calls it early: \"keeper's\" or \"away\" before the ball ever arrives.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Nobody turns to watch the ball — head on a swivel, marker in sight.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Attack the cross first; head it clear, high and away from goal.",
+   "hold": 2.5
+  }
+ ]
+}

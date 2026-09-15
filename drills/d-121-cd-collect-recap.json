@@ -1,0 +1,171 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 28.3,
+  "length": 33.16
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    21.44,
+    6.86
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.01,
+    14.15
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.23,
+    23.87
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.29,
+    9.29
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.07,
+    21.44
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.15,
+    11.72
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    13.61,
+    16.58
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.43,
+   27.52
+  ],
+  "static": true
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.01,
+    14.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    17.66,
+    16.31
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.44,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.29,
+    9.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.44,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8.48,
+    11.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.07,
+    21.44
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.2,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.4,
+    23.33
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Walk the area together, slowly, collecting the session's cones.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Every cone collected earns one memory: name a thing you did today.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Keep walking, keep naming. Kit goes in the bag as you go.",
+   "hold": 2.5
+  },
+  {
+   "t": 15,
+   "text": "The last cone is the coach's: one thing he saw you do well.",
+   "hold": 2.5
+  }
+ ]
+}

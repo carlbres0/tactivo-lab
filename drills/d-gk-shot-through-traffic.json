@@ -1,0 +1,183 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18,
+  "length": 26
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    9,
+    26
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    9.8,
+    24.8
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    7,
+    22
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    11,
+    22
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6,
+    8
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12,
+    8
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.06,
+   8.35
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d3",
+   "at": [
+    9,
+    26
+   ]
+  },
+  {
+   "t": 7.08,
+   "type": "pass",
+   "from": "gk",
+   "to": "d4",
+   "flight": 1.69
+  },
+  {
+   "t": 11.23,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    8.2,
+    24.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.72,
+   "type": "shoot",
+   "player": "d4",
+   "at": [
+    9,
+    26
+   ]
+  }
+ ],
+ "duration": 19,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Shots arrive from 18 metres with bodies blocking the keeper's view.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Move to find a sight line — never just guess at the strike.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Hands strong behind the ball: hold it, don't push it back out.",
+   "hold": 2.5
+  },
+  {
+   "t": 10,
+   "text": "Return it to the next server and reset before the strike.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.75,
+   "text": "Same again from the other angle — ten shots a set, two sets.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

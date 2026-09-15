@@ -1,0 +1,249 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16.5,
+  "length": 27
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    27
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    27
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    8.25,
+    27
+   ],
+   "width": 3.13,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.29,
+    12.42
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.17,
+    15.54
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    11.38,
+    6.17
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    4.08,
+    6.17
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   11.22,
+   6.48
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.81,
+    10.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    10.33,
+    8.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.14,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.92,
+    12.42
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.14,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    4.08,
+    9.29
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.41,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 0.63
+  },
+  {
+   "t": 4.41,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.25,
+    15.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.26,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.13,
+    8.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.66,
+   "type": "dribble",
+   "player": "d2",
+   "to": [
+    4.29,
+    11.38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.7,
+   "type": "tackle",
+   "player": "a2",
+   "from": "d2"
+  },
+  {
+   "t": 8.95,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    4.92,
+    12.42
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.27,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    4.6,
+    12.94
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "It's the second defender who decides a two v two, and this puts them under real pressure.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 4.5,
+   "text": "Two defenders against two attackers, one goal behind them.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 6.75,
+   "text": "One defender presses the ball, the other covers the angle to the second attacker.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 7.75,
+   "text": "As the ball moves the jobs swap, so they call press and cover out loud.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 12.75,
+   "text": "Six attacks per pair, then rotate.",
+   "hold": 2.27,
+   "beat": "take"
+  },
+  {
+   "t": 15,
+   "text": "Too easy, attackers can bring a third player in from wide. Too hard, keep attackers in their half.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ]
+}

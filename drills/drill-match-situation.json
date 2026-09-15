@@ -1,0 +1,320 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.25,
+  "length": 35.1
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.25,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.25,
+    35.1
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35.1
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.13,
+    0
+   ],
+   "width": 3.51,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.8,
+    35.1
+   ],
+   "width": 3.51,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.13,
+    5.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.99,
+    15.93
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.38,
+    18.23
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    17.52,
+    16.88
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.8,
+    20.25
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    6.73,
+    21.6
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.11,
+   5.75
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.52,
+    16.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.48,
+    18.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.4,
+    22.28
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.86,
+    10.13
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.69,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.77
+  },
+  {
+   "t": 4.01,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.07,
+    22.95
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.63,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.1,
+    20.93
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.08,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.15
+  },
+  {
+   "t": 6.08,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.15,
+    20.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.93,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.75,
+    19.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.39,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    8.35,
+    26.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.84,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    6.73,
+    24.3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.59,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    9.43,
+    29.03
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.65,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.4,
+    12.42
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.65,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.75,
+    24.3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.26,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    12.8,
+    35.1
+   ]
+  },
+  {
+   "t": 13.69,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.21,
+    21.87
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Conditioned match on a reduced pitch — score only after a 1v1 or 2v2 combination.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Play out from the back and keep it on the ground in the build-up.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Combine through midfield and slip the runner in behind the line.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Carry it in and finish — both goals stay live all match.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10.03,
+  "length": 18
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    4.66,
+    3.59
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.66,
+    5.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.66,
+    6.49
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.66,
+    7.94
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    4.9,
+    16
+   ],
+   "width": 1.93,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.98,
+    2.63
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.26,
+   2.84
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.66,
+    3.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.71,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.66,
+    5.04
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.34,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.66,
+    6.49
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.97,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.66,
+    7.94
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.6,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.56,
+    11.32
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.75,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.97,
+    11.32
+   ],
+   "flight": 0.4,
+   "flightStyle": "ground",
+   "deflect": {
+    "to": [
+     4.66,
+     11.32
+    ],
+    "style": "ground"
+   }
+  },
+  {
+   "t": 11.06,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 12.51,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.97,
+    11.32
+   ],
+   "flight": 0.4,
+   "flightStyle": "ground",
+   "deflect": {
+    "to": [
+     4.66,
+     11.32
+    ],
+    "style": "ground"
+   }
+  },
+  {
+   "t": 13.82,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 15.27,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.97,
+    11.32
+   ],
+   "flight": 0.4,
+   "flightStyle": "ground",
+   "deflect": {
+    "to": [
+     4.66,
+     11.32
+    ],
+    "style": "ground"
+   }
+  },
+  {
+   "t": 16.58,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 18.03,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.79,
+    13.49
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 19.91,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    4.9,
+    16
+   ]
+  }
+ ],
+ "duration": 23,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     7.27,
+     11.56
+    ],
+    "w": 0.39,
+    "h": 3.86,
+    "color": "technical",
+    "label": "WALL"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "GO! One timed circuit — slalom the cones first, tight touches at pace.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Station two: exchanges off the board — firm pass, first-touch return.",
+   "hold": 2.5
+  },
+  {
+   "t": 18,
+   "text": "Carry to the shooting spot and pick the corner before the strike.",
+   "hold": 2.5
+  },
+  {
+   "t": 21.5,
+   "text": "Stop the clock — a missed corner adds three seconds.",
+   "hold": 2.5
+  }
+ ]
+}

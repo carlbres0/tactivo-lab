@@ -1,0 +1,239 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12.65,
+  "length": 20
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.19,
+    13.24
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.19,
+    9.78
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.19,
+    6.32
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    6.32,
+    18
+   ],
+   "width": 3.46,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.74,
+    13.89
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.79,
+   14.24
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.32,
+      8.23
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      6.32,
+      4.77
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.63,
+      7.71
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.63,
+      8.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.63,
+      4.25
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.63,
+      5.29
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5.63,
+      12.72
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.32,
+    18
+   ]
+  },
+  {
+   "t": 2.95,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.24,
+    8.05
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.68,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.19,
+    9.78
+   ],
+   "gait": "jog",
+   "newBall": true
+  },
+  {
+   "t": 7.3,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.32,
+    18
+   ]
+  },
+  {
+   "t": 9.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.24,
+    4.59
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 11.58,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.19,
+    6.32
+   ],
+   "gait": "jog",
+   "newBall": true
+  },
+  {
+   "t": 13.21,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.32,
+    18
+   ]
+  }
+ ],
+ "duration": 16.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Rung one, 10m: pick the corner before the strike — placement first, power second.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Jog to the next mark and take the ball waiting there — no fetching between rungs.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Rung two, 16m: opposite corner, opposite foot.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "Top rung, edge of the box — a miss drops you a rung.",
+   "hold": 2.5
+  }
+ ]
+}

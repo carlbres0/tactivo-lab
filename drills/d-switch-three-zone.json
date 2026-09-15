@@ -1,0 +1,466 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 26.86,
+  "length": 40
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    40
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    13.29
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    13.29
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.86,
+    26.71
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    26.71
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.43,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.43,
+    40
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    19.14,
+    5.71
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.57,
+    5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.86,
+    9.29
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    17.71,
+    18.57
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    8.43,
+    20
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    19.14,
+    32.14
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    10.57,
+    34.29
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    17.71,
+    10.71
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    9.14,
+    10.71
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    13.43,
+    16.43
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    19.14,
+    22.86
+   ]
+  },
+  {
+   "id": "d5",
+   "team": "blue",
+   "number": 5,
+   "start": [
+    6.29,
+    22.14
+   ]
+  },
+  {
+   "id": "d6",
+   "team": "blue",
+   "number": 6,
+   "start": [
+    14.14,
+    30
+   ]
+  },
+  {
+   "id": "d7",
+   "team": "blue",
+   "number": 7,
+   "start": [
+    5.57,
+    32.86
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   18.79,
+   5.68
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.57,
+    10
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    9.14,
+    21.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    18.43,
+    33.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.57,
+    8.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.86,
+    10
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.57,
+    17.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    18.57,
+    22.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d5",
+   "to": [
+    7,
+    22.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d6",
+   "to": [
+    11.29,
+    33.57
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d7",
+   "to": [
+    6.57,
+    33.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.86,
+    5.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.83
+  },
+  {
+   "t": 3.06,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16,
+    9.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.65,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 1.48
+  },
+  {
+   "t": 5.29,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    14.86,
+    17.86
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.74,
+   "type": "pass",
+   "from": "a4",
+   "to": "a7",
+   "flight": 1.44,
+   "flightStyle": "clipped",
+   "loft": 2.54
+  },
+  {
+   "t": 7.59,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    16.57,
+    19.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.8,
+   "type": "shoot",
+   "player": "a7",
+   "at": [
+    13.43,
+    40
+   ]
+  },
+  {
+   "t": 11.55,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    12.29,
+    36
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.43,
+     6.65
+    ],
+    "w": 22.86,
+    "h": 13.29,
+    "label": "channel",
+    "color": "technical"
+   },
+   {
+    "at": [
+     13.43,
+     33.36
+    ],
+    "w": 22.86,
+    "h": 13.29,
+    "label": "channel",
+    "color": "tactical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three channels — a goal only counts once the ball has visited all three.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "7v7 — circulate in the near channel and draw the press across.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Into the middle channel — the pivot opens the far side.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "One long switch, not three short passes — ball into the far channel.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "All three channels visited — now the goal counts. Twelve minutes.",
+   "hold": 2.5
+  }
+ ]
+}

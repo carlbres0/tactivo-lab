@@ -1,0 +1,132 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 10,
+  "length": 10
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    3.05,
+    5
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    3.25,
+    7.19
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   3.4,
+   4.99
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.65,
+    4.9
+   ],
+   "flight": 0.4,
+   "flightStyle": "ground",
+   "deflect": {
+    "to": [
+     3.08,
+     4.8
+    ],
+    "style": "ground"
+   }
+  },
+  {
+   "t": 2.5,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 3.95,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    6.65,
+    5.29
+   ],
+   "flight": 0.4,
+   "flightStyle": "ground",
+   "deflect": {
+    "to": [
+     3.08,
+     5.58
+    ],
+    "style": "ground"
+   }
+  },
+  {
+   "t": 5.25,
+   "type": "collect",
+   "player": "a1"
+  }
+ ],
+ "duration": 8,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     6.94,
+     5
+    ],
+    "w": 0.51,
+    "h": 5,
+    "color": "technical",
+    "label": "WALL"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Player faces a wall or rebounder, the coach beside them as scorekeeper.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.5,
+   "text": "Strike, control the return, strike again — a rally, like squash with feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "The coach calls the surface for the next control: laces, sole, thigh.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "The wall never gives a bad serve. Longest rally goes on the whiteboard.",
+   "hold": 2.5
+  }
+ ]
+}

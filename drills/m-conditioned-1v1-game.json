@@ -1,0 +1,234 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.19,
+  "length": 35
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.19,
+    35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.1,
+    0
+   ],
+   "width": 3.23,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.1,
+    35
+   ],
+   "width": 3.23,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.71,
+    9.42
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.44,
+    26.92
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    8.06,
+    22.88
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    6.71,
+    13.46
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.77,
+    26.25
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.65,
+   9.76
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.73,
+    24.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.13,
+    15.08
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.44,
+    25.58
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.17,
+    12.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.36,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.4,
+    14.81
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.36,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.33,
+    16.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.61,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.75,
+    21.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.64,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.6
+  },
+  {
+   "t": 10.86,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    12.1,
+    35
+   ]
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A goal scored after a successful take-on counts double.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Losing the ball attempting it is never criticised — that's the deal.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Beat your player and the game opens up in front of you.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Quick combination finishes off the take-on.",
+   "hold": 2.5
+  }
+ ]
+}

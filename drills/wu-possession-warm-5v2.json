@@ -1,0 +1,295 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 17.75,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.5,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.13,
+    9.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    11.38,
+    16.13
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    3.25,
+    13.88
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    3.25,
+    5.13
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    11.38,
+    2.88
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.5,
+    8.25
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    7,
+    10.75
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.96,
+   9.8
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7,
+    13.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.76
+  },
+  {
+   "t": 2.13,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.5,
+    12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.11,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    4.5,
+    13.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.58,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.84
+  },
+  {
+   "t": 4.58,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.75,
+    9.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.42,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    4.5,
+    8.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.03,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.88
+  },
+  {
+   "t": 7.37,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.75,
+    5.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.42,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.25,
+    5.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.53,
+   "type": "pass",
+   "from": "a4",
+   "to": "a5",
+   "flight": 0.84
+  },
+  {
+   "t": 9.82,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.5,
+    4.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.2,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    7.63,
+    9.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.2,
+   "type": "pass",
+   "from": "a5",
+   "to": "a1",
+   "flight": 0.76
+  },
+  {
+   "t": 12.37,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.75,
+    7
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     8.25,
+     9.5
+    ],
+    "w": 12.5,
+    "h": 15,
+    "label": "grid",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five keep the ball inside the grid against two defenders.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Start with unlimited touches; drop to three, then two, as the group warms.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Eight consecutive passes scores a point for the five.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.5,
+   "text": "Whoever loses the ball swaps in as a defender.",
+   "hold": 2.5
+  }
+ ]
+}

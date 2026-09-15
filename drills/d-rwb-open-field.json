@@ -1,0 +1,167 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 44.54
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22,
+    41.23
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.92,
+    41.23
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    15.08,
+    41.23
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12,
+    41.23
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    8.15,
+    41.23
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.08,
+    41.23
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    18.15,
+    38.62
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.54,
+    5.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.54,
+   5.43
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    13.54,
+    32.77
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.49,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.58,
+    34.69
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.39,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    13.54,
+    41.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.21,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.62,
+    41.23
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 14.7,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.85,
+    43.54
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Runner starts with the ball at the near line — three gates open across the far line.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Driving hard with the ball out in front — big touches while the gate stays clear.",
+   "hold": 2.5
+  },
+  {
+   "t": 13,
+   "text": "Coach steps into the middle gate at the last second — cut away to another.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.75,
+   "text": "Small touches through the contested gate, under control at the exit.",
+   "hold": 2.5
+  }
+ ]
+}

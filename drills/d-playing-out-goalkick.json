@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32.57,
+  "length": 52
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.57,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.57,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.14,
+    25.21
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.71,
+    25.21
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.86,
+    25.21
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.43,
+    25.21
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.29,
+    52
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.29,
+    46.64
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.14,
+    39.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    23.43,
+    39.5
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.57,
+    34.14
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    16.29,
+    28.79
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.93,
+    30.57
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    21.64,
+    30.57
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    16.29,
+    34.14
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.04,
+   46.39
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.04,
+    37.71
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    20.75,
+    30.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.01
+  },
+  {
+   "t": 2.38,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    15.39,
+    29.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.73,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.4,
+    34.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.83,
+   "type": "pass",
+   "from": "a2",
+   "to": "a5",
+   "flight": 1.29
+  },
+  {
+   "t": 5.28,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    22.54,
+    28.79
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.28,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    16.29,
+    28.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.88,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.14,
+    28.79
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.73,
+   "type": "pass",
+   "from": "a5",
+   "to": "a4",
+   "flight": 1.2
+  },
+  {
+   "t": 9.55,
+   "type": "shoot",
+   "player": "a4",
+   "at": [
+    10.93,
+    23.79
+   ],
+   "flight": 1.17,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every restart is a goal kick; the back four and midfield must play out to a gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Centre-backs go wide, the midfielder drops short as the outlet.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "Switch it forward to the full-back pushing high on the touchline.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Carry it through the gate — a hoofed long ball counts as a loss regardless.",
+   "hold": 2.5
+  }
+ ]
+}

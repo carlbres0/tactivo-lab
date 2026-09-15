@@ -1,0 +1,302 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 30.67,
+  "length": 44
+ },
+ "equipment": [],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    3.87,
+    4.67
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.33,
+    8.67
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.33,
+    31.33
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    23.33,
+    12.67
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.33,
+    19.33
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    11.33,
+    23.33
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.33,
+   9.02
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.07,
+      32.27
+     ]
+    },
+    {
+     "t": 9.1,
+     "at": [
+      7.6,
+      34.93
+     ]
+    },
+    {
+     "t": 15.05,
+     "at": [
+      7.87,
+      37.6
+     ]
+    },
+    {
+     "t": 17.5,
+     "at": [
+      7.87,
+      38.13
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.13,
+    37.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    15.87,
+    4.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.07,
+    19.87
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.47,
+    20.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    15.6,
+    37.33
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.92,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.87,
+    21.47
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.79,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.6,
+    18
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.02,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.47,
+    20.13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.24,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.93,
+    19.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 14.49,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    15.33,
+    38.4
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 17.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     15.34,
+     4.67
+    ],
+    "w": 10.67,
+    "h": 5.33,
+    "color": "technical",
+    "label": "depot"
+   },
+   {
+    "at": [
+     15.34,
+     22
+    ],
+    "w": 26.67,
+    "h": 13.34,
+    "color": "tactical",
+    "label": "wardens"
+   },
+   {
+    "at": [
+     23.34,
+     39.34
+    ],
+    "w": 5.33,
+    "h": 5.33,
+    "color": "physical",
+    "label": "red"
+   },
+   {
+    "at": [
+     15.34,
+     39.34
+    ],
+    "w": 5.33,
+    "h": 5.33,
+    "color": "social",
+    "label": "blue"
+   },
+   {
+    "at": [
+     7.34,
+     39.34
+    ],
+    "w": 5.33,
+    "h": 5.33,
+    "color": "technical",
+    "label": "yellow"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A depot full of balls at one end, three colour drop-zones at the far end.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "Coach calls a colour as each van sets off — heads up to steer.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "Two traffic wardens roam the middle third and may pinch parcels.",
+   "hold": 2.5
+  },
+  {
+   "t": 14,
+   "text": "Deliver, then drive back empty and collect the next parcel.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 11.5,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    9.5,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9.5,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.03,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.47,
+    17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.43,
+    3.35
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.43,
+    5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    5.23,
+    5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.43,
+   3.7
+  ]
+ },
+ "events": [
+  {
+   "t": 1.26,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5.98,
+    10.55
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.03,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.72
+  },
+  {
+   "t": 3.03,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.3,
+    12.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.88,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.28,
+    3.95
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.37,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    5.9,
+    12.35
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.18,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    4.93,
+    12.59
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.21,
+   "type": "tackle",
+   "player": "d1",
+   "from": "a2"
+  },
+  {
+   "t": 7.46,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    6.2,
+    13.1
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.77,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    5.45,
+    16.48
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two players start hip to hip; the server rolls the ball past them into the grid.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "Both chase side by side — the race to the ball is the first duel.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "Shoulder to shoulder: arms in, same height, ball in reach — legal contact only.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "The defender edges in, takes it off his toe, shields and carries it to the far line.",
+   "hold": 2.5
+  }
+ ]
+}

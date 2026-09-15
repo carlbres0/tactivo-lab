@@ -1,0 +1,289 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29,
+  "length": 29
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18.25,
+    10.75
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.75,
+    17
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    8.25,
+    23.25
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   18.51,
+   10.99
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      23.94,
+      14.5
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      10.19,
+      17.83
+     ]
+    },
+    {
+     "t": 6,
+     "at": [
+      10.89,
+      19.5
+     ]
+    },
+    {
+     "t": 11.25,
+     "at": [
+      11.72,
+      21.44
+     ]
+    },
+    {
+     "t": 15,
+     "at": [
+      12.69,
+      22.28
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      7.69,
+      24.08
+     ]
+    },
+    {
+     "t": 6,
+     "at": [
+      6.72,
+      20.89
+     ]
+    },
+    {
+     "t": 11.25,
+     "at": [
+      5.61,
+      17
+     ]
+    },
+    {
+     "t": 15,
+     "at": [
+      5.75,
+      13.25
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.56,
+    21.72
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.61,
+    13.94
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    21.72,
+    13.94
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    20.89,
+    15.61
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.88,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    20.61,
+    18.94
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.76,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    21.44,
+    22.28
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.08,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    22,
+    23.25
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 15,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     23.25,
+     5.75
+    ],
+    "w": 2.5,
+    "h": 2.5,
+    "color": "technical",
+    "label": "1"
+   },
+   {
+    "at": [
+     23.88,
+     14.5
+    ],
+    "w": 2.5,
+    "h": 2.5,
+    "color": "tactical",
+    "label": "2 busy"
+   },
+   {
+    "at": [
+     22,
+     23.25
+    ],
+    "w": 2.5,
+    "h": 2.5,
+    "color": "physical",
+    "label": "3"
+   },
+   {
+    "at": [
+     13.25,
+     7
+    ],
+    "w": 2.5,
+    "h": 2.5,
+    "color": "social",
+    "label": "4"
+   },
+   {
+    "at": [
+     12.63,
+     22
+    ],
+    "w": 2.5,
+    "h": 2.5,
+    "color": "technical",
+    "label": "5"
+   },
+   {
+    "at": [
+     5.75,
+     13.25
+    ],
+    "w": 2.5,
+    "h": 2.5,
+    "color": "tactical",
+    "label": "6"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Six numbered cone houses spread around the area, everyone dribbling a ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Deliver to every house in any order: stop the ball dead inside, then move on.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "A house with a parcel already in it is busy — deliver elsewhere first.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.25,
+   "text": "Full round delivered? Shout DONE and start a new round.",
+   "hold": 2.5
+  }
+ ]
+}

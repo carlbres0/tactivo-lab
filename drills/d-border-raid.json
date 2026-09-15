@@ -1,0 +1,357 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14,
+  "length": 24
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    4.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    9.5,
+    9.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.5,
+    6.17
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    7.41,
+    7.41
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    9.5,
+    14.5
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    9.5,
+    19.5
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    4.5,
+    17
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    7,
+    17
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.79,
+   6.36
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      4.17,
+      17.59
+     ]
+    },
+    {
+     "t": 10.54,
+     "at": [
+      4.17,
+      17.59
+     ]
+    },
+    {
+     "t": 14.62,
+     "at": [
+      9,
+      19.5
+     ]
+    },
+    {
+     "t": 17,
+     "at": [
+      9,
+      19.5
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.33,
+    4.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    8.33,
+    15.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    7.67,
+    18.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    4,
+    17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    5.67,
+    20.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a3",
+   "to": "a2",
+   "flight": 0.6
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.41,
+    10.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5,
+    6.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.42,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    6.67,
+    11.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.42,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.5,
+    7.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.66,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.86,
+    10.91
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.38,
+   "type": "tackle",
+   "player": "d1",
+   "from": "a2"
+  },
+  {
+   "t": 9.95,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.17,
+    4.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.95,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9,
+    10.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.95,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    2.83,
+    13.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.95,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    5.08,
+    16
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.24,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10,
+    9.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 12.87,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    2.67,
+    10.67
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     7,
+     7
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "technical",
+    "label": "3v1"
+   },
+   {
+    "at": [
+     7,
+     17
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "tactical",
+    "label": "3v1"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two squares share one border and a three v one keep-ball lives in each.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Win the ball as the lone defender — that is the whole job.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Dribble it over the border and the game next door is yours.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.5,
+   "text": "The attacker longest in that square crosses back, so both are three v one again.",
+   "hold": 2.5
+  }
+ ]
+}

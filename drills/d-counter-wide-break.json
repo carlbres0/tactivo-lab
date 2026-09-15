@@ -1,0 +1,243 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.08,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.54,
+    14.31
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    2,
+    18.92
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    15.08,
+    23.54
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    8.92,
+    23.54
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.54,
+    20.46
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12,
+    23.54
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.21,
+   14.44
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    7.38,
+    35.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.23,
+    34.31
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.69,
+    35.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    12,
+    35.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.24
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    11.23,
+    16.62
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.06,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    3.54,
+    32.77
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.89,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.9
+  },
+  {
+   "t": 11.41,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    13.54,
+    42
+   ]
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.54,
+     22
+    ],
+    "w": 23.08,
+    "h": 40,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Ball is won centrally — the first pass must go wide within two seconds.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "The winger receives in space and carries at real speed down the line.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Two runners have already committed, timing their arrival into the box.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Delivered and finished before the recovering defenders get back.",
+   "hold": 2.5
+  }
+ ]
+}

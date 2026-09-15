@@ -1,0 +1,315 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 33.92,
+  "length": 35
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    31.92,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    31.92,
+    35
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    35
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    17.05,
+    0
+   ],
+   "width": 3.5,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    17.05,
+    35
+   ],
+   "width": 3.5,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    17.23,
+    4.38
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    26.85,
+    14
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.73,
+    14
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    28.78,
+    27.3
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    16.88,
+    10.15
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    23.88,
+    18.9
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    10.23,
+    18.9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.48,
+   4.63
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.13,
+    16.1
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    26.67,
+    29.4
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.77,
+    11.9
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    12.33,
+    21.35
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.36
+  },
+  {
+   "t": 3.45,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.17,
+    7.7
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.18,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    25.63,
+    15.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.55,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    24.58,
+    16.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.34,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    24.92,
+    16.46
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.33,
+   "type": "tackle",
+   "player": "d2",
+   "from": "a2"
+  },
+  {
+   "t": 10.9,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    20.73,
+    20.3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.9,
+   "type": "dribble",
+   "player": "d2",
+   "to": [
+    21.78,
+    19.25
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 14.63,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    21.07,
+    19.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 15.63,
+   "type": "tackle",
+   "player": "a2",
+   "from": "d2"
+  },
+  {
+   "t": 19.19,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    21.78,
+    23.8
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 20.19,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    14.08,
+    24.15
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 25,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Even game across the full 35x30m area — a regain inside four seconds scores a point.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Ball circulates wide; the nearest defender reads the touch.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Turnover — only the nearest man presses. The clock starts.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.5,
+   "text": "Regained inside the window: poke it back and drive away.",
+   "hold": 2.5
+  }
+ ]
+}

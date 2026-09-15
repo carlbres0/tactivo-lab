@@ -1,0 +1,139 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.33,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.83,
+    4.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.83,
+    39.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.5,
+    4.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.5,
+    39.5
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    22,
+    5.33
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    22,
+    38.67
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    5.33,
+    5.33
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.33,
+    38.67
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   22,
+   5.68
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 3.33
+  },
+  {
+   "t": 6.15,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 2.3,
+   "flightStyle": "lofted",
+   "loft": 6.5
+  },
+  {
+   "t": 10.06,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 3.33
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Stations at each corner — the ball starts short along one side.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Short pass along the side sets up the diagonal.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "The diagonal must clear the middle of the area in the air.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Receiver kills it in one touch — the short pass starts again the other way.",
+   "hold": 2.5
+  }
+ ]
+}

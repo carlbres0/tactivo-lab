@@ -1,0 +1,217 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 25.7,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.7,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.7,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.78,
+    23.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.1,
+    23.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20.6,
+    23.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.93,
+    23.7
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.85,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    12.85,
+    37.65
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    17.5,
+    28.35
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.95,
+    20.6
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.34,
+   28.66
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.71,
+    31.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.94,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.71,
+    37.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.72,
+   "type": "pass",
+   "from": "a1",
+   "to": "gk",
+   "flight": 1,
+   "toFeet": true
+  },
+  {
+   "t": 3.57,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    15.95,
+    29.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.33,
+   "type": "dribble",
+   "player": "gk",
+   "to": [
+    14.09,
+    36.41
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.13,
+   "type": "shoot",
+   "player": "gk",
+   "at": [
+    6.65,
+    2
+   ],
+   "flight": 3.52,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Back passes arrive at varying pace and angle, forward pressing throughout.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "First touch opens the body — never straight back in front of goal.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "Press is on: touch away, then find the release before it arrives.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.75,
+   "text": "Clear long down the channel — twelve reps, alternating the press side.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

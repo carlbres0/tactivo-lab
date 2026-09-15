@@ -1,0 +1,253 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32.85,
+  "length": 50
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    30.85,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.85,
+    50
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    0
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    50
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.42,
+    0
+   ],
+   "width": 6.7,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.42,
+    50
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.42,
+    3.85
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    18.35,
+    21.15
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.65,
+    23.08
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.31,
+    19.23
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.65,
+    21.15
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   16.46,
+   4.2
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17.96,
+    44.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.62,
+    43.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    20.27,
+    30.77
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    10.65,
+    44.23
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.15,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2.27,
+   "flightStyle": "clipped",
+   "loft": 4
+  },
+  {
+   "t": 3,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16.04,
+    4.81
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.03,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    18.35,
+    42.31
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.3,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.79
+  },
+  {
+   "t": 11.25,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    17.96,
+    43.27
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.7,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    16.42,
+    50
+   ]
+  },
+  {
+   "t": 14.45,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    11.04,
+    44.62
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every counter starts from a save — the keeper is the first attacker.",
+   "hold": 2.5
+  },
+  {
+   "t": 0.75,
+   "text": "Drive the first pass into the breaking runner within three seconds.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Carry and release quickly — recovering defenders are still getting back.",
+   "hold": 2.5
+  },
+  {
+   "t": 11,
+   "text": "Finish at the far goal within twelve seconds of the save.",
+   "hold": 2.5
+  }
+ ]
+}

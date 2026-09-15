@@ -1,0 +1,204 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 52
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    10.65,
+    40.46
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.42,
+    40.46
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.65,
+    31.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.42,
+    31.81
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.65,
+    17.38
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.42,
+    17.38
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.54,
+    52
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.54,
+    50.46
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    21.23,
+    44.31
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   20.98,
+   44.56
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    13.54,
+    52
+   ]
+  },
+  {
+   "t": 2.95,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.5,
+    38.54
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.67,
+   "type": "pass",
+   "from": "gk",
+   "to": "d1",
+   "flight": 1.2
+  },
+  {
+   "t": 10.82,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 1.2
+  },
+  {
+   "t": 11.67,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.15,
+    28.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 15.99,
+   "type": "pass",
+   "from": "gk",
+   "to": "d1",
+   "flight": 2.15
+  },
+  {
+   "t": 21.09,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 2.15
+  },
+  {
+   "t": 21.94,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.54,
+    11.62
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 27.21,
+   "type": "pass",
+   "from": "gk",
+   "to": "d1",
+   "flight": 3.88
+  }
+ ],
+ "duration": 35,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every rep starts with a save — catch, secure, scan for the out-ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Rep one: roll it flat and true through the near gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.25,
+   "text": "Rep two: throw over the middle gate to the server beyond it.",
+   "hold": 2.5
+  },
+  {
+   "t": 25.5,
+   "text": "Rep three: drop kick past the far gate — release inside four seconds.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

@@ -1,0 +1,352 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.67,
+    4.17
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.67,
+    14.67
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.67,
+    15.17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    5.83,
+    3.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.5,
+    10
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    2.67,
+    8.83
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    2.83,
+    15
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    2.67,
+    3.83
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    9.83,
+    2.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.65,
+   4.52
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      9.83,
+      3
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14,
+    14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7,
+    14.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.5,
+    3.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    3.5,
+    14.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    3.33,
+    4.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    14.42,
+    9.33
+   ],
+   "flight": 3.06,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    14.33,
+    9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.33,
+    5.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.8,
+   "type": "collect",
+   "player": "d1"
+  },
+  {
+   "t": 4.43,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    13.33,
+    14.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.43,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    3.17,
+    8.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.08,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 1.12
+  },
+  {
+   "t": 6.08,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.83,
+    15.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.08,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.67,
+    3.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.08,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    3,
+    15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.08,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    2.5,
+    3.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.08,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9,
+    8.67
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.93,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.5,
+    9.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.36,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    14.17,
+    14.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.94,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.62,
+   "newBall": true
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four v four keep-ball, two teams, no goals.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Lose it and the ball is dead the instant the other team touches it.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "The winning team restarts with a free first pass.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Hunt it back in the first two seconds — that sprint IS counter-pressing.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Dead ball stays dead: the coach serves a second one straight away.",
+   "hold": 2.5
+  }
+ ]
+}

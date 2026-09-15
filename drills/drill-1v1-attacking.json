@@ -1,0 +1,188 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14.8,
+  "length": 31.7
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    12.8,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.8,
+    31.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    31.7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.4,
+    6.05
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    7.54,
+    31.7
+   ],
+   "width": 2.97,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.4,
+    7.05
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    7.4,
+    15.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.4,
+   7.4
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.07,
+    14.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.4,
+    11.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.94,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.1,
+    16.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.41,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.05,
+    15.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.16,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5.78,
+    16.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.39,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    8.07,
+    28.33
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.64,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    7.54,
+    31.7
+   ]
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Attacker starts on the ball at the cone, defender goal-side and jockeying.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "Sell the fake with hips and shoulders — commit the defender before the move.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Beat the defender and accelerate into the space in behind.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.25,
+   "text": "Head up early and finish first-time into the small goal.",
+   "hold": 2.5
+  }
+ ]
+}

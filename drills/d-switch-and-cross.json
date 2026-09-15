@@ -1,0 +1,339 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32.57,
+  "length": 52
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    30.57,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.57,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    52
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.29,
+    52
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    26.11,
+    25.21
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.46,
+    34.14
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 4,
+   "start": [
+    17.71,
+    43.96
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 5,
+   "start": [
+    12,
+    48.07
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 6,
+   "start": [
+    10.93,
+    40.57
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    26.64,
+    22.54
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    24.14,
+    28.43
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    18.43,
+    45.21
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    8.79,
+    42.71
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    16.29,
+    51.29
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   25.79,
+   25.35
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    11.64,
+    47.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    11.29,
+    40.93
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    25.93,
+    23.79
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    24.86,
+    27.36
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    9.14,
+    43.07
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    15.21,
+    51.11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.97,
+   "flightStyle": "lofted",
+   "loft": 4.75
+  },
+  {
+   "t": 4.79,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    7.36,
+    47
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.36,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    16.11,
+    43.92
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.88,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    14.14,
+    43.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.73,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 11.73,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    13.43,
+    44.14
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.9,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    16.29,
+    52
+   ]
+  },
+  {
+   "t": 14.9,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    13.07,
+    43.79
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     16.29,
+     27
+    ],
+    "w": 28.57,
+    "h": 50,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Attack starts on the near wing, deliberately blocked by two defenders.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Wing to wing in one ball — the far winger is one against one.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "The far winger drives to the byline before delivering the cross.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Three runners attack the box; finish off the cross.",
+   "hold": 2.5
+  }
+ ]
+}

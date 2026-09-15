@@ -1,0 +1,120 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.69,
+  "length": 30
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    16.65,
+    30
+   ],
+   "width": 3.45,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6.95,
+    23.75
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.65,
+    6.74
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.12,
+   23.45
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 1.96
+  },
+  {
+   "t": 4.78,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    18.37,
+    12.34
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.55,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    16.65,
+    30
+   ]
+  },
+  {
+   "t": 9.3,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.8,
+    14.06
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The coach serves from beside the goal; the player receives at the arc.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Rung one is three touches, rung two is two, the top rung is first time.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Two touches today: set it away from the feet, then strike it.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Two goals on a rung climbs the ladder; two misses drops one.",
+   "hold": 2.5
+  }
+ ]
+}

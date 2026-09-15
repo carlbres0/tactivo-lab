@@ -1,0 +1,348 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.7,
+  "length": 42
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.7,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.85,
+    42
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.85,
+    11.63
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    21.26,
+    8.67
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    6.44,
+    8.67
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    13.85,
+    17.56
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.3,
+    30.89
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.37,
+    32.37
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    6.44,
+    30.15
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    13.85,
+    40.96
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   14.18,
+   11.5
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.15,
+    30.59
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    14.15,
+    24.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.19,
+    28.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.59,
+    33.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9.41,
+    32.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.07,
+    40.81
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    20.96,
+    20.52
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.33,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.14
+  },
+  {
+   "t": 4.63,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    13.56,
+    12.37
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.08,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    22.15,
+    27.93
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    12.07,
+    32.07
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.92,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    18.89,
+    29.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.17,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    21.26,
+    30.15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.67,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    15.33,
+    33.85
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.46,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    13.85,
+    42
+   ]
+  },
+  {
+   "t": 12.46,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    10.89,
+    36.52
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.69,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.56,
+    31.78
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.69,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    11.48,
+    32.96
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Coach serves in; four break at speed against three recovering defenders.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "First pass goes forward immediately — the winger is already sprinting.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "First touch takes him around the outside shoulder, clear of the defender.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Shoot within twelve seconds, or the defenders have won the round.",
+   "hold": 2.5
+  }
+ ]
+}

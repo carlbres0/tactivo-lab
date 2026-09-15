@@ -1,0 +1,330 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 24
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    17.83,
+    6.17
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    18.67,
+    15.33
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.83,
+    7
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    7,
+    17
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.33,
+    9.5
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    14.5,
+    13.67
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    9.5,
+    10.33
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    10.33,
+    15.33
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.86,
+   6.52
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9,
+    11.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    17,
+    12.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    16.5,
+    14.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    11.5,
+    11.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    12.33,
+    15.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    18.17,
+    15
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    7.5,
+    17.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.88
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.5,
+    9.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.81,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    9.5,
+    18.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.88,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    9.5,
+    16.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.89,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    10.33,
+    13.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.17,
+    15.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.7,
+   "type": "pass",
+   "from": "a2",
+   "to": "a4",
+   "flight": 1.09
+  },
+  {
+   "t": 4.55,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.33,
+    16.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.17,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    9,
+    14.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.91,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    7.5,
+    18.67
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     17,
+     7
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "technical"
+   },
+   {
+    "at": [
+     17,
+     17
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "tactical"
+   },
+   {
+    "at": [
+     7,
+     7
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "physical"
+   },
+   {
+    "at": [
+     7,
+     17
+    ],
+    "w": 10,
+    "h": 10,
+    "color": "social"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One big square split into four; four v four across the whole thing.",
+   "hold": 2.5
+  },
+  {
+   "t": 1,
+   "text": "The ball may never live longer than five seconds in any one square.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Cross a border by pass or dribble to restart the clock.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.5,
+   "text": "Ten passes is a goal; a stale square hands the ball over.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "pitch": {
+    "width": 20.92,
+    "length": 48
+  },
+  "equipment": [
+    {
+      "type": "cone",
+      "at": [
+        17.23,
+        3.69
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        17.23,
+        15.54
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        3.69,
+        3.69
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        3.69,
+        15.54
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        17.23,
+        32.46
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        17.23,
+        44.31
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        3.69,
+        32.46
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        3.69,
+        44.31
+      ]
+    }
+  ],
+  "teams": {
+    "white": {
+      "kit": {
+        "primary": "#FFFFFF"
+      }
+    },
+    "blue": {
+      "kit": {
+        "primary": "#7aa2ff"
+      }
+    }
+  },
+  "players": [
+    {
+      "id": "a1",
+      "team": "white",
+      "number": 1,
+      "start": [
+        14.69,
+        6.23
+      ]
+    },
+    {
+      "id": "a2",
+      "team": "white",
+      "number": 2,
+      "start": [
+        14.69,
+        13
+      ]
+    },
+    {
+      "id": "a3",
+      "team": "white",
+      "number": 3,
+      "start": [
+        6.23,
+        6.23
+      ]
+    },
+    {
+      "id": "a4",
+      "team": "white",
+      "number": 4,
+      "start": [
+        6.23,
+        13
+      ]
+    },
+    {
+      "id": "a5",
+      "team": "white",
+      "number": 5,
+      "start": [
+        15.54,
+        35
+      ]
+    },
+    {
+      "id": "a6",
+      "team": "white",
+      "number": 6,
+      "start": [
+        13.85,
+        41.77
+      ]
+    },
+    {
+      "id": "a7",
+      "team": "white",
+      "number": 7,
+      "start": [
+        6.23,
+        35
+      ]
+    },
+    {
+      "id": "a8",
+      "team": "white",
+      "number": 8,
+      "start": [
+        6.23,
+        41.77
+      ]
+    },
+    {
+      "id": "d1",
+      "team": "blue",
+      "number": 1,
+      "start": [
+        10.46,
+        24
+      ]
+    }
+  ],
+  "ball": {
+    "start": [
+      14.69,
+      6.58
+    ]
+  },
+  "events": [
+    {
+      "t": 0.8,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        11.14,
+        22.31
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 1.2,
+      "type": "pass",
+      "from": "a1",
+      "to": "a2",
+      "flight": 0.68
+    },
+    {
+      "t": 3.5,
+      "type": "pass",
+      "from": "a2",
+      "to": "a3",
+      "flight": 1.08
+    },
+    {
+      "t": 6.19,
+      "type": "pass",
+      "from": "a3",
+      "to": "a4",
+      "flight": 0.68
+    },
+    {
+      "t": 6.19,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        11.31,
+        24.34
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 8.18,
+      "type": "move",
+      "player": "a5",
+      "to": [
+        14.18,
+        35.85
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 8.49,
+      "type": "pass",
+      "from": "a4",
+      "to": "a5",
+      "flight": 2.02,
+      "flightStyle": "clipped",
+      "loft": 4
+    },
+    {
+      "t": 8.49,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        12.49,
+        25.69
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 9.34,
+      "type": "move",
+      "player": "a4",
+      "to": [
+        6.74,
+        13.34
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 10.68,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        11.48,
+        25.02
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 12.13,
+      "type": "dribble",
+      "player": "a5",
+      "to": [
+        12.83,
+        36.86
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 13.74,
+      "type": "pass",
+      "from": "a5",
+      "to": "a8",
+      "flight": 0.82
+    }
+  ],
+  "duration": 16.67,
+  "overlays": {
+    "runPaths": "auto",
+    "zones": [
+      {
+        "at": [
+          10.46,
+          9.62
+        ],
+        "w": 13.54,
+        "h": 11.85,
+        "label": "box",
+        "color": "technical"
+      },
+      {
+        "at": [
+          10.46,
+          38.39
+        ],
+        "w": 13.54,
+        "h": 11.85,
+        "label": "box",
+        "color": "tactical"
+      }
+    ]
+  }
+}

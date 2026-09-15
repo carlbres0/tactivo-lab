@@ -1,0 +1,532 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 21.14,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    19.14,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.14,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    19.14,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.86,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.57,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.29,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.86,
+    6.29
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    17.43,
+    16.86
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.86,
+    15.14
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    4.86,
+    6.29
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    10.57,
+    10.57
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    14.86,
+    29.86
+   ]
+  },
+  {
+   "id": "a7",
+   "team": "white",
+   "number": 7,
+   "start": [
+    12,
+    33.43
+   ]
+  },
+  {
+   "id": "a8",
+   "team": "white",
+   "number": 8,
+   "start": [
+    15.57,
+    37
+   ]
+  },
+  {
+   "id": "a9",
+   "team": "white",
+   "number": 9,
+   "start": [
+    7,
+    37.71
+   ]
+  },
+  {
+   "id": "a10",
+   "team": "white",
+   "number": 10,
+   "start": [
+    4.86,
+    32.71
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.29,
+    11.29
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    8.43,
+    12.29
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.61,
+   6.54
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.43,
+    14.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.43,
+    7.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    15.43,
+    29.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    15.14,
+    37.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a9",
+   "to": [
+    7.43,
+    38
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a10",
+   "to": [
+    5.14,
+    32.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    15.43,
+    14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    10.57,
+    13.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    10.86,
+    11.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a5",
+   "flight": 0.63
+  },
+  {
+   "t": 3.45,
+   "type": "shoot",
+   "player": "a5",
+   "at": [
+    16,
+    14.86
+   ],
+   "flight": 3.4,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 6.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16,
+    14.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.12,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.86,
+    17.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.49,
+   "type": "collect",
+   "player": "d1"
+  },
+  {
+   "t": 8.94,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    11.43,
+    27.43
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14,
+    6.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.71,
+    14.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6,
+    13.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6,
+    6.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    10,
+    9.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.86,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    16,
+    27.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.86,
+   "type": "move",
+   "player": "a7",
+   "to": [
+    12.86,
+    35.14
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.86,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    14.57,
+    38.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.86,
+   "type": "move",
+   "player": "a9",
+   "to": [
+    6,
+    39.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.86,
+   "type": "move",
+   "player": "a10",
+   "to": [
+    4.57,
+    30.57
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.86,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8,
+    32.29
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.23,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    6.29,
+    6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.58,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    11.43,
+    33.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.92,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    15.43,
+    26.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.92,
+   "type": "move",
+   "player": "a8",
+   "to": [
+    14,
+    39.43
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.92,
+   "type": "move",
+   "player": "a10",
+   "to": [
+    4,
+    29.71
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 20,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five keep the ball against two defenders; five more rest in the far box.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "The two defenders win it — that is the turnover the drill is built on.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "They carry it into the far box and defend there: the resting five are now the five.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.25,
+   "text": "The five who lost it stay and rest — only the ball and the two defenders travel.",
+   "hold": 2.5
+  }
+ ]
+}

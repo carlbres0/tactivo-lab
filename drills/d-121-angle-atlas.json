@@ -1,0 +1,212 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18,
+  "length": 12.5
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14.25,
+    6.38
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    11.63,
+    4.63
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9,
+    3.75
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.38,
+    4.63
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.75,
+    6.38
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    9,
+    12.5
+   ],
+   "width": 1.8,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    4.63,
+    10.58
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.38,
+    6.88
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   4.95,
+   10.44
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      4.05,
+      11.05
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.57,
+      10.69
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.93,
+      10.21
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.45,
+      9.97
+     ]
+    }
+   ]
+  },
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      4.41,
+      11.29
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "n1",
+   "to": "a1",
+   "flight": 0.95
+  },
+  {
+   "t": 3.77,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    12.73,
+    7.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.94,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    9,
+    12.5
+   ]
+  },
+  {
+   "t": 6.69,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10,
+    3.75
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five cones fan the box — the coach serves the tour in a fixed order.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Wide station: open the body, first touch across into the angle.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "From wide the answer is the far post — the rehearsed one.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Goal logged, jog to the next cone. Two full atlases a session.",
+   "hold": 2.5
+  }
+ ]
+}

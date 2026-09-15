@@ -1,0 +1,158 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 17
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    9.5,
+    17
+   ],
+   "width": 3.75,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.5,
+    11.38
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.5,
+    3.88
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    9.5,
+    7.63
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.5,
+   4.23
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.31,
+    9.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "d2",
+   "flight": 0.4
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.88,
+    4.81
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.97,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.69,
+    9.88
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 5.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Striker receives with their back to goal; the defender presses tight from behind.",
+   "hold": 2.5
+  },
+  {
+   "t": 1,
+   "text": "Touch-tight while the ball is in front, half a yard off when it arrives.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Front foot in, body strong — deny the turn without fouling.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Held up: a defender who won't be split can't be spun away from.",
+   "hold": 2.5
+  }
+ ]
+}

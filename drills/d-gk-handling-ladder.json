@@ -1,0 +1,186 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 25.6,
+  "length": 26
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.6,
+    26
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    23.6,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    12.8,
+    26
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    12.8,
+    14.96
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    17.6,
+    4.88
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.45,
+   5.2
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    11.36,
+    14.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.25,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.24,
+    14.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.33,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    12.8,
+    14.96
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.14,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 1.12
+  },
+  {
+   "t": 10.23,
+   "type": "pass",
+   "from": "gk",
+   "to": "d1",
+   "flight": 1.12
+  },
+  {
+   "t": 14.3,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 0.93,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  }
+ ],
+ "duration": 20,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     12.8,
+     14
+    ],
+    "w": 21.6,
+    "h": 24,
+    "label": "square",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Set your feet and stay square — never let the legs tangle.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Low serve: cup the scoop, body behind the line of the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Return it clean and reset the feet before the next serve.",
+   "hold": 2.5
+  },
+  {
+   "t": 15.5,
+   "text": "Chest serve: W-hands take it, then pin it to the chest.",
+   "hold": 2.5
+  },
+  {
+   "t": 18.5,
+   "text": "Ten of each height, then swap the gloves over.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

@@ -1,0 +1,238 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.17,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.83,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.33,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.83,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.33,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.25,
+    6.17
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4.92,
+    15.33
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    7.92,
+    13.33
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    5.33,
+    12.83
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.13,
+   6.5
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.97
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.75,
+    6.83
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.23,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.25,
+    6.17
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.79,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.97
+  },
+  {
+   "t": 4.92,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    6.92,
+    8.17
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 7.47,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.7,
+    7
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.09,
+   "type": "tackle",
+   "player": "d1",
+   "from": "a1"
+  },
+  {
+   "t": 9.09,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4.25,
+    13.33
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.09,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    5.92,
+    11.17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.07,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.08,
+    7.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.65,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    6.58,
+    1.5
+   ],
+   "flight": 0.56,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Four players is all it takes, so a thin turnout doesn't cost you the press.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 1.5,
+   "text": "Two builders work inside a grid, aiming to get through either gate.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 6.5,
+   "text": "Two pressers start passive in the middle.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 7.5,
+   "text": "The press goes live on a loose first touch or a backward pass.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 9,
+   "text": "One presser attacks the ball, the other cuts the pass. Win it, counter through a gate.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 16,
+   "text": "Too easy, six seconds to win it back. Too hard, name the trigger out loud first.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ]
+}

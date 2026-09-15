@@ -1,0 +1,363 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    21.2,
+    12
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    16.6,
+    20
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    7.4,
+    20
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    2.8,
+    12
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    7.4,
+    4
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    16.6,
+    4
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    18.6,
+    18.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.6,
+    20.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    3.2,
+    14.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    5.4,
+    5.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    14.4,
+    3.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    20.8,
+    9.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.67,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    4,
+    7.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.67,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    20,
+    16.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.69,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    4,
+    16.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.69,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    20,
+    7.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.71,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12,
+    21.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.71,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    12,
+    2.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.56,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    3.2,
+    9.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.56,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9.6,
+    3.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.56,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    20.8,
+    14.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.56,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    14.4,
+    20.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.62,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5.4,
+    18.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.62,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    18.6,
+    5.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.43,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    16.6,
+    4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.43,
+   "type": "move",
+   "player": "a6",
+   "to": [
+    7.4,
+    20
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.45,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.4,
+    4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.45,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    16.6,
+    20
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.53,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    2.8,
+    12
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.53,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    21.2,
+    12
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 18,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Group jogs the circle at an easy pace to bring the heart rate down.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.25,
+   "text": "Keep circling — coach asks what went well tonight.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.5,
+   "text": "Still moving: what would you do differently next time?",
+   "hold": 2.5
+  }
+ ]
+}

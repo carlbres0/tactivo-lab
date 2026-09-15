@@ -1,0 +1,169 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    17,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    15.5,
+    3.15
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.5,
+   3.5
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    15.5,
+    16.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.73,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.15,
+    16.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 10.11,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.15,
+    3.15
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 14.64,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    15.5,
+    3.15
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 19.02,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.5,
+    9.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 22.48,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.5,
+    14.12
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 24.89,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.5,
+    4.88
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 28.47,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.5,
+    9.5
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 32.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two minutes moving: jog the edges, side-steps, open the hips at each corner.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Ball in: sole rolls, inside pushes — drag-back to turn at every corner.",
+   "hold": 2.5
+  },
+  {
+   "t": 22.75,
+   "text": "Thirty juggles, any surface — restart on a drop and chase your best.",
+   "hold": 2.5
+  },
+  {
+   "t": 27.75,
+   "text": "Ten sharp turns at full pace, five each way, then done.",
+   "hold": 2.5
+  }
+ ]
+}

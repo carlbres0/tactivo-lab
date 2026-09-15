@@ -1,0 +1,163 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 44.3,
+  "length": 44.66
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    7.72
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    42.3,
+    44.66
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    7.72
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    44.66
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    22.15,
+    44.66
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    23.83,
+    1
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 1,
+   "start": [
+    23.83,
+    21.15
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   23.83,
+   1.35
+  ]
+ },
+ "events": [
+  {
+   "t": 1.7,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    23.83,
+    19.47
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.95,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.85
+  },
+  {
+   "t": 2.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    22.82,
+    3.02
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.42,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    26.52,
+    22.16
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.9,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    27.19,
+    23.84
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.79,
+   "type": "shoot",
+   "player": "a2",
+   "at": [
+    22.15,
+    44.66
+   ]
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Striker holds the penalty spot, back to goal — server ready to play.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "Serve rolls into feet; scan over the shoulder before it lands.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "Spin away from the marker's side onto the stronger foot.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.75,
+   "text": "Shift the feet and strike inside two touches — low corner in mind.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32.21,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.21,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    30.21,
+    2
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16.1,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    15.3,
+    39.48
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.25,
+    30.61
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    20.94,
+    26.99
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    16.1,
+    24.57
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.45,
+   30.9
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    16.1,
+    39.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.51,
+   "type": "pass",
+   "from": "d1",
+   "to": "gk",
+   "flight": 0.91,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 6.38,
+   "type": "pass",
+   "from": "gk",
+   "to": "d2",
+   "flight": 1.3
+  },
+  {
+   "t": 10.53,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.09,
+    40.28
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.63,
+   "type": "shoot",
+   "player": "d2",
+   "at": [
+    16.1,
+    42.3
+   ]
+  },
+  {
+   "t": 16.39,
+   "type": "pass",
+   "from": "gk",
+   "to": "d3",
+   "flight": 1.58
+  },
+  {
+   "t": 20.54,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    17.31,
+    39.08
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 20.92,
+   "type": "shoot",
+   "player": "d3",
+   "at": [
+    17.31,
+    39.08
+   ],
+   "flight": 1.46,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 25,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Three serving stations in an arc — one rolls, one bounces, one drives.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Hands behind the line of the ball, elbows in, chest over it.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "Return it first time and shuffle across to the next station.",
+   "hold": 2.5
+  },
+  {
+   "t": 14,
+   "text": "Driven low to the corner — get across and hold it.",
+   "hold": 2.5
+  },
+  {
+   "t": 21.5,
+   "text": "Third station bounces one in: two full circuits, then new gloves.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

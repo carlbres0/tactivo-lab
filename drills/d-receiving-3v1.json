@@ -1,0 +1,214 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 14.91,
+  "length": 16
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    12.91,
+    14
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    14
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    12.91,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.55,
+    9.09
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.45,
+    12.91
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    12.04,
+    3.64
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    2.87,
+    3.64
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.61,
+   12.6
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.51,
+    5.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.03
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.58,
+    7.45
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.74,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.82,
+    8.55
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.24,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.79
+  },
+  {
+   "t": 5.24,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.24,
+    7.78
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.64,
+   "type": "pass",
+   "from": "a3",
+   "to": "a1",
+   "flight": 0.47
+  },
+  {
+   "t": 8.07,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.67,
+    8.87
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.55,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    2.65,
+    3.85
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     7.46,
+     8
+    ],
+    "w": 10.91,
+    "h": 12,
+    "label": "grid",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "3v1: three on the outside, one defender pressing inside the grid.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "An attacker checks into the middle of the grid to receive.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Receive half-turned, body open — the first touch can go either way.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.75,
+   "text": "Turn and play forward off the touch; the defender arrives late. Swap if you lose it.",
+   "hold": 2.5
+  }
+ ]
+}

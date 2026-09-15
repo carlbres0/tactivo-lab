@@ -1,0 +1,178 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14,
+    22
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    22
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    11,
+    22
+   ],
+   "width": 2.4,
+   "facing": "s"
+  },
+  {
+   "type": "goal",
+   "at": [
+    5,
+    22
+   ],
+   "width": 2.4,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8,
+    7
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.5,
+    14.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   8.48,
+   14.15
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "d1",
+   "to": "a1",
+   "flight": 0.75
+  },
+  {
+   "t": 2.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.2,
+    11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.57,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.5,
+    10
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.79,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11.2,
+    13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.96,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    10.9,
+    21.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.27,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.7,
+    20
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "The defender nearest goal serves the attacker in, then comes out to meet him.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "First touch decides everything — away from the defender, into space.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.25,
+   "text": "Drive at the space you've created — now it is a live one v one.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.5,
+   "text": "Score in either small goal within eight seconds.",
+   "hold": 2.5
+  }
+ ]
+}

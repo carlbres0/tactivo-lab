@@ -1,0 +1,227 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24.42,
+  "length": 39
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.42,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    22.42,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    37
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.69,
+    18.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    21.69,
+    20.96
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.73,
+    18.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.73,
+    20.96
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.67,
+    12.21
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.75,
+    16.58
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.92,
+    15.13
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.21,
+    13.67
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.94,
+    16.58
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.34,
+   12.32
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    9.58,
+    18.77
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11.48,
+    15.13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    12.21,
+    16.29
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    2.29,
+    19.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.55,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    11.48,
+    16.58
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.6,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 1.13,
+   "flightStyle": "clipped",
+   "loft": 1.57
+  },
+  {
+   "t": 3.45,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    12.21,
+    13.67
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 6.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Possession game — a switch through a gate on either flank scores.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Before receiving, every player checks the far side first.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "One pass, not a relay — the switch goes first-time through the gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 3,
+   "text": "Arrives clean — the scan made the switch obvious before the ball even moved.",
+   "hold": 2.5
+  }
+ ]
+}

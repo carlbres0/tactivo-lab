@@ -1,0 +1,321 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 33.17,
+  "length": 39
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    26.5,
+    7.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    26.5,
+    10.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.33,
+    27.67
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    25.33,
+    30
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.17,
+    17.17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17.17,
+    19.5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9,
+    9
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9,
+    11.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.17,
+    28.83
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10.17,
+    31.17
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    3.3,
+    17.88
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    17.23,
+    7.51
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.05,
+    17.88
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    20.15,
+    25.33
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    26.31,
+    13.02
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.67,
+    14.64
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    12.05,
+    23.71
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    7.19,
+    7.83
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    17.23,
+    31.81
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   17.29,
+   7.86
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    23.39,
+    19.82
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.18,
+    21.44
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    16.58,
+    26.63
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    11.72,
+    15.61
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    22.74,
+    29.55
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 1.81
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    19.82,
+    14.96
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 2.68,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    10.43,
+    22.74
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.63,
+   "type": "dribble",
+   "player": "a3",
+   "to": [
+    22.74,
+    26.95
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.33,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    19.5,
+    23.71
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.36,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    26.31,
+    28.9
+   ],
+   "flight": 0.41,
+   "flightStyle": "ground"
+  }
+ ],
+ "duration": 11,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five cone gates across the area, four v four, and any gate can score.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.25,
+   "text": "Only ONE gate is alive: the coach points at it silently from the side.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Spot the coach, then play to the live gate.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "It moves the moment someone scores — first team to five.",
+   "hold": 2.5
+  }
+ ]
+}

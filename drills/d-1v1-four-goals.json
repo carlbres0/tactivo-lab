@@ -1,0 +1,197 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 15,
+  "length": 17.38
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    15,
+    7.5
+   ],
+   "width": 1.8,
+   "facing": "w"
+  },
+  {
+   "type": "goal",
+   "at": [
+    0,
+    7.5
+   ],
+   "width": 1.8,
+   "facing": "e"
+  },
+  {
+   "type": "goal",
+   "at": [
+    7.5,
+    0
+   ],
+   "width": 1.8,
+   "facing": "n"
+  },
+  {
+   "type": "goal",
+   "at": [
+    7.5,
+    15
+   ],
+   "width": 1.8,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    7.5,
+    7.5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.25,
+    5.63
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   7.54,
+   7.15
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.88,
+    4.25
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8.25,
+    2.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.78,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.63,
+    3.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.03,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7,
+    4.88
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.38,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.59,
+    6.44
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.15,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.63,
+    11.25
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.91,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.25,
+    16.88
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Proper one against one work, with a choice built in so they look up.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 1.5,
+   "text": "One attacker, one defender, and a grid with a gate in every side.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 6,
+   "text": "Any gate counts, so the attacker picks whichever one the defender has left open.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 7,
+   "text": "Rounds last forty five seconds, then they swap roles and keep the score.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 10,
+   "text": "Winner goes up a grid, loser drops down.",
+   "hold": 2.5,
+   "beat": "take"
+  },
+  {
+   "t": 14,
+   "text": "Too easy, they have to score through two different gates. Too hard, drop to two gates.",
+   "hold": 2.5,
+   "beat": "take"
+  }
+ ]
+}

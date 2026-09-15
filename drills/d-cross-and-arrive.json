@@ -1,0 +1,249 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.67,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    6.33,
+    5.11
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.33,
+    9.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.33,
+    13.56
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.33,
+    17.56
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.33,
+    22
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    4.56,
+    7.33
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4.78,
+    2.89
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    13.44,
+    9.33
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    9.67,
+    11.11
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.44,
+    17.11
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    10.33,
+    21.33
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   4.76,
+   3.24
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.89,
+    17.89
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    9.67,
+    21.22
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    4.33,
+    7.78
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.35,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.49
+  },
+  {
+   "t": 2.75,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    7.33,
+    16.11
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.75,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    8.67,
+    19.89
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.46,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.56,
+    18.44
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 8.05,
+   "type": "pass",
+   "from": "a1",
+   "to": "a3",
+   "flight": 0.44,
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 10.11,
+   "type": "shoot",
+   "player": "a3",
+   "at": [
+    10.33,
+    22
+   ]
+  },
+  {
+   "t": 11.86,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    9,
+    20.56
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Server feeds the winger — attack the line in the wide channel.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Winger drives to the byline; two runners time their arrival.",
+   "hold": 2.5
+  },
+  {
+   "t": 7,
+   "text": "One hits the near post, one holds the cutback — never the same spot.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Finish first time, then all three rotate one role.",
+   "hold": 2.5
+  }
+ ]
+}

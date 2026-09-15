@@ -1,0 +1,387 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    16.4,
+    5.6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.6,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.4,
+    10.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.6,
+    12.8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.4,
+    15.2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.6,
+    17.6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.4,
+    20
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14.6,
+    22.4
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    16.4,
+    24.8
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.2,
+    4.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    5,
+    4.4
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    15.5,
+    4
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    9.8,
+    16.4
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.2,
+   4.75
+  ]
+ },
+ "balls": [
+  {
+   "carrier": "a2",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      5,
+      5.2
+     ]
+    },
+    {
+     "t": 5.63,
+     "at": [
+      5,
+      9.8
+     ]
+    },
+    {
+     "t": 11.25,
+     "at": [
+      5,
+      15.8
+     ]
+    },
+    {
+     "t": 16.88,
+     "at": [
+      5,
+      21.8
+     ]
+    },
+    {
+     "t": 22.5,
+     "at": [
+      5,
+      28
+     ]
+    }
+   ]
+  },
+  {
+   "carrier": "a3",
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      15.5,
+      4.8
+     ]
+    },
+    {
+     "t": 2.7,
+     "at": [
+      17.4,
+      6.4
+     ]
+    },
+    {
+     "t": 5.85,
+     "at": [
+      13.6,
+      8.8
+     ]
+    },
+    {
+     "t": 9,
+     "at": [
+      17.4,
+      11.2
+     ]
+    },
+    {
+     "t": 12.15,
+     "at": [
+      13.6,
+      13.6
+     ]
+    },
+    {
+     "t": 15.3,
+     "at": [
+      17.4,
+      16
+     ]
+    },
+    {
+     "t": 18,
+     "at": [
+      13.6,
+      18.4
+     ]
+    },
+    {
+     "t": 20.25,
+     "at": [
+      17.4,
+      20.8
+     ]
+    },
+    {
+     "t": 22.5,
+     "at": [
+      15.2,
+      25.6
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5,
+    27.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.4,
+    5.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.2,
+    28.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.7,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.6,
+    8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.48,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.4,
+    10.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.26,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.6,
+    12.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.04,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.4,
+    15.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 13.82,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.6,
+    17.6
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 16.2,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    17.4,
+    20
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 18.57,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    15.2,
+    24.8
+   ],
+   "gait": "run"
+  }
+ ],
+ "duration": 22.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     9.2,
+     17
+    ],
+    "w": 2.4,
+    "h": 22.8,
+    "color": "technical",
+    "label": "ladder = three"
+   },
+   {
+    "at": [
+     5,
+     17
+    ],
+    "w": 2.4,
+    "h": 22.8,
+    "color": "tactical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A winding snake of cones down the channel, ladder lanes beside it.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "Dribble the snake for one point — or risk a ladder lane for three.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "A snapper defends the ladder: beat them and the three is yours.",
+   "hold": 2.5
+  },
+  {
+   "t": 18,
+   "text": "Snapper wins your ball? Jog it back and choose again — snake or ladder.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 40.72,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "goal",
+   "at": [
+    29.76,
+    42.3
+   ],
+   "width": 3.58,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.61,
+    12.08
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    27.3,
+    27.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.57,
+   12.43
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.92,
+    37.82
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 4.99,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    32.45,
+    30.66
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.08,
+   "type": "pass",
+   "from": "a1",
+   "to": "n1",
+   "flight": 2.65
+  },
+  {
+   "t": 9.93,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.03,
+    38.72
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 11.9,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.48,
+    37.37
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 13.35,
+   "type": "dribble",
+   "player": "n1",
+   "to": [
+    33.34,
+    29.31
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 17,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     8.36,
+     22.15
+    ],
+    "w": 12.58,
+    "h": 40.3,
+    "color": "technical",
+    "label": "wide lane"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Carry the wide lane hard, all the way to the byline cone.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "The coach makes a late run and calls it: early ball, or cutback.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Cutback means the byline — pull it back along the floor to his feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 14.25,
+   "text": "His clean first touch scores it. Five deliveries each side.",
+   "hold": 2.5
+  }
+ ]
+}

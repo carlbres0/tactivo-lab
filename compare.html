@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>3D A/B compare</title>
+<!-- Two engine builds stacked for a phone: OLD on top (../engine3d-prev/,
+     frozen at deploy time), NEW below (this build). One picker and one play
+     button drive BOTH over the embed postMessage protocol, so the same drill
+     runs at the same moment in each. LAB build only — never in the app. -->
+<style>
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; background: #0B0F10; color: #fff;
+    font: 15px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif;
+    display: flex; flex-direction: column; }
+  header { padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px)); }
+  /* the two panes are the content; the title is a caption, sized with the
+     pane tags (11px) against the 15px controls — two steps, not three */
+  h1 { font-size: 11px; margin: 0 0 8px; font-weight: 700; color: #8D949B;
+    text-transform: uppercase; letter-spacing: .08em; }
+  .row { display: flex; gap: 8px; }
+  select { flex: 1; min-width: 0; font-size: 15px; padding: 10px; border-radius: 10px;
+    background: #171B1F; color: #fff; border: 1px solid #2A3036; }
+  button { font-size: 15px; font-weight: 700; padding: 10px 14px; border-radius: 10px;
+    border: 0; background: #C8F323; color: #0B0F10; }
+  button.ghost { background: #171B1F; color: #fff; border: 1px solid #2A3036; }
+  .panes { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+  .pane { flex: 1; position: relative; min-height: 0; border-top: 1px solid #2A3036; }
+  .pane iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .tag { position: absolute; top: 6px; left: 6px; z-index: 2; font-size: 11px;
+    font-weight: 700; letter-spacing: .08em; padding: 3px 7px; border-radius: 5px;
+    background: rgba(11,15,16,.78); }
+  .tag.old { color: #8D949B; }
+  .tag.new { color: #C8F323; }
+  .ms { position: absolute; top: 6px; right: 6px; z-index: 2; font-size: 11px;
+    font-variant-numeric: tabular-nums; color: #8D949B; padding: 3px 7px;
+    border-radius: 5px; background: rgba(11,15,16,.78); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Old vs new — same drill, same moment</h1>
+  <div class="row">
+    <select id="drill"></select>
+    <button id="go">Play both</button>
+    <button id="again" class="ghost">Reload</button>
+  </div>
+</header>
+<div class="panes">
+  <div class="pane"><span class="tag old">OLD</span><span class="ms" id="msOld"></span>
+    <iframe id="fOld" src="../engine3d-prev/embed.html" title="old build"></iframe></div>
+  <div class="pane"><span class="tag new">NEW</span><span class="ms" id="msNew"></span>
+    <iframe id="fNew" src="./embed.html" title="new build"></iframe></div>
+</div>
+<script>
+  var sel = document.getElementById("drill");
+  var panes = [
+    { f: document.getElementById("fOld"), ms: document.getElementById("msOld"), t0: 0 },
+    { f: document.getElementById("fNew"), ms: document.getElementById("msNew"), t0: 0 }
+  ];
+  // the old build may not exist yet (first deploy of this page): say so
+  // rather than showing an empty black box the reader has to interpret.
+  panes[0].f.onerror = function () { panes[0].ms.textContent = "no old build"; };
+
+  fetch("drills/index.json").then(function (r) { return r.json(); }).then(function (rows) {
+    rows.forEach(function (d) {
+      var o = document.createElement("option");
+      o.value = d.key; o.textContent = d.key; sel.appendChild(o);
+    });
+    var want = ["d-y-pattern-passing", "d-defend-box-3v3", "d-rondo-4v2"];
+    for (var i = 0; i < want.length; i++) {
+      if (rows.some(function (d) { return d.key === want[i]; })) { sel.value = want[i]; break; }
+    }
+  }).catch(function () {});
+
+  // load-to-first-frame time per pane, so the speed difference is a number
+  // and not just a feeling.
+  window.addEventListener("message", function (e) {
+    var m = e.data;
+    if (!m || !m.type) return;
+    panes.forEach(function (p) {
+      if (e.source !== p.f.contentWindow) return;
+      if (m.type === "ready" && p.t0) { p.ms.textContent = (Date.now() - p.t0) + " ms"; p.t0 = 0; }
+      if (m.type === "error") p.ms.textContent = "error";
+    });
+  });
+
+  function post(p, msg) { p.f.contentWindow.postMessage(msg, "*"); }
+  function loadBoth() {
+    var key = sel.value;
+    if (!key) return;
+    panes.forEach(function (p) {
+      p.t0 = Date.now();
+      p.ms.textContent = "loading…";
+      post(p, { type: "load", drill: { key: key }, loop: true });
+    });
+  }
+  document.getElementById("go").onclick = loadBoth;
+  sel.onchange = loadBoth;
+  document.getElementById("again").onclick = function () {
+    panes.forEach(function (p) { p.f.src = p.f.src; });
+  };
+</script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 22,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    20,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    20,
+    20
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    20
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.6,
+    7.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.4,
+    16.4
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    18.2,
+    2.9
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.38,
+   7.67
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11,
+    13.7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.15
+  },
+  {
+   "t": 3.97,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 1.15
+  },
+  {
+   "t": 4.82,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    7.76,
+    16.04
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 7.27,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.8,
+    9.2
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 11.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Every player must release the ball within three seconds of receiving it.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.5,
+   "text": "Coach counts out loud — a fourth second turns the ball over.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Released just in time — the defender arrives a beat too late.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Same clock on the next receiver — the scan happens before the ball arrives.",
+   "hold": 2.5
+  }
+ ]
+}

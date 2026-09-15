@@ -1,0 +1,245 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 34,
+  "length": 34
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    32,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    32,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    18.88,
+    13.25
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    15.13,
+    20.75
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    29.19,
+    4.81
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    29.19,
+    29.19
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    4.81,
+    29.19
+   ]
+  },
+  {
+   "id": "a6",
+   "team": "white",
+   "number": 6,
+   "start": [
+    4.81,
+    4.81
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    22.63,
+    15.13
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    11.38,
+    18.88
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   18.58,
+   13.07
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    13.25,
+    11.38
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    18.88,
+    22.63
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a6",
+   "flight": 1.64
+  },
+  {
+   "t": 3.95,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    24.5,
+    19.81
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.26,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    18.88,
+    15.13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.46,
+   "type": "pass",
+   "from": "a6",
+   "to": "a4",
+   "flight": 3.45
+  },
+  {
+   "t": 8.07,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.06,
+    17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.07,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    14.19,
+    21.69
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 9.52,
+   "type": "pass",
+   "from": "a4",
+   "to": "a2",
+   "flight": 1.64
+  },
+  {
+   "t": 12.78,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.84
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Two teams battle inside; four neutral corners always play for whoever has the ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Ball goes wide to a corner — two touches only, so it moves fast.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Corner to the opposite corner through the middle scores the point.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "The far corner lays it back inside and play turns the other way.",
+   "hold": 2.5
+  }
+ ]
+}

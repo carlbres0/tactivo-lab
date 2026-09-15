@@ -1,0 +1,171 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 32,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27,
+    10
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18,
+    6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    9,
+    10
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    16,
+    24
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    9.45,
+    10.89
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    20,
+    13
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    18,
+    20
+   ],
+   "role": "keeper"
+  }
+ ],
+ "ball": {
+  "start": [
+   19.66,
+   12.93
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    17,
+    7
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 3.18,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.67
+  },
+  {
+   "t": 4.03,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    19,
+    12
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 5.47,
+   "type": "shoot",
+   "player": "a1",
+   "at": [
+    16,
+    24
+   ]
+  },
+  {
+   "t": 5.47,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    20,
+    21.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.22,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    16,
+    8
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 10,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Round the arc: a server feeds from the side, the striker finishes first time.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "Start at half power into the corners, building to full strike over the round.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.5,
+   "text": "Alternate feet each rotation.",
+   "hold": 1.93
+  },
+  {
+   "t": 6,
+   "text": "Keeper starts easy — this warms them up too.",
+   "hold": 2.5
+  }
+ ]
+}

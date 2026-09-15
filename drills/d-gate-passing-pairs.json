@@ -1,0 +1,232 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 9.99,
+  "length": 14
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    7.13,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6.04,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.95,
+    7
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2.86,
+    7
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.59,
+    3.59
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6.59,
+    10.41
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    3.41,
+    3.59
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    3.41,
+    10.41
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.59,
+   3.94
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      3.41,
+      10.41
+     ]
+    },
+    {
+     "t": 1.75,
+     "at": [
+      3.41,
+      10.41
+     ]
+    },
+    {
+     "t": 3.25,
+     "at": [
+      3.41,
+      3.59
+     ]
+    },
+    {
+     "t": 5,
+     "at": [
+      3.41,
+      3.59
+     ]
+    },
+    {
+     "t": 6.5,
+     "at": [
+      3.41,
+      10.41
+     ]
+    },
+    {
+     "t": 12.5,
+     "at": [
+      3.41,
+      10.41
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.68
+  },
+  {
+   "t": 3.5,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.68
+  },
+  {
+   "t": 5.79,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.68
+  },
+  {
+   "t": 7.4,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    5,
+    3.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.4,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5,
+    3.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    3.41,
+    3.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.94,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    6.59,
+    3.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.68,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 0.68
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Partners face off through a small cone gate — every clean pass through is a point.",
+   "hold": 2.5
+  },
+  {
+   "t": 1,
+   "text": "Pass through the gate; receive on the back foot, return with the other surface.",
+   "hold": 2.5
+  },
+  {
+   "t": 9,
+   "text": "On the coach's call, pairs rotate one gate clockwise to a new partner.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "Last two rounds: beat your own best score.",
+   "hold": 2.5
+  }
+ ]
+}

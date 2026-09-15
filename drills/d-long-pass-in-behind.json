@@ -1,0 +1,154 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 27.08,
+  "length": 44
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    22.77,
+    28.15
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    13.54,
+    28.15
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.31,
+    28.15
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.54,
+    8.15
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.54,
+    25.08
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    13.54,
+    27.15
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.54,
+   8.5
+  ]
+ },
+ "events": [
+  {
+   "t": 2.7,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    15.38,
+    32.77
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.77,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 2.06,
+   "flightStyle": "clipped",
+   "loft": 4
+  },
+  {
+   "t": 4.7,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12.77,
+    29.69
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    12,
+    30.46
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.45,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    16.62,
+    42
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Midfielder on the ball, facing forward; the defensive line holds its shape.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "The moment the striker starts the run, the pass is played — not to feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Weighted so the striker never has to break stride.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "In behind the line — the defender recovers a stride too late.",
+   "hold": 2.5
+  }
+ ]
+}

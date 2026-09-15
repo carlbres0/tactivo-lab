@@ -1,0 +1,169 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 13.6,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8,
+    19.04
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5.6,
+    19.04
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    6.8,
+    5.6
+   ]
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6.8,
+    13.4
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.8,
+   5.95
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.8,
+    9.2
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 3.07,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.64,
+    12.44
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.25,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    7.76,
+    11
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.25,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    4.88,
+    12.2
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.36,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    6.08,
+    13.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 8.43,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.8,
+    19.76
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 8.67,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    5.24,
+    14.48
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.39,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    4.88,
+    15.68
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 16,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "A channel with a gate at the far end; the coach shadows and retreats.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.75,
+   "text": "Sell one real move — make the shadow lean the wrong way.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.25,
+   "text": "Then burst. The second his hips turn, go the other side of him.",
+   "hold": 2.5
+  },
+  {
+   "t": 12.75,
+   "text": "Through the gate at speed. Eight runs, then the shadow gets teeth.",
+   "hold": 2.5
+  }
+ ]
+}

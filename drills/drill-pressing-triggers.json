@@ -1,0 +1,196 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.2,
+  "length": 31
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    18.2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.2,
+    29
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    29
+   ]
+  }
+ ],
+ "teams": {
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    10.1,
+    15.5
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.8,
+    7.4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.15,
+    20.9
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.7,
+    11.45
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   10.1,
+   15.5
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    10.1,
+    15.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    11.45,
+    18.88
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    7.4,
+    14.15
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.39,
+   "type": "collect",
+   "player": "a1"
+  },
+  {
+   "t": 5.39,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.02,
+    16.58
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.39,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    12.8,
+    20.9
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.39,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    5.38,
+    12.8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.84,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    14.15,
+    10.1
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Players jog loosely, scanning for the coach's pressing cue.",
+   "hold": 2.5
+  },
+  {
+   "t": 5,
+   "text": "Trigger: a heavy touch under pressure — the nearest player springs.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.75,
+   "text": "Win it as a unit while the other two cover the passing lanes.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.5,
+   "text": "Recover shape immediately — press, then reset the picture.",
+   "hold": 2.5
+  }
+ ]
+}

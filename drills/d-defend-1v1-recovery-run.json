@@ -1,0 +1,189 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 20.36,
+  "length": 32
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    18.36,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    18.36,
+    32
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    32
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    10.18,
+    32
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 2,
+   "start": [
+    10.86,
+    10.18
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    12.23,
+    14.27
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.17,
+   14.61
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    8.1,
+    16.59
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "d1",
+   "to": [
+    10.18,
+    25.86
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.66,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.23,
+    28.18
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.55,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    9.64,
+    26.68
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 10.55,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    7.73,
+    24.36
+   ],
+   "flight": 2.29,
+   "flightStyle": "ground",
+   "touch": true
+  },
+  {
+   "t": 11.4,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.73,
+    27.09
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 12.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.45,
+    24.09
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 14.4,
+   "type": "collect",
+   "player": "a1"
+  }
+ ],
+ "duration": 16.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Attacker starts five metres ahead; the defender must recover and get goal-side.",
+   "hold": 2.5
+  },
+  {
+   "t": 7.5,
+   "text": "Recovery run on a curve — arriving on the inside shoulder, not straight behind.",
+   "hold": 2.5
+  },
+  {
+   "t": 12,
+   "text": "Goal-side now: slow down and jockey, don't dive into the tackle.",
+   "hold": 2.5
+  },
+  {
+   "t": 13.5,
+   "text": "Time the poke and win it clean — no sliding in.",
+   "hold": 2.5
+  }
+ ]
+}

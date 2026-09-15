@@ -1,0 +1,115 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 24,
+  "length": 24
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    18,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14,
+    8
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    10,
+    18
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6,
+    18
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    20,
+    4
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    6,
+    20
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   19.75,
+   4.25
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    11,
+    13
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.73,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.86
+  }
+ ],
+ "duration": 9,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Weak foot only for the whole drill — dribbling, turning and passing.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.25,
+   "text": "Start slow: sole rolls and inside touches before any speed.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "Turn on the weak foot, then find the partner — still one-footed.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "It will look poor, and that is the point — say so before you start.",
+   "hold": 2.5
+  }
+ ]
+}

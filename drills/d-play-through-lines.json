@@ -1,0 +1,218 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 29.71,
+  "length": 49
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    27.71,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    47
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14.86,
+    8.43
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    14.86,
+    14.86
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    14.86,
+    26.11
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    14.86,
+    37.36
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    19.68,
+    21.29
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    10.04,
+    21.29
+   ]
+  },
+  {
+   "id": "d3",
+   "team": "blue",
+   "number": 3,
+   "start": [
+    19.68,
+    30.93
+   ]
+  },
+  {
+   "id": "d4",
+   "team": "blue",
+   "number": 4,
+   "start": [
+    10.04,
+    30.93
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.86,
+   8.78
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    16.46,
+    20.48
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    13.25,
+    20.48
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d3",
+   "to": [
+    16.46,
+    30.13
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d4",
+   "to": [
+    13.25,
+    30.13
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.64
+  },
+  {
+   "t": 3.46,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.13
+  },
+  {
+   "t": 6.2,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 1.13
+  }
+ ],
+ "duration": 9.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Defending team sets in two banks of four and three; attackers build from the back.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.75,
+   "text": "A pass received between the two banks scores — the receiver must face forward.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "That's the point won; if it isn't on, go round and reset instead.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.25,
+   "text": "Play forward beyond the second bank to finish the move.",
+   "hold": 2.5
+  }
+ ]
+}

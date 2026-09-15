@@ -1,0 +1,293 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 16,
+  "length": 16
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    14,
+    14
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    14
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13.29,
+    2.71
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    13.29,
+    13.29
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    2.71,
+    13.29
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    2.71,
+    2.71
+   ]
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    2,
+    8
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8,
+    8
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.29,
+   3.06
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      2,
+      8
+     ]
+    },
+    {
+     "t": 1.55,
+     "at": [
+      2,
+      8
+     ]
+    },
+    {
+     "t": 3.41,
+     "at": [
+      2,
+      2
+     ]
+    },
+    {
+     "t": 4.96,
+     "at": [
+      2,
+      2
+     ]
+    },
+    {
+     "t": 6.82,
+     "at": [
+      14,
+      2
+     ]
+    },
+    {
+     "t": 8.37,
+     "at": [
+      14,
+      2
+     ]
+    },
+    {
+     "t": 10.23,
+     "at": [
+      14,
+      14
+     ]
+    },
+    {
+     "t": 11.78,
+     "at": [
+      14,
+      14
+     ]
+    },
+    {
+     "t": 13.64,
+     "at": [
+      2,
+      14
+     ]
+    },
+    {
+     "t": 15.5,
+     "at": [
+      2,
+      14
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 1.06
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5,
+    8.6
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.36,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    11,
+    8.6
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 3.88,
+   "type": "pass",
+   "from": "a2",
+   "to": "a3",
+   "flight": 1.06
+  },
+  {
+   "t": 6.12,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    5,
+    3.2
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 6.55,
+   "type": "pass",
+   "from": "a3",
+   "to": "a5",
+   "flight": 0.53
+  },
+  {
+   "t": 9.41,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    7.81,
+    2.98
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.41,
+   "type": "pass",
+   "from": "a5",
+   "to": "a4",
+   "flight": 0.53
+  },
+  {
+   "t": 11.46,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    8,
+    5.6
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 15.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five outside, one defender — two balls are moving at once.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.75,
+   "text": "Never let both balls arrive at the same player — that's the whole challenge.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.25,
+   "text": "Defender wins a point for touching either ball.",
+   "hold": 2.5
+  },
+  {
+   "t": 13,
+   "text": "Rotate the defender every ninety seconds — this one is tiring.",
+   "hold": 2.5
+  }
+ ]
+}

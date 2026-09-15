@@ -1,0 +1,234 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 26.87,
+  "length": 42.3
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    24.87,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    24.87,
+    42.3
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    42.3
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    13.44,
+    42.3
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    12.83,
+    32.34
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    11.85,
+    32.56
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    10.88,
+    32.78
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    9.9,
+    33.01
+   ]
+  },
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    14.25,
+    40.94
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "a5",
+   "team": "white",
+   "number": 5,
+   "start": [
+    7.72,
+    36.04
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    8.4,
+    19.84
+   ]
+  },
+  {
+   "id": "d2",
+   "team": "blue",
+   "number": 2,
+   "start": [
+    6.9,
+    35.22
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   9.35,
+   23.78
+  ]
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a5",
+   "to": [
+    8.67,
+    35.22
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "d2",
+   "to": [
+    8.26,
+    34.4
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 1.98,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.22,
+    23.38
+   ],
+   "gait": "sprint"
+  },
+  {
+   "t": 4.39,
+   "type": "shoot",
+   "player": "d1",
+   "at": [
+    13.44,
+    42.3
+   ],
+   "deadBall": true
+  },
+  {
+   "t": 4.87,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    14.93,
+    40.8
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 8.5,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     13.44,
+     22.15
+    ],
+    "w": 22.87,
+    "h": 40.3,
+    "label": "box",
+    "color": "technical"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Free kick on the edge of the box — the keeper sets the wall, one player lines it up.",
+   "hold": 2.5
+  },
+  {
+   "t": 2.5,
+   "text": "Shoulder to shoulder across the ball's line — never a single file.",
+   "hold": 2.5
+  },
+  {
+   "t": 4.25,
+   "text": "The wall holds: no jumping sideways, no turning away from the strike.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.75,
+   "text": "Everyone else marks up tight; the keeper takes the half the wall leaves him.",
+   "hold": 2.5
+  }
+ ]
+}

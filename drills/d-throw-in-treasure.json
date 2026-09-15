@@ -1,0 +1,220 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18.67,
+  "length": 29
+ },
+ "equipment": [],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    16.04,
+    4.5
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    7.67,
+    10.5
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    16.04,
+    17
+   ]
+  },
+  {
+   "id": "a4",
+   "team": "white",
+   "number": 4,
+   "start": [
+    9.17,
+    22.17
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   15.76,
+   4.7
+  ]
+ },
+ "balls": [
+  {
+   "path": [
+    {
+     "t": 0,
+     "at": [
+      15.75,
+      17.5
+     ]
+    }
+   ]
+  }
+ ],
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    8.24,
+    9.95
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.79,
+   "style": "throw",
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 4.22,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    14.67,
+    5.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 4.89,
+   "type": "dribble",
+   "player": "a2",
+   "to": [
+    10,
+    8.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.26,
+   "type": "move",
+   "player": "a4",
+   "to": [
+    9.83,
+    21.5
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 6.51,
+   "type": "pass",
+   "from": "a3",
+   "to": "a4",
+   "flight": 0.64,
+   "newBall": true,
+   "style": "throw",
+   "flightStyle": "clipped",
+   "loft": 1.5
+  },
+  {
+   "t": 9.53,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    15.17,
+    17.67
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 10.05,
+   "type": "dribble",
+   "player": "a4",
+   "to": [
+    12,
+    20.5
+   ],
+   "gait": "walk"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto",
+  "zones": [
+   {
+    "at": [
+     10.67,
+     8
+    ],
+    "w": 2,
+    "h": 2,
+    "color": "technical",
+    "label": "chest"
+   },
+   {
+    "at": [
+     6.92,
+     14.25
+    ],
+    "w": 2,
+    "h": 2,
+    "color": "tactical"
+   },
+   {
+    "at": [
+     11.92,
+     20.5
+    ],
+    "w": 2,
+    "h": 2,
+    "color": "physical"
+   },
+   {
+    "at": [
+     5.67,
+     23
+    ],
+    "w": 2,
+    "h": 2,
+    "color": "social"
+   }
+  ]
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Pairs on the touchline, a ball each, treasure chests scattered in the channel.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "The thrower throws to their partner's feet or chest — never a kick.",
+   "hold": 2.5
+  },
+  {
+   "t": 5.5,
+   "text": "A clean first touch into any chest banks the treasure.",
+   "hold": 2.5
+  },
+  {
+   "t": 8.5,
+   "text": "The next pair goes with their own ball; each chest banks only once a round.",
+   "hold": 2.5
+  }
+ ]
+}

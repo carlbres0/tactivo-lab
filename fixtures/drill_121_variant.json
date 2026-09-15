@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "pitch": { "width": 26, "length": 38 },
+  "equipment": [
+    { "type": "cone", "at": [4, 15] }, { "type": "cone", "at": [17, 15] },
+    { "type": "goal", "at": [13, 38] }
+  ],
+  "teams": { "blue": { "kit": { "primary": "#7aa2ff" } } },
+  "players": [
+    { "id": "p1", "team": "blue", "number": 6,  "start": [13, 3]  },
+    { "id": "p2", "team": "blue", "number": 8,  "start": [3, 14]  },
+    { "id": "p4", "team": "blue", "number": 9,  "start": [13, 34] },
+    { "id": "p3", "team": "blue", "number": 11, "start": [17, 14] }
+  ],
+  "ball": { "start": [13, 2.6] },
+  "events": [
+    { "t": 0.5, "type": "move", "player": "p2", "to": [4, 13], "gait": "jog" },
+    { "t": 1.5, "type": "pass", "from": "p1", "to": "p2", "flight": 1.6 },
+    { "t": 4.0, "type": "pass", "from": "p2", "to": "p4", "flight": 1.2, "flightStyle": "clipped", "loft": 1.2 },
+    { "t": 6.5, "type": "shoot", "player": "p4", "at": [13, 38] },
+    { "t": 8.0, "type": "move", "player": "p2", "to": [3, 14], "gait": "jog" }
+  ],
+  "duration": 10
+}

@@ -1,0 +1,164 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 18,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    14,
+    10
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4,
+    15
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    13,
+    9.9
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    4.74,
+    5.67
+   ]
+  },
+  {
+   "id": "a3",
+   "team": "white",
+   "number": 3,
+   "start": [
+    4.67,
+    14.26
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   12.69,
+   9.74
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.93
+  },
+  {
+   "t": 2.05,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.13,
+    3.75
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.45,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    2.5,
+    3
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.8,
+   "type": "pass",
+   "from": "a2",
+   "to": "a1",
+   "flight": 0.4
+  },
+  {
+   "t": 8.65,
+   "type": "move",
+   "player": "a2",
+   "to": [
+    5,
+    6
+   ],
+   "gait": "walk"
+  },
+  {
+   "t": 9.81,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    15
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 13.88,
+   "type": "move",
+   "player": "a3",
+   "to": [
+    13.29,
+    10.71
+   ],
+   "gait": "sprint"
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Threes work round the triangle: pass, overlap the receiver, take their cone.",
+   "hold": 2.5
+  },
+  {
+   "t": 1.75,
+   "text": "The overlapping run goes outside the receiver and at pace.",
+   "hold": 2.5
+  },
+  {
+   "t": 11,
+   "text": "Change direction every two minutes so both feet get work.",
+   "hold": 2.5
+  },
+  {
+   "t": 13,
+   "text": "Add a return pass into the overlap once the timing is right.",
+   "hold": 2.5
+  }
+ ]
+}

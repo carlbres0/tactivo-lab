@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "pitch": {
+    "width": 12,
+    "length": 12
+  },
+  "equipment": [
+    {
+      "type": "cone",
+      "at": [
+        11,
+        1
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        11,
+        11
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        1,
+        11
+      ]
+    },
+    {
+      "type": "cone",
+      "at": [
+        1,
+        1
+      ]
+    }
+  ],
+  "teams": {
+    "white": {
+      "kit": {
+        "primary": "#FFFFFF"
+      }
+    },
+    "blue": {
+      "kit": {
+        "primary": "#7aa2ff"
+      }
+    }
+  },
+  "players": [
+    {
+      "id": "a1",
+      "team": "white",
+      "number": 1,
+      "start": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": "a2",
+      "team": "white",
+      "number": 2,
+      "start": [
+        11,
+        11
+      ]
+    },
+    {
+      "id": "a3",
+      "team": "white",
+      "number": 3,
+      "start": [
+        1,
+        11
+      ]
+    },
+    {
+      "id": "a4",
+      "team": "white",
+      "number": 4,
+      "start": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "d1",
+      "team": "blue",
+      "number": 1,
+      "start": [
+        6.83,
+        5.17
+      ]
+    },
+    {
+      "id": "d2",
+      "team": "blue",
+      "number": 2,
+      "start": [
+        5.17,
+        6.83
+      ]
+    }
+  ],
+  "ball": {
+    "start": [
+      11,
+      1.35
+    ]
+  },
+  "events": [
+    {
+      "t": 0.8,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        7.67,
+        5.83
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 0.8,
+      "type": "move",
+      "player": "d2",
+      "to": [
+        6.83,
+        7.67
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 1.2,
+      "type": "pass",
+      "from": "a1",
+      "to": "a2",
+      "flight": 1
+    },
+    {
+      "t": 2.37,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        4.75,
+        7.25
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 2.43,
+      "type": "move",
+      "player": "d2",
+      "to": [
+        3.5,
+        8.92
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 3.82,
+      "type": "pass",
+      "from": "a2",
+      "to": "a3",
+      "flight": 1
+    },
+    {
+      "t": 5.18,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        5,
+        5.17
+      ],
+      "gait": "walk"
+    },
+    {
+      "t": 5.46,
+      "type": "move",
+      "player": "d2",
+      "to": [
+        6.83,
+        7
+      ],
+      "gait": "run"
+    },
+    {
+      "t": 6.43,
+      "type": "pass",
+      "from": "a3",
+      "to": "a1",
+      "flight": 1.41
+    },
+    {
+      "t": 8.01,
+      "type": "move",
+      "player": "d1",
+      "to": [
+        6.42,
+        5.17
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 8.01,
+      "type": "move",
+      "player": "d2",
+      "to": [
+        5.58,
+        7
+      ],
+      "gait": "jog"
+    },
+    {
+      "t": 9.46,
+      "type": "pass",
+      "from": "a1",
+      "to": "a4",
+      "flight": 1
+    }
+  ],
+  "duration": 12.58,
+  "overlays": {
+    "runPaths": "auto",
+    "zones": [
+      {
+        "at": [
+          6,
+          6
+        ],
+        "w": 10,
+        "h": 10,
+        "label": "grid",
+        "color": "technical"
+      }
+    ]
+  }
+}

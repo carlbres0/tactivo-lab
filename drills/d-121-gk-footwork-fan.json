@@ -1,0 +1,149 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 12,
+  "length": 8
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    8.67,
+    6
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    7.33,
+    5.53
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    6,
+    5.33
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    4.67,
+    5.53
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    3.33,
+    6
+   ]
+  },
+  {
+   "type": "goal",
+   "at": [
+    6,
+    8
+   ],
+   "width": 6.7,
+   "facing": "s"
+  }
+ ],
+ "teams": {
+  "gold": {
+   "kit": {
+    "primary": "#ffb340"
+   }
+  },
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "gk",
+   "team": "gold",
+   "number": 1,
+   "start": [
+    6.78,
+    4.7
+   ],
+   "role": "keeper"
+  },
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    6,
+    2.93
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   6.14,
+   3.25
+  ]
+ },
+ "events": [
+  {
+   "t": 1.96,
+   "type": "move",
+   "player": "gk",
+   "to": [
+    4.67,
+    6.53
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 2.9,
+   "type": "pass",
+   "from": "n1",
+   "to": "gk",
+   "flight": 1.56,
+   "flightStyle": "lofted",
+   "loft": 3
+  },
+  {
+   "t": 8.43,
+   "type": "pass",
+   "from": "gk",
+   "to": "n1",
+   "flight": 0.4
+  }
+ ],
+ "duration": 12.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Five cones fan the goalmouth; the coach holds the ball at the arc.",
+   "hold": 2.5
+  },
+  {
+   "t": 2,
+   "text": "Side-shuffle the fan, cone to cone, wherever he points.",
+   "hold": 2.5
+  },
+  {
+   "t": 6,
+   "text": "On 'NOW' the serve comes at the chest — set the feet, then the hands.",
+   "hold": 2.5
+  },
+  {
+   "t": 9.5,
+   "text": "Catch, return, resume. Two fans each way, serves getting quicker.",
+   "hold": 2.5
+  }
+ ],
+ "keeper": {
+  "outcome": "save"
+ }
+}

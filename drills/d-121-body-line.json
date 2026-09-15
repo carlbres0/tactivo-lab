@@ -1,0 +1,173 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    4.33,
+    9.5
+   ]
+  }
+ ],
+ "teams": {
+  "coach": {
+   "kit": {
+    "primary": "#23272E"
+   }
+  },
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "n1",
+   "team": "coach",
+   "number": 1,
+   "start": [
+    11.25,
+    9.5
+   ]
+  },
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    8.5,
+    9.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   14.5,
+   15.83
+  ],
+  "static": true
+ },
+ "events": [
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8.5,
+    6.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 0.8,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7,
+    7.67
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.94,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    7.5,
+    8.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 5.2,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    6.33,
+    8.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.28,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    8.33,
+    10.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 7.54,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7,
+    10.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.62,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    9.67,
+    11.83
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 9.88,
+   "type": "move",
+   "player": "a1",
+   "to": [
+    7.83,
+    11.17
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 11.7,
+   "type": "move",
+   "player": "n1",
+   "to": [
+    10.17,
+    12
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 14,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "No ball yet: the coach jogs and cuts, the player shadow-defends.",
+   "hold": 2.5
+  },
+  {
+   "t": 3.25,
+   "text": "Stay between him and the cone castle — always on that line.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "He freezes at random. See the castle past you and he scores.",
+   "hold": 2.5
+  },
+  {
+   "t": 11.25,
+   "text": "Three rounds shadow, then the ball joins and the rules stay.",
+   "hold": 2.5
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 9.99,
+  "length": 22
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    5,
+    6.85
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5,
+    10.31
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5,
+    13.77
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    5,
+    17.23
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    5.69,
+    4.08
+   ]
+  },
+  {
+   "id": "a2",
+   "team": "white",
+   "number": 2,
+   "start": [
+    3.96,
+    4.08
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   5.74,
+   4.43
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.04,
+    6.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 3.09,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.96,
+    9.62
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 5.27,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    6.04,
+    13.08
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 7.53,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    3.96,
+    16.54
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.79,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    18.23
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 11.36,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5,
+    5.12
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 15.9,
+   "type": "pass",
+   "from": "a1",
+   "to": "a2",
+   "flight": 0.4
+  }
+ ],
+ "duration": 18.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "Dribble out through the cones at speed — ball under control, not just fast feet.",
+   "hold": 2.5
+  },
+  {
+   "t": 10.25,
+   "text": "Turn tightly at the top cone.",
+   "hold": 1.93
+  },
+  {
+   "t": 13,
+   "text": "Dribble back the same way, weaving the lane again.",
+   "hold": 2.5
+  },
+  {
+   "t": 16.75,
+   "text": "Hand over with a controlled pass, not a kick, to the next runner.",
+   "hold": 2.5
+  }
+ ]
+}

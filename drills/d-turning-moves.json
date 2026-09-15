@@ -1,0 +1,183 @@
+{
+ "version": 1,
+ "pitch": {
+  "width": 19,
+  "length": 19
+ },
+ "equipment": [
+  {
+   "type": "cone",
+   "at": [
+    17,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    17,
+    17
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "cone",
+   "at": [
+    2,
+    17
+   ]
+  }
+ ],
+ "teams": {
+  "white": {
+   "kit": {
+    "primary": "#FFFFFF"
+   }
+  },
+  "blue": {
+   "kit": {
+    "primary": "#7aa2ff"
+   }
+  }
+ },
+ "players": [
+  {
+   "id": "a1",
+   "team": "white",
+   "number": 1,
+   "start": [
+    14,
+    5
+   ]
+  },
+  {
+   "id": "d1",
+   "team": "blue",
+   "number": 1,
+   "start": [
+    15.5,
+    3.5
+   ]
+  }
+ ],
+ "ball": {
+  "start": [
+   13.75,
+   5.25
+  ]
+ },
+ "events": [
+  {
+   "t": 1.2,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    9.5,
+    9.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 1.2,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    10.7,
+    7.7
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.05,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    5.75,
+    6.5
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 4.8,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    9.8,
+    8
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.02,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    3.8,
+    8.75
+   ],
+   "gait": "jog"
+  },
+  {
+   "t": 6.97,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    2.75,
+    9.5
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.28,
+   "type": "dribble",
+   "player": "a1",
+   "to": [
+    1.25,
+    14
+   ],
+   "gait": "run"
+  },
+  {
+   "t": 9.48,
+   "type": "move",
+   "player": "d1",
+   "to": [
+    2.3,
+    11.75
+   ],
+   "gait": "jog"
+  }
+ ],
+ "duration": 13.5,
+ "overlays": {
+  "runPaths": "auto"
+ },
+ "narration": [
+  {
+   "t": 0,
+   "text": "One turn per round — Cruyff, drag-back, inside hook, or outside hook.",
+   "hold": 2.5
+  },
+  {
+   "t": 4,
+   "text": "Dribble in; the shadow defender follows without tackling.",
+   "hold": 2.5
+  },
+  {
+   "t": 6.75,
+   "text": "Turn away from the shadow on the coach's call.",
+   "hold": 2.5
+  },
+  {
+   "t": 8,
+   "text": "Accelerate away hard for three touches — the turn is worthless without it.",
+   "hold": 2.5
+  }
+ ]
+}
